@@ -1,0 +1,88 @@
+---
+---
+
+<div
+  id="item-modal"
+  class="fixed inset-0 z-50 hidden"
+  aria-modal="true"
+  role="dialog"
+>
+  <!-- Backdrop -->
+  <div
+    id="item-modal-backdrop"
+    class="absolute inset-0 bg-black/80 backdrop-blur-sm opacity-0 transition-opacity duration-300"
+  ></div>
+
+  <!-- Modal content -->
+  <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+    <div
+      id="item-modal-panel"
+      class="bg-tibia-panel border border-tibia-gold/20 rounded rpg-border shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto opacity-0 scale-95 transition-all duration-300"
+    >
+      <!-- Header -->
+      <div class="sticky top-0 z-20 bg-tibia-panel/95 border-b border-tibia-border-dark/20 p-4 flex items-center justify-between backdrop-blur">
+        <div class="flex items-center gap-4">
+          <div id="modal-item-sprite" class="w-16 h-16"></div>
+          <div>
+            <h2 id="modal-item-name" class="font-rpg text-xl text-tibia-gold font-bold tracking-wide"></h2>
+            <div id="modal-item-tier" class="mt-1"></div>
+          </div>
+        </div>
+        <button
+          type="button"
+          id="item-modal-close"
+          class="p-2 rounded text-tibia-muted hover:text-white hover:bg-tibia-border-dark/30 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd"/></svg>
+        </button>
+      </div>
+
+      <!-- Body -->
+      <div class="p-6 grid grid-cols-1 md:grid-cols-12 gap-6">
+        <!-- Left: Info -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="bg-tibia-bg/60 rounded border border-tibia-border-dark/20 p-4">
+            <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-3">Informações</h3>
+            <div class="space-y-2.5 text-sm">
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">Categoria:</span>
+                <strong id="modal-item-category" class="text-white font-mono"></strong>
+              </div>
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">ID 8.60:</span>
+                <strong id="modal-item-id860" class="text-white font-mono"></strong>
+              </div>
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">ID 10.0+:</span>
+                <strong id="modal-item-id10" class="text-white font-mono"></strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-tibia-muted">Atributos:</span>
+              </div>
+              <p id="modal-item-attributes" class="text-tibia-text text-sm bg-tibia-panel/60 rounded p-2"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Drops -->
+        <div class="md:col-span-7">
+          <div class="bg-tibia-bg/60 rounded border border-tibia-border-dark/20 p-4">
+            <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-3">Mobs que Dropam</h3>
+            <div id="modal-item-drops-empty" class="text-tibia-muted text-sm italic">Nenhum drop catalogado.</div>
+            <div id="modal-item-drops-table" class="hidden overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="border-b border-tibia-border-dark/50 text-tibia-gold text-xs font-mono uppercase tracking-wider">
+                    <th class="px-3 py-2">Monstro</th>
+                    <th class="px-3 py-2 text-right">Chance</th>
+                  </tr>
+                </thead>
+                <tbody id="modal-item-drops-body" class="text-sm"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

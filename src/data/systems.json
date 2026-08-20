@@ -1,0 +1,195 @@
+[
+  {
+    "category": "foods",
+    "name": "Alimentos Especiais (Dietas)",
+    "description": "Aumente temporariamente seus atributos consumindo pratos cozinhados por alquimistas.",
+    "config": {
+      "dishes": [
+        {
+          "name": "Bolo Vulcânico (Vulcão)",
+          "effect": "5% de chance de conjurar uma grande explosão de fogo (GFB) ao acertar ataques físicos."
+        },
+        {
+          "name": "Sopa Marinha",
+          "effect": "Recupera 10% de toda mana máxima instantaneamente (Cooldown de 1 hora)."
+        },
+        {
+          "name": "Salada Sagrada",
+          "effect": "Garante 15% de resistência extra a ataques de dano de morte (Death Damage) por 30 minutos."
+        }
+      ]
+    }
+  },
+  {
+    "category": "mining",
+    "name": "Sistema de Mineração Dinâmica",
+    "description": "Colete minérios preciosos batendo com sua Pickaxe nas veias de carvão e cristal do subsolo do IceYuriots.",
+    "config": {
+      "ores": [
+        {
+          "name": "Coal Ore (Carvão)",
+          "chance": "45%",
+          "reward": "100 gp + Crafting Exp"
+        },
+        {
+          "name": "Iron Ore (Ferro)",
+          "chance": "25%",
+          "reward": "Iron Bars para Tier Upgrades"
+        },
+        {
+          "name": "Gold Ore (Ouro)",
+          "chance": "10%",
+          "reward": "Moedas de Ouro"
+        },
+        {
+          "name": "Crystal Gem (Cristal)",
+          "chance": "2.5%",
+          "reward": "Gemas de Despertar de Armas (Awakening)"
+        }
+      ]
+    }
+  },
+  {
+    "category": "pets",
+    "name": "Pet System (Summons de Bolso)",
+    "description": "O Pet System permite que você invoque criaturas aliadas (Mascotes de Bolso) que auxiliam em combate atacando, curando ou servindo como escudo humano (tancando). Ao usar o item correspondente, o mascote é sumonado ao seu lado. O HP máximo de cada pet aumenta progressivamente com base no seu Level e nos seus Resets acumulados!",
+    "config": {
+      "types": [
+        {
+          "name": "Melee Iniciante",
+          "tier": 2,
+          "summon_item": "Larva Summon (ID: 11211)",
+          "hp_base": "200.000",
+          "avg_damage": "40.000 a 60.000",
+          "role": "Atacante Corpo-a-Corpo",
+          "function_desc": "Auxilia no dano físico constante de alvo único e ajuda na velocidade de limpeza de hunts iniciais."
+        },
+        {
+          "name": "Tank Iniciante",
+          "tier": 2,
+          "summon_item": "Dark Monk Summon (ID: 11214)",
+          "hp_base": "300.000",
+          "avg_damage": "25.000 a 35.000",
+          "role": "Defensor / Provocador Inicial",
+          "function_desc": "Ajuda a agrar e absorver o dano físico de criaturas mais fracas para proteger magos e arqueiros."
+        },
+        {
+          "name": "Ranged Iniciante",
+          "tier": 2,
+          "summon_item": "Ranged Summon (ID: 12432)",
+          "hp_base": "200.000",
+          "avg_damage": "35.000 a 50.000",
+          "role": "Atirador de Retaguarda",
+          "function_desc": "Ataca à distância com projéteis mágicos evitando combate corpo-a-corpo direto."
+        },
+        {
+          "name": "Blocker",
+          "tier": 3,
+          "summon_item": "Blocker Summon (ID: 11361)",
+          "hp_base": "1.500.000",
+          "avg_damage": "80.000 a 120.000",
+          "role": "Super Tanque de Boss",
+          "function_desc": "Tanque robusto ideal para bosses médios. Possui inteligência artificial para desafiar criaturas (Challenge)."
+        },
+        {
+          "name": "Matador",
+          "tier": 3,
+          "summon_item": "Killer Summon (ID: 10558)",
+          "hp_base": "800.000",
+          "avg_damage": "150.000 a 220.000",
+          "role": "Atacante Burst de Alvo Único",
+          "function_desc": "Causa altíssimos picos de dano físico e sangramento persistente na criatura atacada."
+        },
+        {
+          "name": "Cat",
+          "tier": 3,
+          "summon_item": "Cat Summon (ID: 11192)",
+          "hp_base": "800.000",
+          "avg_damage": "90.000 a 140.000",
+          "role": "Suporte / Controle de Grupo",
+          "function_desc": "Dificulta a fuga e mobilidade de monstros ágeis aplicando lentidão (Paralyze) constante."
+        },
+        {
+          "name": "Parrot",
+          "tier": 3,
+          "summon_item": "Terror Bird Summon (ID: 12431)",
+          "hp_base": "800.000",
+          "avg_damage": "100.000 a 160.000 (Área)",
+          "role": "Atacante de Área (Wave/Spells)",
+          "function_desc": "Ataca alvos múltiplos espalhando dano de vento e furacões ao redor das criaturas."
+        },
+        {
+          "name": "Holy Guardian",
+          "tier": 3,
+          "summon_item": "Holy Summon (ID: 10420)",
+          "hp_base": "700.000",
+          "avg_damage": "40.000 a 70.000",
+          "role": "Suporte / Curador Sagrado",
+          "function_desc": "Cura periodicamente grandes fatias da vida do dono utilizando feitiços de luz divina."
+        },
+        {
+          "name": "Frost Guardian",
+          "tier": 4,
+          "summon_item": "Cryo Summon (ID: 11493)",
+          "hp_base": "5.000.000",
+          "avg_damage": "300.000 a 450.000",
+          "role": "Super Tanque Criogênico",
+          "function_desc": "Altíssima durabilidade, imunidades e resistências gerais elevadas para hunts end-game extremas."
+        },
+        {
+          "name": "Swamp Beast",
+          "tier": 4,
+          "summon_item": "Swamp Summon (ID: 6566)",
+          "hp_base": "5.000.000",
+          "avg_damage": "350.000 a 500.000 (Área)",
+          "role": "Colosso Ofensivo / Veneno",
+          "function_desc": "Descarrega nuvens de veneno em área que corroem a vida de hordas inteiras de monstros."
+        },
+        {
+          "name": "Shadow Acolyte",
+          "tier": 4,
+          "summon_item": "Shadow Summon (ID: 5802)",
+          "hp_base": "2.500.000",
+          "avg_damage": "500.000 a 750.000",
+          "role": "Mago Negro de Dano Extremo",
+          "function_desc": "Lança mísseis de morte e drena energia vital dos oponentes para infligir danos absurdos."
+        },
+        {
+          "name": "Divine Sentinel",
+          "tier": 4,
+          "summon_item": "Sentinel Summon (ID: 9649)",
+          "hp_base": "2.000.000",
+          "avg_damage": "200.000 a 350.000",
+          "role": "Anjo Protetor Sagrado",
+          "function_desc": "Concede escudos protetores temporários e buffs passivos de defesa física e elemental para o invocador."
+        },
+        {
+          "name": "Carrasco",
+          "tier": 4,
+          "summon_item": "Executioner Summon (ID: 10411)",
+          "hp_base": "2.500.000",
+          "avg_damage": "350.000 a 600.000",
+          "role": "Guerreiro Carrasco / Finalizador",
+          "function_desc": "Amplifica consideravelmente o dano de seus ataques conforme a vida do inimigo diminui (Mecânica de Execução)."
+        }
+      ]
+    }
+  },
+  {
+    "category": "upgrades",
+    "name": "Upgrades (Tier & Awakening)",
+    "description": "Eleve suas armas e escudos para o nível lendário através de runas e gemas especiais.",
+    "config": {
+      "mechanics": [
+        {
+          "name": "Armas Despertas (Awakening)",
+          "details": "Libera de 1 a 3 slots de atributos secundários aleatórios (como Life Leech, Mana Leech, Critical Chance e Velocidade de Movimento)."
+        },
+        {
+          "name": "Tier Upgrades (Até Tier 10)",
+          "details": "Aumenta linearmente o dano e defesa base dos equipamentos utilizando minérios de ferro e gemas brutas obtidas em Quests diárias."
+        }
+      ]
+    }
+  }
+]

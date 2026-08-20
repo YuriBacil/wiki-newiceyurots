@@ -1,0 +1,108 @@
+---
+---
+
+<div
+  id="monster-modal"
+  class="fixed inset-0 z-50 hidden"
+  aria-modal="true"
+  role="dialog"
+>
+  <!-- Backdrop -->
+  <div
+    id="monster-modal-backdrop"
+    class="absolute inset-0 bg-black/80 backdrop-blur-sm opacity-0 transition-opacity duration-300"
+  ></div>
+
+  <!-- Modal content -->
+  <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+    <div
+      id="monster-modal-panel"
+      class="bg-tibia-panel border border-tibia-gold/20 rounded rpg-border shadow-2xl w-full max-w-4xl max-h-[90vh] overflow-y-auto opacity-0 scale-95 transition-all duration-300"
+    >
+      <!-- Header -->
+      <div class="sticky top-0 z-20 bg-tibia-panel/95 border-b border-tibia-border-dark/20 p-4 flex items-center justify-between backdrop-blur">
+        <div class="flex items-center gap-4">
+          <div id="modal-sprite" class="w-16 h-16"></div>
+          <div>
+            <h2 id="modal-name" class="font-rpg text-xl text-tibia-gold font-bold tracking-wide"></h2>
+            <div id="modal-tier" class="mt-1"></div>
+          </div>
+        </div>
+        <button
+          type="button"
+          id="monster-modal-close"
+          class="p-2 rounded text-tibia-muted hover:text-white hover:bg-tibia-border-dark/30 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd"/></svg>
+        </button>
+      </div>
+
+      <!-- Body -->
+      <div class="p-6 grid grid-cols-1 md:grid-cols-12 gap-6">
+        <!-- Left: Stats -->
+        <div class="md:col-span-4 space-y-4">
+          <div class="bg-tibia-bg/60 rounded border border-tibia-border-dark/20 p-4">
+            <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-3">Atributos</h3>
+            <div class="space-y-2.5 text-sm">
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">Faixa de Level:</span>
+                <strong id="modal-level" class="text-white font-mono"></strong>
+              </div>
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">HP:</span>
+                <strong id="modal-hp" class="text-emerald-400 font-mono"></strong>
+              </div>
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">XP:</span>
+                <strong id="modal-xp" class="text-tibia-gold font-mono"></strong>
+              </div>
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">Speed:</span>
+                <strong id="modal-speed" class="text-white font-mono"></strong>
+              </div>
+              <div class="flex justify-between border-b border-tibia-border-dark/10 pb-2">
+                <span class="text-tibia-muted">Dano Mínimo:</span>
+                <strong id="modal-min-dano" class="text-red-400 font-mono"></strong>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-tibia-muted">Dano Máximo:</span>
+                <strong id="modal-max-dano" class="text-red-400 font-mono"></strong>
+              </div>
+            </div>
+          </div>
+
+          <div id="modal-vocation-damage" class="hidden bg-tibia-bg/60 rounded border border-tibia-border-dark/20 p-4">
+            <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-3">Dano Proporcional (% HP)</h3>
+            <div id="modal-vocation-list" class="grid grid-cols-3 gap-2"></div>
+          </div>
+        </div>
+
+        <!-- Right: Damage details & Loot -->
+        <div class="md:col-span-8 space-y-4">
+          <div id="modal-damage-types" class="hidden bg-tibia-bg/60 rounded border border-tibia-border-dark/20 p-4">
+            <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-3">Tipos de Dano</h3>
+            <div id="modal-damage-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm"></div>
+          </div>
+
+          <div class="bg-tibia-bg/60 rounded border border-tibia-border-dark/20 p-4">
+            <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-3">Tabela de Drops</h3>
+            <div id="modal-loot-empty" class="text-tibia-muted text-sm italic">Nenhum espólio catalogado.</div>
+            <div id="modal-loot-table" class="hidden overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="border-b border-tibia-border-dark/50 text-tibia-gold text-xs font-mono uppercase tracking-wider">
+                    <th class="px-3 py-2 text-center">Item</th>
+                    <th class="px-3 py-2">Nome</th>
+                    <th class="px-3 py-2 text-right">Chance</th>
+                    <th class="px-3 py-2 text-right">Qtd.</th>
+                  </tr>
+                </thead>
+                <tbody id="modal-loot-body" class="text-sm"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

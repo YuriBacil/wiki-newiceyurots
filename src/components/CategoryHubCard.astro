@@ -1,0 +1,35 @@
+---
+interface Props {
+  category: string;
+  label: string;
+  count: number;
+  icon: string;
+  color?: string;
+}
+
+const { category, label, count, icon, color = 'bg-tibia-gold' } = Astro.props;
+---
+
+<button
+  type="button"
+  data-category={category}
+  class={`category-hub-card group relative w-full bg-tibia-panel/80 border border-tibia-border-dark/30 hover:border-tibia-gold/40 transition-all gold-glow rounded-lg text-left overflow-hidden`}
+>
+  <div class={`absolute top-0 inset-x-0 h-full opacity-0 transition-opacity duration-300 group-hover:opacity-10 ${color}`}></div>
+
+  <div class="relative p-3 flex items-center gap-3">
+    <div class={`w-10 h-10 shrink-0 rounded border flex items-center justify-center text-2xl transition-all duration-300 overflow-hidden
+      border-tibia-gold/25 bg-tibia-bg/60 group-hover:border-tibia-gold/50 group-hover:scale-105`}>
+      {icon}
+    </div>
+
+    <div class="min-w-0 flex-1">
+      <h3 class="font-rpg text-sm text-tibia-gold font-bold tracking-wide group-hover:text-white transition-colors truncate">
+        {label}
+      </h3>
+      <p class="text-[10px] text-tibia-muted mt-0.5">
+        <span class="font-rpg text-tibia-gold font-bold">{count}</span> itens
+      </p>
+    </div>
+  </div>
+</button>

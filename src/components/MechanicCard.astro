@@ -1,0 +1,46 @@
+---
+import MechanicSprite from './MechanicSprite.astro';
+
+export interface Props {
+  mechanic: {
+    id: string;
+    slug: string;
+    title: string;
+    summary: string;
+    icon: string;
+    category: string;
+  };
+  index: number;
+}
+
+const { mechanic, index } = Astro.props;
+---
+
+<a
+  href={`/sistemas/${mechanic.slug}`}
+  class="group block bg-tibia-panel/80 rpg-border rounded-lg overflow-hidden transition-all duration-300 hover:border-tibia-gold/40 hover:bg-tibia-panel gold-glow animate-fade-in"
+  style={`animation-delay: ${index * 0.05}s; animation-fill-mode: both;`}
+>
+  <div class="flex flex-col sm:flex-row">
+    <div class="p-4 flex items-center justify-center sm:justify-start">
+      <MechanicSprite id={mechanic.id} icon={mechanic.icon} size="lg" class="transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3" />
+    </div>
+    <div class="flex-1 p-4 pt-0 sm:pt-4 sm:pl-0 flex flex-col justify-center">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded border border-tibia-gold/20 bg-tibia-gold/10 text-tibia-gold">
+          {mechanic.category}
+        </span>
+      </div>
+      <h3 class="font-rpg text-lg text-tibia-text font-bold tracking-wide mb-2 group-hover:text-tibia-gold transition-colors">
+        {mechanic.title}
+      </h3>
+      <p class="text-sm text-tibia-muted leading-relaxed line-clamp-2 sm:line-clamp-3">
+        {mechanic.summary}
+      </p>
+      <div class="mt-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-tibia-gold opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0 duration-300">
+        <span>Ler artigo completo</span>
+        <span class="transition-transform group-hover:translate-x-1">→</span>
+      </div>
+    </div>
+  </div>
+</a>

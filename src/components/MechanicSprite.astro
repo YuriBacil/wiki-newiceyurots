@@ -1,0 +1,31 @@
+---
+export interface Props {
+  id: string;
+  icon: string;
+  size?: 'sm' | 'md' | 'lg' | 'xl';
+  class?: string;
+}
+
+const { id, icon, size = 'md', class: className = '' } = Astro.props;
+
+const sizeClasses = {
+  sm: 'w-12 h-12 text-xl',
+  md: 'w-16 h-16 text-3xl',
+  lg: 'w-24 h-24 text-5xl',
+  xl: 'w-32 h-32 text-6xl'
+};
+
+const assetUrl = `/assets/systems/${id}.png`;
+const legacyUrl = `/mechanics/${id}.png`;
+---
+
+<div class={`sprite-container rounded-lg rpg-border bg-tibia-bg/60 ${sizeClasses[size]} ${className}`}>
+  <img
+    src={assetUrl}
+    alt=""
+    class="w-full h-full object-contain p-2"
+    data-legacy={legacyUrl}
+    onerror="if(this.dataset.legacy && this.src !== this.dataset.legacy){this.src=this.dataset.legacy;this.dataset.legacy='';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+  />
+  <span class="hidden w-full h-full items-center justify-center">{icon}</span>
+</div>

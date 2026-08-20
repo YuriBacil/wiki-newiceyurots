@@ -1,0 +1,149 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TierBadge from '../../components/TierBadge.astro';
+import { getItemSpriteUrl, getMonsterSpriteUrl } from '../../lib/images';
+import items from '../../data/items.json';
+import fs from 'fs';
+import path from 'path';
+
+export function getStaticPaths() {
+  const ITEMS_DIR = path.resolve('public/items');
+  const existingSprites = new Set(
+    fs.existsSync(ITEMS_DIR)
+      ? fs.readdirSync(ITEMS_DIR).filter(f => f.endsWith('.png')).map(f => Number(f.replace('.png', '')))
+      : []
+  );
+
+  return items
+    .filter((item) => existingSprites.has(item.id))
+    .map((item) => ({
+      params: { id: item.id.toString() },
+      props: { item },
+    }));
+}
+
+const { item } = Astro.props;
+const spriteUrl = getItemSpriteUrl(item.id);
+---
+
+<Layout title={`${item.name} - Equipamentos IceYuriots`}>
+  <div class="max-w-5xl mx-auto">
+    <a href="/itens" class="inline-flex items-center gap-2 text-xs text-tibia-muted hover:text-tibia-gold transition-colors mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+      </svg>
+      Voltar aos Itens
+    </a>
+
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+      <!-- Coluna 1: Sprite e identificação -->
+      <div class="md:col-span-4 bg-tibia-panel/80 p-6 rounded rpg-border text-center">
+        <div class="w-28 h-28 sprite-container rounded-lg mx-auto mb-4 border border-tibia-border-dark/20">
+          <img
+            src={spriteUrl}
+            alt={item.name}
+            class="w-24 h-24 object-contain"
+            onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%221%22 height=%221%22></svg>';this.style.opacity='0'"
+          />
+        </div>
+        <h1 class="font-rpg text-2xl text-tibia-gold font-bold tracking-wide">{item.name}</h1>
+        <div class="flex justify-center mt-3 gap-2">
+          <TierBadge tier={item.tier} />
+          <span class="text-[10px] font-mono text-tibia-muted border border-tibia-border-dark/30 px-2 py-0.5 rounded uppercase">{item.slot}</span>
+        </div>
+
+        <div class="mt-6 space-y-3 text-left text-sm">
+          <div class="flex justify-between border-b border-tibia-border-dark/15 pb-2">
+            <span class="text-tibia-muted">TFS ID:</span>
+            <strong class="text-white font-mono">{item.id860 || item.id}</strong>
+          </div>
+          <div class="flex justify-between border-b border-tibia-border-dark/15 pb-2">
+            <span class="text-tibia-muted">Client ID 10+:</span>
+            <strong class="text-white font-mono">{item.id10 || '--'}</strong>
+          </div>
+          <div class="flex justify-between border-b border-tibia-border-dark/15 pb-2">
+            <span class="text-tibia-muted">Peso:</span>
+            <strong class="text-white font-mono">{item.weight} oz</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coluna 2: Atributos e drops -->
+      <div class="md:col-span-8 space-y-6">
+        <div class="bg-tibia-panel/80 p-6 rounded rpg-border">
+          <h2 class="font-rpg text-lg text-tibia-gold font-bold tracking-wider mb-4">Atributos</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {item.attack > 0 && (
+              <div class="bg-tibia-bg/60 p-4 rounded border border-tibia-border-dark/25 text-center">
+                <span class="text-xs text-tibia-muted uppercase tracking-wider block mb-1">Ataque</span>
+                <strong class="text-red-400 font-mono text-2xl">{item.attack}</strong>
+              </div>
+            )}
+            {item.defense > 0 && (
+              <div class="bg-tibia-bg/60 p-4 rounded border border-tibia-border-dark/25 text-center">
+                <span class="text-xs text-tibia-muted uppercase tracking-wider block mb-1">Defesa</span>
+                <strong class="text-emerald-400 font-mono text-2xl">{item.defense}</strong>
+              </div>
+            )}
+            {item.armor > 0 && (
+              <div class="bg-tibia-bg/60 p-4 rounded border border-tibia-border-dark/25 text-center">
+                <span class="text-xs text-tibia-muted uppercase tracking-wider block mb-1">Armadura</span>
+                <strong class="text-amber-400 font-mono text-2xl">{item.armor}</strong>
+              </div>
+            )}
+          </div>
+
+          {item.description && (
+            <div class="mt-4 p-4 bg-tibia-bg/40 rounded border border-tibia-border-dark/20">
+              <span class="text-xs text-tibia-gold font-bold uppercase tracking-wider block mb-1">Descrição</span>
+              <p class="text-sm text-tibia-text italic">{item.description}</p>
+            </div>
+          )}
+
+          {item.attributesDesc && (
+            <div class="mt-4 p-4 bg-tibia-bg/40 rounded border border-tibia-border-dark/20">
+              <span class="text-xs text-tibia-gold font-bold uppercase tracking-wider block mb-1">Atributos Especiais</span>
+              <p class="text-sm text-tibia-text">{item.attributesDesc}</p>
+            </div>
+          )}
+        </div>
+
+        <div class="bg-tibia-panel/80 p-6 rounded rpg-border">
+          <h2 class="font-rpg text-lg text-tibia-gold font-bold tracking-wider mb-4">Fontes de Drops</h2>
+          {item.drops && item.drops.length > 0 ? (
+            <div class="overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="border-b border-tibia-border-dark/50 text-tibia-gold text-xs font-mono uppercase tracking-wider">
+                    <th class="px-3 py-2">Criatura</th>
+                    <th class="px-3 py-2 text-right">Chance</th>
+                  </tr>
+                </thead>
+                <tbody class="text-sm">
+                  {item.drops.map((drop) => (
+                    <tr class="border-b border-tibia-border-dark/10 hover:bg-tibia-bg/40 transition-colors">
+                      <td class="px-3 py-2">
+                        <div class="flex items-center gap-3">
+                          <img
+                            src={getMonsterSpriteUrl(drop.monster)}
+                            alt={drop.monster}
+                            class="w-8 h-8 object-contain"
+                            onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%221%22 height=%221%22></svg>';this.style.opacity='0'"
+                          />
+                          <span class="text-tibia-text font-rpg">{drop.monster}</span>
+                        </div>
+                      </td>
+                      <td class="px-3 py-2 text-right font-mono text-tibia-gold">{drop.chance}%</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p class="text-tibia-muted text-sm italic">Item obtido por quests, NPCs ou inicial.</p>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,57 @@
+---
+import TierBadge from './TierBadge.astro';
+import MonsterSprite from './MonsterSprite.astro';
+
+interface Props {
+  id: number;
+  name: string;
+  tier: string;
+  hp: number;
+  xp: number;
+  levelRange?: string;
+  minDano?: number;
+  maxDano?: number;
+}
+
+const { id, name, tier, hp, xp, levelRange = '', minDano = 0, maxDano = 0 } = Astro.props;
+---
+
+<button
+  type="button"
+  data-monster-id={id}
+  data-tier={tier}
+  class="monster-list-item group w-full text-left bg-tibia-panel/80 border border-tibia-border-dark/30 hover:border-tibia-gold/40 transition-all cursor-pointer flex items-center gap-4 p-3 rounded animate-fade-in"
+>
+  <MonsterSprite name={name} size="md" className="shrink-0" />
+
+  <div class="flex-grow min-w-0">
+    <div class="flex items-center gap-2 mb-0.5">
+      <h3 class="font-rpg text-sm text-tibia-gold font-bold uppercase tracking-wide group-hover:text-white transition-colors truncate">
+        {name}
+      </h3>
+      <TierBadge tier={tier} />
+    </div>
+    <p class="text-[10px] text-tibia-muted">{levelRange || 'N/A'}</p>
+  </div>
+
+  <div class="hidden sm:grid grid-cols-3 gap-6 text-xs mr-4">
+    <div class="text-center">
+      <span class="block text-[9px] text-tibia-muted uppercase tracking-wider">HP</span>
+      <strong class="font-mono text-emerald-400">{hp.toLocaleString('pt-BR')}</strong>
+    </div>
+    <div class="text-center">
+      <span class="block text-[9px] text-tibia-muted uppercase tracking-wider">XP</span>
+      <strong class="font-mono text-tibia-gold">+{xp.toLocaleString('pt-BR')}</strong>
+    </div>
+    <div class="text-center">
+      <span class="block text-[9px] text-tibia-muted uppercase tracking-wider">Dano</span>
+      <strong class="font-mono text-red-400">
+        {minDano === maxDano ? maxDano.toLocaleString('pt-BR') : `${minDano.toLocaleString('pt-BR')} - ${maxDano.toLocaleString('pt-BR')}`}
+      </strong>
+    </div>
+  </div>
+
+  <div class="text-tibia-gold opacity-0 group-hover:opacity-100 transition-opacity">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clip-rule="evenodd"/></svg>
+  </div>
+</button>

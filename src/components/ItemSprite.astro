@@ -1,0 +1,53 @@
+---
+import { getItemSpriteUrl } from '../lib/images';
+
+interface Props {
+  item: { id: number; name: string };
+  size?: 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+  className?: string;
+}
+
+const { item, size = 'md', className = '' } = Astro.props;
+const spriteUrl = getItemSpriteUrl(item.id);
+
+function getSizeClasses(size: Props['size']) {
+  if (size === 'sm') return { img: 'w-8 h-8', box: 'w-10 h-10', width: 32, height: 32 };
+  if (size === 'md') return { img: 'w-12 h-12', box: 'w-14 h-14', width: 48, height: 48 };
+  if (size === 'lg') return { img: 'w-20 h-20', box: 'w-24 h-24', width: 80, height: 80 };
+  if (size === 'xl') return { img: 'w-28 h-28', box: 'w-32 h-32', width: 112, height: 112 };
+  if (size === '2xl') return { img: 'w-36 h-36', box: 'w-40 h-40', width: 144, height: 144 };
+  return { img: 'w-12 h-12', box: 'w-14 h-14', width: 48, height: 48 };
+}
+
+const classes = getSizeClasses(size);
+
+function initials(name: string) {
+  return name
+    .replace(/[()]/g, '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0].toUpperCase())
+    .join('');
+}
+
+const fallbackSvg = 'data:image/svg+xml;utf8,' + encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">' +
+  '<rect width="64" height="64" rx="8" fill="#1f2937" stroke="#c8a24d" stroke-width="1.5"/>' +
+  '<text x="32" y="36" text-anchor="middle" fill="#d4b06a" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="700">' + initials(item.name) + '</text>' +
+  '</svg>'
+);
+---
+
+<div class={`sprite-container rounded flex items-center justify-center overflow-hidden ${classes.box} ${className}`}>
+  <img
+    src={spriteUrl}
+    alt={item.name}
+    width={classes.width}
+    height={classes.height}
+    loading="lazy"
+    decoding="async"
+    class={`${classes.img} object-contain transition-transform duration-300`}
+    onerror={`this.onerror=null;this.src='${fallbackSvg}';this.classList.add('opacity-90')`}
+  />
+</div>

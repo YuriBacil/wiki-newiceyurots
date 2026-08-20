@@ -1,0 +1,56 @@
+---
+export interface Props {
+  content: string;
+}
+
+const { content } = Astro.props;
+
+const headings = content
+  .split('\n')
+  .filter(line => line.startsWith('## '))
+  .map(line => {
+    const text = line.replace(/^##\s+/, '').replace(/\*\*/g, '').trim();
+    const id = text
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, '')
+      .replace(/\s+/g, '-');
+    return { text, id };
+  });
+---
+
+{headings.length > 0 && (
+  <div class="my-6 p-4 rounded-lg bg-tibia-bg/50 border border-tibia-border-dark/30">
+    <h4 class="font-rpg text-xs text-tibia-gold font-bold uppercase tracking-wider mb-3 flex items-center gap-2">
+      <span>📑</span>
+      Índice do guia
+    </h4>
+    <ul class="space-y-1.5">
+      {headings.map(heading => (
+        <li>
+          <a
+            href={`#${heading.id}`}
+            class="text-sm text-tibia-muted hover:text-tibia-gold transition-colors flex items-center gap-2 group"
+          >
+            <span class="w-1 h-1 rounded-full bg-tibia-border-dark group-hover:bg-tibia-gold transition-colors"></span>
+            <span class="line-clamp-1">{heading.text}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+
+<script is:inline>
+  (function() {
+    // Add IDs to rendered h2 headings for anchor navigation
+    document.querySelectorAll('.markdown-content h2').forEach(h2 => {
+      if (!h2.id) {
+        const text = h2.textContent || '';
+        h2.id = text
+          .toLowerCase()
+          .replace(/[^a-z0-9\s]/g, '')
+          .replace(/\s+/g, '-');
+      }
+    });
+  })();
+</script>

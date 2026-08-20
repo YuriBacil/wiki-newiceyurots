@@ -1,0 +1,295 @@
+---
+import { marked } from 'marked';
+import Layout from '../../layouts/Layout.astro';
+import MechanicSprite from '../../components/MechanicSprite.astro';
+import MechanicFlow from '../../components/MechanicFlow.astro';
+import FlowStep from '../../components/FlowStep.astro';
+import InfoBox from '../../components/InfoBox.astro';
+import TableOfContents from '../../components/TableOfContents.astro';
+import mechanics from '../../data/mechanics.json';
+
+export function getStaticPaths() {
+  return mechanics.map(m => ({ params: { slug: m.slug } }));
+}
+
+const { slug } = Astro.params;
+const mechanic = mechanics.find(m => m.slug === slug);
+
+if (!mechanic) {
+  throw new Error(`Mecânica não encontrada: ${slug}`);
+}
+
+const contentHtml = marked.parse(mechanic.content);
+
+const currentIndex = mechanics.findIndex(m => m.slug === slug);
+const prevMechanic = currentIndex > 0 ? mechanics[currentIndex - 1] : null;
+const nextMechanic = currentIndex < mechanics.length - 1 ? mechanics[currentIndex + 1] : null;
+
+const flows: Record<string, { title: string; steps: { icon: string; title: string; description: string; variant?: 'default' | 'gold' | 'success' | 'danger' | 'info' }[] }> = {
+  'auto-loot': {
+    title: 'Como funciona o Auto Loot',
+    steps: [
+      { icon: '⚔️', title: 'Mata o monstro', description: 'Ao derrotar, o sistema dispara automaticamente.', variant: 'default' },
+      { icon: '💰', title: 'Ouro para o banco', description: 'Gold, platinum e crystal coins vão direto para sua conta.', variant: 'gold' },
+      { icon: '🎒', title: 'Itens para o inventário', description: 'Itens da lista são coletados se houver capacidade.', variant: 'success' },
+      { icon: '👑', title: '!sellloot (VIP)', description: 'Venda instantânea dos itens da lista com taxa de 3%.', variant: 'info' }
+    ]
+  },
+  'awakening-system': {
+    title: 'Ciclo do Despertar de Armas',
+    steps: [
+      { icon: '🔮', title: 'Despertar a arma', description: 'Custo de 10kk no Mestre de Artefatos.', variant: 'gold' },
+      { icon: '⚔️', title: 'Ganhar Sintonia', description: '5% do XP dos monstros, até 50.000.', variant: 'default' },
+      { icon: '🔓', title: 'Desbloquear slots', description: '1.000 / 5.000 / 15.000 para os 3 slots.', variant: 'info' },
+      { icon: '🎲', title: 'Rolar traits', description: 'Sorteia 3 atributos e escolhe 1.', variant: 'success' },
+      { icon: '⬆️', title: 'Aprimorar', description: 'Até nível 5, aumentando o valor.', variant: 'gold' },
+      { icon: '🧹', title: 'Disenchant', description: 'Reseta tudo, mas mantém a Sintonia.', variant: 'danger' }
+    ]
+  },
+  'bless-iceyurots': {
+    title: 'Proteção contra a perda na morte',
+    steps: [
+      { icon: '🛡️', title: '0 bênçãos', description: 'Perde 100% ao morrer.', variant: 'danger' },
+      { icon: '🕊️', title: 'Comprar bênçãos', description: 'NPC Blesser ou Book of Blessings.', variant: 'info' },
+      { icon: '✨', title: '5 bênçãos', description: 'Proteção total: 0% de perda.', variant: 'success' }
+    ]
+  },
+  'boss-aegis': {
+    title: 'Fases do combate contra o Aegis',
+    steps: [
+      { icon: '⚔️', title: 'Fase 1', description: 'Dano normal até 50% de HP.', variant: 'default' },
+      { icon: '🛡️', title: 'Fase 2: Escudo + Cristais', description: 'Aegis fica imune. Destrua 3 cristais.', variant: 'info' },
+      { icon: '🔥', title: 'Fase 3', description: 'Enrage com chuva de meteoros.', variant: 'danger' },
+      { icon: '🏆', title: 'Recompensa', description: 'Carga da skill Aegis of Immortal.', variant: 'gold' }
+    ]
+  },
+  'cassino-interativo': {
+    title: 'Ciclo da roleta',
+    steps: [
+      { icon: '🪙', title: 'Obter token', description: 'Quest, NPC, hunt, boss ou store.', variant: 'default' },
+      { icon: '🎰', title: 'Puxar alavanca', description: 'Consome 1 Rollete Token.', variant: 'gold' },
+      { icon: '🎡', title: 'Girar roleta', description: '15 a 25 passos de animação.', variant: 'info' },
+      { icon: '🏆', title: 'Resultado', description: '65% derrota · 25% consolação · 9.5% item · 0.5% jackpot.', variant: 'success' }
+    ]
+  },
+  'castle-24hrs': {
+    title: 'Guerra pelo castelo',
+    steps: [
+      { icon: '💠', title: 'Sabotar pilares', description: 'Invasores enfraquecem as defesas no altar.', variant: 'danger' },
+      { icon: '👑', title: 'Conquistar o trono', description: 'Ficar 60s no trono com guild.', variant: 'gold' },
+      { icon: '🛡️', title: 'Fortalecer defesas', description: 'Upgrades de pilares até nível 5.', variant: 'info' },
+      { icon: '📦', title: 'Baú diário', description: 'Recompensas a cada 20h.', variant: 'success' },
+      { icon: '⚡', title: 'Bônus de XP', description: '+20% XP por 1h para a guild.', variant: 'gold' }
+    ]
+  },
+  'dodge-critical-system': {
+    title: 'Dodge e Critical no combate',
+    steps: [
+      { icon: '🎯', title: 'Equipar itens', description: 'Armas/Armaduras com tiers de crítico/dodge.', variant: 'default' },
+      { icon: '🏃', title: 'Ao receber dano', description: 'Chance de esquivar (Dodge).', variant: 'info' },
+      { icon: '⚡', title: 'Ao causar dano', description: 'Chance de crítico com multiplicador.', variant: 'success' },
+      { icon: '📊', title: 'Consultar', description: 'Use !dodge e !critical.', variant: 'gold' }
+    ]
+  },
+  'exp-booster': {
+    title: 'Como empilhar bônus de XP',
+    steps: [
+      { icon: '🧪', title: 'Poção de XP', description: 'Até +50% por 1h.', variant: 'default' },
+      { icon: '🔔', title: 'Sino Dourado', description: '+20% global.', variant: 'info' },
+      { icon: '🏰', title: 'Bênção da Facção', description: '+20% para guild.', variant: 'gold' },
+      { icon: '📿', title: 'Amuleto + Comida', description: '+10% e +25% respectivamente.', variant: 'success' },
+      { icon: '⚡', title: 'Limite 100%', description: 'Arma desperta e Castle somam separadamente.', variant: 'gold' }
+    ]
+  },
+  'food-especial': {
+    title: 'Sistema de buffs alimentares',
+    steps: [
+      { icon: '🔴', title: 'Slot Vermelho', description: 'HP, proteção física, life leech.', variant: 'danger' },
+      { icon: '🟡', title: 'Slot Amarelo', description: 'Mana, magic level, mana leech.', variant: 'gold' },
+      { icon: '🟢', title: 'Slot Verde', description: 'XP, loot, capacidade, crítico.', variant: 'success' },
+      { icon: '🍽️', title: 'Banquete', description: 'Preenche os 3 slots ao mesmo tempo.', variant: 'info' }
+    ]
+  },
+  'mining-system': {
+    title: 'Progressão da mineração',
+    steps: [
+      { icon: '⛏️', title: 'Usar picareta', description: 'Golpeie cristais no mapa.', variant: 'default' },
+      { icon: '💎', title: 'Coletar cristais', description: 'Gelo → Fogo → Terra → Morte.', variant: 'success' },
+      { icon: '📈', title: 'Subir nível', description: 'XP de mineração desbloqueia cristais melhores.', variant: 'info' },
+      { icon: '👹', title: 'Cuidado!', description: '5% de chance de emboscada.', variant: 'danger' },
+      { icon: '🔥', title: 'Trocar recompensas', description: 'Fire Crystals por summons.', variant: 'gold' }
+    ]
+  },
+  'new-promotion': {
+    title: 'Evolução de classe',
+    steps: [
+      { icon: '🎭', title: 'Classe Básica', description: 'Sorcerer, Druid, Paladin, Knight.', variant: 'default' },
+      { icon: '⬆️', title: 'Tier 2', description: 'Nível 50.000 + 5kk no Mestre Vaelor.', variant: 'info' },
+      { icon: '🔄', title: '2 Resets', description: 'Requisito para a especialização final.', variant: 'gold' },
+      { icon: '⚔️', title: 'Tier 3', description: 'Escolha entre 2 sub-classes por 500kk.', variant: 'success' }
+    ]
+  },
+  'pedra-evolucao': {
+    title: 'Evolução de equipamento',
+    steps: [
+      { icon: '💎', title: 'Obter pedras', description: 'Drops de monstros e bosses.', variant: 'default' },
+      { icon: '⚙️', title: 'Usar no equipamento', description: 'Armas, armaduras, escudos, etc.', variant: 'info' },
+      { icon: '📈', title: 'Carregar XP', description: 'Barra 0-100 do equipamento.', variant: 'gold' },
+      { icon: '🔮', title: 'Mestre das Almas', description: 'Gastar 10 XP + 1kk para rolar atributos.', variant: 'success' }
+    ]
+  },
+  'perk-system': {
+    title: 'Progressão de Perks',
+    steps: [
+      { icon: '🔄', title: 'Fazer Reset', description: 'Cada reset dá +1 Soul Point.', variant: 'default' },
+      { icon: '💠', title: 'Acumular SP', description: 'Pontos permanentes.', variant: 'info' },
+      { icon: '🧠', title: '!perks', description: 'Abre a árvore de talentos.', variant: 'gold' },
+      { icon: '⬆️', title: 'Melhorar', description: '1 SP por nível, até nível 5.', variant: 'success' }
+    ]
+  },
+  'pet-system': {
+    title: 'Como usar pets',
+    steps: [
+      { icon: '🎁', title: 'Obter summon', description: 'NPC, quests ou drops de boss.', variant: 'default' },
+      { icon: '🐾', title: 'Usar item', description: 'Invoca o pet ao seu lado.', variant: 'info' },
+      { icon: '⚔️', title: 'Lutar junto', description: 'Até 5 pets ativos.', variant: 'success' },
+      { icon: '📈', title: 'Escalação', description: 'HP cresce com nível e resets.', variant: 'gold' }
+    ]
+  },
+  'reset-system': {
+    title: 'Ciclo da Ascensão',
+    steps: [
+      { icon: '📊', title: 'Alcançar nível', description: '150.000 + 30.000 por reset.', variant: 'default' },
+      { icon: '💰', title: 'Pagar custo', description: '50kk + 10kk por reset.', variant: 'gold' },
+      { icon: '🔄', title: 'Resetar', description: 'Volta ao nível 150, mantém 15% HP/MP.', variant: 'info' },
+      { icon: '💎', title: '+1 Soul Point', description: 'Gaste em perks permanentes.', variant: 'success' }
+    ]
+  }
+};
+
+const flow = flows[mechanic.slug];
+---
+
+<Layout title={`${mechanic.title} - IceYuriots Wiki`} description={mechanic.summary}>
+  {/* Reading progress bar */}
+  <div class="fixed top-0 left-0 h-0.5 bg-tibia-gold z-[60] transition-all duration-150" id="reading-progress" style="width: 0%;"></div>
+
+  <article class="max-w-4xl mx-auto animate-fade-in">
+    {/* Breadcrumb */}
+    <div class="flex items-center gap-2 text-xs text-tibia-muted mb-6">
+      <a href="/" class="hover:text-tibia-gold transition-colors">Home</a>
+      <span>/</span>
+      <a href="/sistemas" class="hover:text-tibia-gold transition-colors">Sistemas</a>
+      <span>/</span>
+      <span class="text-tibia-gold">{mechanic.title}</span>
+    </div>
+
+    {/* Hero */}
+    <div class="relative overflow-hidden rounded-xl rpg-border bg-tibia-panel/80 p-6 md:p-10 mb-8">
+      <div class="absolute inset-0 bg-gradient-to-br from-tibia-gold/5 via-transparent to-transparent"></div>
+      <div class="relative flex flex-col md:flex-row gap-6 items-center md:items-start text-center md:text-left">
+        <div class="animate-float">
+          <MechanicSprite id={mechanic.id} icon={mechanic.icon} size="xl" />
+        </div>
+        <div class="flex-1">
+          <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded border border-tibia-gold/20 bg-tibia-gold/10 text-tibia-gold mb-3">
+            {mechanic.category}
+          </span>
+          <h1 class="font-rpg text-2xl md:text-4xl text-tibia-gold font-bold tracking-wide mb-4">
+            {mechanic.title}
+          </h1>
+          <p class="text-base text-tibia-text/90 leading-relaxed max-w-2xl">
+            {mechanic.summary}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Visual Flow */}
+    {flow && (
+      <div class="mb-8 animate-slide-up" style="animation-delay: 0.1s;">
+        <MechanicFlow title={flow.title}>
+          {flow.steps.map((step, i) => (
+            <>
+              <FlowStep {...step} />
+              {i < flow.steps.length - 1 && (
+                <div class="hidden md:flex items-center justify-center text-tibia-gold/50 flex-shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              )}
+            </>
+          ))}
+        </MechanicFlow>
+      </div>
+    )}
+
+    {/* Quick Info Box */}
+    <InfoBox type="info">
+      Este é um guia completo. Você pode usar o índice abaixo para navegar entre as seções. As informações são baseadas nos documentos oficiais do servidor.
+    </InfoBox>
+
+    <TableOfContents content={mechanic.content} />
+
+    {/* Content */}
+    <div class="markdown-content animate-slide-up" style="animation-delay: 0.2s;" set:html={contentHtml} />
+
+    {/* Back to top */}
+    <div class="flex justify-center my-8 animate-fade-in">
+      <button
+        type="button"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+        class="group flex items-center gap-2 px-4 py-2 rounded-lg bg-tibia-bg/60 border border-tibia-border-dark/30 hover:border-tibia-gold/40 text-tibia-muted hover:text-tibia-gold transition-all"
+      >
+        <span class="transition-transform group-hover:-translate-y-0.5">↑</span>
+        <span class="text-xs font-bold uppercase tracking-wider font-rpg">Voltar ao topo</span>
+      </button>
+    </div>
+
+    {/* Navigation */}
+    <div class="mt-12 pt-8 border-t border-tibia-border-dark/40 grid grid-cols-1 md:grid-cols-2 gap-4 animate-fade-in">
+      {prevMechanic ? (
+        <a
+          href={`/sistemas/${prevMechanic.slug}`}
+          class="group flex items-center gap-4 p-4 rounded-lg bg-tibia-bg/60 border border-tibia-border-dark/30 hover:border-tibia-gold/30 transition-all"
+        >
+          <span class="text-2xl">{prevMechanic.icon}</span>
+          <div class="flex-1">
+            <span class="text-[10px] text-tibia-muted uppercase tracking-wider">Anterior</span>
+            <h4 class="font-rpg text-sm text-tibia-text font-bold group-hover:text-tibia-gold transition-colors">{prevMechanic.title}</h4>
+          </div>
+        </a>
+      ) : <div />}
+      {nextMechanic && (
+        <a
+          href={`/sistemas/${nextMechanic.slug}`}
+          class="group flex items-center justify-end gap-4 p-4 rounded-lg bg-tibia-bg/60 border border-tibia-border-dark/30 hover:border-tibia-gold/30 transition-all text-right"
+        >
+          <div>
+            <span class="text-[10px] text-tibia-muted uppercase tracking-wider">Próximo</span>
+            <h4 class="font-rpg text-sm text-tibia-text font-bold group-hover:text-tibia-gold transition-colors">{nextMechanic.title}</h4>
+          </div>
+          <span class="text-2xl">{nextMechanic.icon}</span>
+        </a>
+      )}
+    </div>
+  </article>
+
+  <script is:inline>
+    (function() {
+      const progressBar = document.getElementById('reading-progress');
+      if (!progressBar) return;
+
+      function updateProgress() {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = progress + '%';
+      }
+
+      window.addEventListener('scroll', updateProgress, { passive: true });
+      updateProgress();
+    })();
+  </script>
+</Layout>

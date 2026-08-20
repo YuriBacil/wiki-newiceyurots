@@ -1,0 +1,770 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TierHubCard from '../components/TierHubCard.astro';
+import CategoryHubCard from '../components/CategoryHubCard.astro';
+import ItemCard from '../components/ItemCard.astro';
+import ItemListItem from '../components/ItemListItem.astro';
+import ItemModal from '../components/ItemModal.astro';
+import SearchInput from '../components/SearchInput.astro';
+import equipment from '../data/equipment.json';
+import type { EquipmentItem } from '../types';
+
+const tierConfig = [
+  { key: 'tier1', label: 'Tier 1', subtitle: 'Free', icon: '🌱', color: 'bg-emerald-500', locked: false },
+  { key: 'tier2', label: 'Tier 2', subtitle: 'City Collins', icon: '⚔️', color: 'bg-amber-500', locked: false },
+  { key: 'tier3', label: 'Tier 3', subtitle: 'Customs', icon: '🏰', color: 'bg-orange-500', locked: true },
+  { key: 'tier4', label: 'Tier 4', subtitle: 'Pharaonic', icon: '👑', color: 'bg-red-500', locked: true },
+  { key: 'all', label: 'Todos', subtitle: 'Catálogo Completo', icon: '📚', color: 'bg-tibia-gold', locked: false },
+];
+
+const categoryConfig = [
+  { key: 'all', label: 'Todos', icon: '📚', color: 'bg-tibia-gold' },
+  { key: 'Sword', label: 'Sword', icon: '⚔️', color: 'bg-red-600' },
+  { key: 'Axe', label: 'Axe', icon: '🪓', color: 'bg-orange-500' },
+  { key: 'Club', label: 'Club', icon: '🔨', color: 'bg-red-500' },
+  { key: 'Spear', label: 'Spear', icon: '🔱', color: 'bg-cyan-500' },
+  { key: 'Bow & Crossbow', label: 'Bow & Xbow', icon: '🏹', color: 'bg-amber-600' },
+  { key: 'Arrow & Bolt', label: 'Ammo', icon: '➹', color: 'bg-amber-500' },
+  { key: 'Rod & Wand', label: 'Rod & Wand', icon: '🪄', color: 'bg-purple-400' },
+  { key: 'Spellbook', label: 'Spellbook', icon: '📖', color: 'bg-pink-500' },
+  { key: 'Shield', label: 'Shield', icon: '🛡️', color: 'bg-slate-500' },
+  { key: 'Helmet', label: 'Helmet', icon: '⛑️', color: 'bg-purple-500' },
+  { key: 'Armor', label: 'Armor', icon: '🦺', color: 'bg-blue-500' },
+  { key: 'Legs', label: 'Legs', icon: '👖', color: 'bg-indigo-500' },
+  { key: 'Boots', label: 'Boots', icon: '🥾', color: 'bg-emerald-500' },
+];
+
+const typedEquipment = equipment as EquipmentItem[];
+
+const itemsByTier = typedEquipment.reduce((acc, item) => {
+  acc[item.tier] = (acc[item.tier] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const itemsByCategory = typedEquipment.reduce((acc, item) => {
+  acc[item.category] = (acc[item.category] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const sortedItems = [...typedEquipment].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Layout title="Equipamentos - IceYuriots Wiki">
+  <div class="space-y-6 items-page">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+      <div class="text-center md:text-left">
+        <h2 class="font-rpg text-3xl text-tibia-gold font-bold tracking-wider mb-2">Equipamentos</h2>
+        <p class="text-tibia-muted text-sm">Catálogo completo de armas, armaduras, escudos e itens do servidor.</p>
+      </div>
+      <a
+        href="/"
+        class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-tibia-gold/30 text-tibia-gold hover:bg-tibia-gold/10 transition-colors text-sm font-semibold"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"/><path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"/></svg>
+        Voltar à Home
+      </a>
+    </div>
+
+    <!-- Tier Hub -->
+    <div id="tier-hub" class="tier-hub grid grid-cols-2 gap-4 max-w-3xl mx-auto transition-all duration-700 ease-out">
+      {tierConfig.map((tier) => {
+        const orderClass = {
+          tier1: 'order-1',
+          tier2: 'order-2',
+          tier3: 'order-3',
+          tier4: 'order-4',
+          all: 'order-5',
+        }[tier.key];
+        return (
+          <div class={orderClass}>
+            <TierHubCard
+              tier={tier.key}
+              label={tier.label}
+              subtitle={tier.subtitle}
+              count={tier.key === 'all' ? equipment.length : (itemsByTier[tier.key] || 0)}
+              color={tier.color}
+              locked={tier.locked}
+              icon={tier.icon}
+              assetFolder="item-tiers"
+              countLabel="itens"
+            />
+          </div>
+        );
+      })}
+    </div>
+
+    <!-- Category Hub -->
+    <div id="category-hub" class="hidden space-y-4 animate-fade-in">
+      <div class="text-center">
+        <h3 class="font-rpg text-lg text-tibia-gold font-bold tracking-wide mb-1">Escolha uma Categoria</h3>
+        <p class="text-tibia-muted text-xs">Filtre os equipamentos do tier selecionado por tipo.</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3">
+        {categoryConfig.map((cat) => (
+          <CategoryHubCard
+            category={cat.key}
+            label={cat.label}
+            count={cat.key === 'all' ? equipment.length : (itemsByCategory[cat.key] || 0)}
+            icon={cat.icon}
+            color={cat.color}
+          />
+        ))}
+      </div>
+    </div>
+
+    <!-- Locked message -->
+    <div id="locked-message" class="hidden text-center py-16 animate-fade-in">
+      <div class="text-6xl mb-4">🔒</div>
+      <h3 class="font-rpg text-xl text-tibia-gold font-bold mb-2">Conteúdo em Produção</h3>
+      <p class="text-tibia-muted text-sm max-w-md mx-auto">
+        Os equipamentos deste tier ainda estão sendo catalogados. Volte em breve para conferir as novidades!
+      </p>
+      <button
+        type="button"
+        id="locked-back-btn"
+        class="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-tibia-gold/30 text-tibia-gold hover:bg-tibia-gold/10 transition-colors text-sm font-semibold"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clip-rule="evenodd"/></svg>
+        Voltar ao Hub
+      </button>
+    </div>
+
+    <!-- Items list controls -->
+    <div id="items-section" class="hidden space-y-4">
+      <div class="flex flex-col lg:flex-row gap-4 items-stretch lg:items-center justify-between bg-tibia-bg/60 p-3 rounded-lg border border-tibia-border-dark/25">
+        <div class="flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            id="back-to-hub-btn"
+            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-tibia-gold/30 text-tibia-gold hover:bg-tibia-gold/10 transition-colors text-xs font-bold uppercase tracking-wider"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clip-rule="evenodd"/></svg>
+            Hub
+          </button>
+
+          <button
+            type="button"
+            id="back-to-categories-btn"
+            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-tibia-border-dark/40 text-tibia-muted hover:text-tibia-gold hover:border-tibia-gold/30 transition-colors text-xs font-bold uppercase tracking-wider"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M5.25 2.25a3 3 0 00-3 3v4.318a3 3 0 00.879 2.121l9.58 9.581c.92.92 2.39 1.079 3.505.377l.086-.058a1.5 1.5 0 00.614-1.535V13.5a3 3 0 00-3-3h-1.565A4.125 4.125 0 0011.25 6.375V4.5a3 3 0 00-3-3H5.25zm1.5 4.5a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V7.5a.75.75 0 00-.75-.75H6.75z" clip-rule="evenodd"/></svg>
+            Categorias
+          </button>
+
+          <div class="h-6 w-px bg-tibia-border-dark/30 hidden sm:block"></div>
+
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-[10px] text-tibia-muted uppercase tracking-wider font-semibold">Ordenar</span>
+            <div id="sort-controls" class="flex items-center gap-1.5"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="flex-1 min-w-[180px]">
+            <SearchInput id="item-search" placeholder="Buscar item..." />
+          </div>
+
+          <div class="flex items-center bg-tibia-panel rounded-lg border border-tibia-border-dark/30 p-1">
+            <button
+              type="button"
+              id="view-cards"
+              class="view-toggle p-1.5 rounded text-tibia-gold bg-tibia-gold/10 transition-colors"
+              aria-label="Visualização em cards"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M15 3.75H9v16.5h6V3.75zm6.75 0h-5.25v16.5h5.25V3.75zM3.75 3.75H9v16.5H3.75V3.75z"/></svg>
+            </button>
+            <button
+              type="button"
+              id="view-list"
+              class="view-toggle p-1.5 rounded text-tibia-muted hover:text-tibia-gold transition-colors"
+              aria-label="Visualização em lista"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M2.625 6.75a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875 0A.75.75 0 018.25 6h12a.75.75 0 010 1.5h-12a.75.75 0 01-.75-.75zM2.625 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875 0a.75.75 0 01.75-.75h12a.75.75 0 010 1.5h-12a.75.75 0 01-.75-.75zM2.625 17.25a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875 0a.75.75 0 01.75-.75h12a.75.75 0 010 1.5h-12a.75.75 0 01-.75-.75z" clip-rule="evenodd"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="items-count" class="text-xs text-tibia-muted font-mono">
+        Exibindo 0 itens
+      </div>
+
+      <div id="items-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        {sortedItems.map((item) => (
+          <ItemCard
+            id={item.id}
+            name={item.name}
+            tier={item.tier}
+            category={item.category}
+            attributes={item.attributes}
+          />
+        ))}
+      </div>
+
+      <div id="items-list" class="hidden flex-col gap-2">
+        {sortedItems.map((item) => (
+          <ItemListItem
+            id={item.id}
+            name={item.name}
+            tier={item.tier}
+            category={item.category}
+            attributes={item.attributes}
+          />
+        ))}
+      </div>
+
+      <div id="no-results" class="hidden text-center py-16">
+        <p class="text-tibia-muted font-rpg text-lg">Nenhum item encontrado.</p>
+        <p class="text-xs text-tibia-muted/60 mt-2">Tente outro termo de busca ou filtro.</p>
+      </div>
+    </div>
+  </div>
+
+  <ItemModal />
+</Layout>
+
+<script is:inline define:vars={{ itemsData: typedEquipment }}>
+  window.ITEMS_DATA = itemsData;
+</script>
+
+<script>
+  import type { EquipmentItem, ItemDrop } from '../types';
+
+  type CatalogedMonster = { name: string };
+
+  declare global {
+    interface Window {
+      ITEMS_DATA: EquipmentItem[];
+      MONSTER_NAMES?: Set<string>;
+    }
+  }
+
+  const hub = document.getElementById('tier-hub') as HTMLDivElement;
+  const categoryHub = document.getElementById('category-hub') as HTMLDivElement;
+  const itemsSection = document.getElementById('items-section') as HTMLDivElement;
+  const lockedMessage = document.getElementById('locked-message') as HTMLDivElement;
+  const backToHubBtn = document.getElementById('back-to-hub-btn') as HTMLButtonElement;
+  const backToCategoriesBtn = document.getElementById('back-to-categories-btn') as HTMLButtonElement;
+  const lockedBackBtn = document.getElementById('locked-back-btn') as HTMLButtonElement;
+  const searchInput = document.getElementById('item-search') as HTMLInputElement;
+  const viewCardsBtn = document.getElementById('view-cards') as HTMLButtonElement;
+  const viewListBtn = document.getElementById('view-list') as HTMLButtonElement;
+  const itemsGrid = document.getElementById('items-grid') as HTMLDivElement;
+  const itemsList = document.getElementById('items-list') as HTMLDivElement;
+  const countEl = document.getElementById('items-count') as HTMLDivElement;
+  const noResults = document.getElementById('no-results') as HTMLDivElement;
+
+  const modal = document.getElementById('item-modal') as HTMLDivElement;
+  const modalBackdrop = document.getElementById('item-modal-backdrop') as HTMLDivElement;
+  const modalPanel = document.getElementById('item-modal-panel') as HTMLDivElement;
+  const modalClose = document.getElementById('item-modal-close') as HTMLButtonElement;
+
+  let activeTier = '';
+  let activeCategory = '';
+  let searchTerm = '';
+  let currentSort = 'name-asc';
+  let currentView = 'cards';
+
+  const gridCardMap = new Map<number, HTMLElement>();
+  const listItemMap = new Map<number, HTMLElement>();
+
+  interface SortOption {
+    key: string;
+    label: string;
+    icon: string;
+  }
+
+  const SORT_CONFIG: Record<string, { default: string; options: SortOption[] }> = {
+    'Sword': { default: 'atk-asc', options: [{ key: 'atk', label: 'Ataque', icon: '⚔️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Axe': { default: 'atk-asc', options: [{ key: 'atk', label: 'Ataque', icon: '⚔️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Club': { default: 'atk-asc', options: [{ key: 'atk', label: 'Ataque', icon: '⚔️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Spear': { default: 'atk-asc', options: [{ key: 'atk', label: 'Ataque', icon: '⚔️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Arrow & Bolt': { default: 'atk-asc', options: [{ key: 'atk', label: 'Ataque', icon: '⚔️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Bow & Crossbow': { default: 'atk-asc', options: [{ key: 'atk', label: 'Ataque', icon: '⚔️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Shield': { default: 'def-asc', options: [{ key: 'def', label: 'Defesa', icon: '🛡️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Spellbook': { default: 'def-asc', options: [{ key: 'def', label: 'Defesa', icon: '🛡️' }, { key: 'ml', label: 'ML', icon: '✨' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Armor': { default: 'arm-asc', options: [{ key: 'arm', label: 'Armadura', icon: '🛡️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Helmet': { default: 'arm-asc', options: [{ key: 'arm', label: 'Armadura', icon: '🛡️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Legs': { default: 'arm-asc', options: [{ key: 'arm', label: 'Armadura', icon: '🛡️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Boots': { default: 'arm-asc', options: [{ key: 'arm', label: 'Armadura', icon: '🛡️' }, { key: 'name', label: 'Nome', icon: '🔤' }] },
+    'Rod & Wand': { default: 'name-asc', options: [{ key: 'name', label: 'Nome', icon: '🔤' }] },
+    'all': { default: 'name-asc', options: [{ key: 'name', label: 'Nome', icon: '🔤' }] },
+  };
+
+  function initElementMaps() {
+    itemsGrid.querySelectorAll('[data-item-id]').forEach((el) => {
+      const id = Number(el.getAttribute('data-item-id'));
+      gridCardMap.set(id, el as HTMLElement);
+    });
+    itemsList.querySelectorAll('[data-item-id]').forEach((el) => {
+      const id = Number(el.getAttribute('data-item-id'));
+      listItemMap.set(id, el as HTMLElement);
+    });
+  }
+
+  function formatNumber(n: number): string {
+    return n.toLocaleString('pt-BR');
+  }
+
+  function getItemSpriteUrl(itemId: number): string {
+    return `/items/${itemId}.png`;
+  }
+
+  function getInitials(name: string): string {
+    return name
+      .replace(/[()]/g, '')
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((w) => w[0].toUpperCase())
+      .join('');
+  }
+
+  function createFallbackSprite(name: string): string {
+    return `data:image/svg+xml;utf8,${encodeURIComponent(
+      `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="8" fill="#1f2937" stroke="#c8a24d" stroke-width="1.5"/><text x="32" y="36" text-anchor="middle" fill="#d4b06a" font-family="Cinzel, Georgia, serif" font-size="20" font-weight="700">${getInitials(name)}</text></svg>`
+    )}`;
+  }
+
+  function parseAttrValue(attrs: string | undefined, key: string): number {
+    if (!attrs) return 0;
+    const text = attrs as string;
+    let match: RegExpMatchArray | null = null;
+    switch (key) {
+      case 'atk':
+        match = text.match(/Atk:\s*(\d+)/i);
+        break;
+      case 'def':
+        match = text.match(/Def:\s*(\d+)/i);
+        break;
+      case 'arm':
+        match = text.match(/Arm:\s*(\d+)/i);
+        break;
+      case 'ml':
+        match = text.match(/Magic Level\s*\+(\d+)/i);
+        break;
+    }
+    return match ? Number(match[1]) : 0;
+  }
+
+  function getMonsterSpriteUrl(name: string): string {
+    const cleanName = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return `/monsters/${cleanName}.gif`;
+  }
+
+  async function loadMonsterCatalog(): Promise<Set<string>> {
+    if (window.MONSTER_NAMES) return window.MONSTER_NAMES;
+    try {
+      const res = await fetch('/data/monster-names.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const names: string[] = await res.json();
+      window.MONSTER_NAMES = new Set(names.map((n) => n.toLowerCase().trim()));
+    } catch (err) {
+      console.warn('Failed to load monster catalog:', err);
+      window.MONSTER_NAMES = new Set();
+    }
+    return window.MONSTER_NAMES;
+  }
+
+  function findMonsterByName(name: string): CatalogedMonster | undefined {
+    const normalized = name.toLowerCase().trim();
+    return window.MONSTER_NAMES?.has(normalized) ? { name } : undefined;
+  }
+
+  type SortField = 'name' | 'atk' | 'def' | 'arm' | 'ml';
+
+  function compareItems(a: EquipmentItem, b: EquipmentItem, field: SortField, dir: 'asc' | 'desc'): number {
+    if (field === 'name') {
+      const cmp = (a.name || '').localeCompare(b.name || '');
+      return dir === 'asc' ? cmp : -cmp;
+    }
+    const valA = parseAttrValue(a.attributes, field);
+    const valB = parseAttrValue(b.attributes, field);
+    return dir === 'asc' ? valA - valB : valB - valA;
+  }
+
+  function getFilteredItems(): EquipmentItem[] {
+    const term = searchTerm.trim().toLowerCase();
+    const [field, dir] = currentSort.split('-') as [SortField, 'asc' | 'desc'];
+
+    return window.ITEMS_DATA
+      .filter((item) => activeTier === 'all' || item.tier === activeTier)
+      .filter((item) => activeCategory === 'all' || item.category === activeCategory)
+      .filter((item) =>
+        !term ||
+        item.name.toLowerCase().includes(term) ||
+        (item.category && item.category.toLowerCase().includes(term))
+      )
+      .sort((a, b) => compareItems(a, b, field, dir));
+  }
+
+  function reorderDOM() {
+    const items = getFilteredItems();
+    const ids = new Set(items.map((i) => i.id));
+
+    // Move visible items to the end of their containers in sorted order.
+    // appendChild on an existing node moves it, avoiding full rebuilds.
+    items.forEach((item) => {
+      const card = gridCardMap.get(item.id);
+      const listItem = listItemMap.get(item.id);
+      if (card) itemsGrid.appendChild(card);
+      if (listItem) itemsList.appendChild(listItem);
+    });
+
+    gridCardMap.forEach((card, id) => {
+      card.style.display = ids.has(id) && currentView === 'cards' ? '' : 'none';
+    });
+
+    listItemMap.forEach((item, id) => {
+      item.style.display = ids.has(id) && currentView === 'list' ? '' : 'none';
+    });
+
+    const visible = items.length;
+    countEl.textContent = `Exibindo ${visible} item${visible !== 1 ? 's' : ''}`;
+    noResults.classList.toggle('hidden', visible > 0);
+  }
+
+  function showLocked() {
+    hub.classList.add('hub-compact');
+    categoryHub.classList.add('hidden');
+    itemsSection.classList.add('hidden');
+    lockedMessage.classList.remove('hidden');
+  }
+
+  function showHub() {
+    activeTier = '';
+    activeCategory = '';
+    hub.classList.remove('hub-compact');
+    categoryHub.classList.add('hidden');
+    itemsSection.classList.add('hidden');
+    lockedMessage.classList.add('hidden');
+    hub.querySelectorAll('[data-tier]').forEach((b) => {
+      b.classList.remove('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+    });
+  }
+
+  function showCategories(tier: string) {
+    activeTier = tier;
+    activeCategory = '';
+    hub.classList.add('hub-compact');
+    categoryHub.classList.remove('hidden');
+    itemsSection.classList.add('hidden');
+    lockedMessage.classList.add('hidden');
+    updateCategoryCounts();
+    categoryHub.querySelectorAll('[data-category]').forEach((b) => {
+      b.classList.remove('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+    });
+    categoryHub.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  function updateCategoryCounts() {
+    categoryHub.querySelectorAll('[data-category]').forEach((btn) => {
+      const category = btn.getAttribute('data-category') || '';
+      const countEl = btn.querySelector('p span');
+      if (!countEl) return;
+      const count = window.ITEMS_DATA.filter((item) => {
+        const tierMatch = activeTier === 'all' || item.tier === activeTier;
+        const categoryMatch = category === 'all' || item.category === category;
+        return tierMatch && categoryMatch;
+      }).length;
+      countEl.textContent = String(count);
+    });
+  }
+
+  function showItems(category: string) {
+    activeCategory = category;
+    hub.classList.add('hub-compact');
+    categoryHub.classList.add('hidden');
+    itemsSection.classList.remove('hidden');
+    lockedMessage.classList.add('hidden');
+    renderSortControls();
+    reorderDOM();
+    itemsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function showCategoryHub() {
+    activeCategory = '';
+    hub.classList.add('hub-compact');
+    categoryHub.classList.remove('hidden');
+    itemsSection.classList.add('hidden');
+    lockedMessage.classList.add('hidden');
+    updateCategoryCounts();
+  }
+
+  function renderSortControls() {
+    const config = SORT_CONFIG[activeCategory] || SORT_CONFIG['all'];
+    const container = document.getElementById('sort-controls') as HTMLDivElement;
+    container.innerHTML = config.options.map((opt) => `
+      <button type="button" data-sort="${opt.key}" class="sort-btn inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-tibia-border-dark/30 bg-tibia-panel text-xs font-medium text-tibia-text hover:border-tibia-gold/40 transition-colors" title="Ordenar por ${opt.label}">
+        <span class="text-base leading-none">${opt.icon}</span>
+        <span class="hidden sm:inline">${opt.label}</span>
+        <span class="sort-arrow w-3.5 h-3.5 text-tibia-gold"></span>
+      </button>
+    `).join('');
+
+    currentSort = config.default;
+    attachSortListeners();
+    updateSortUI();
+  }
+
+  function attachSortListeners() {
+    document.querySelectorAll('.sort-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const field = btn.getAttribute('data-sort') || 'name';
+        const [currentField, currentDir] = currentSort.split('-');
+        if (currentField === field) {
+          currentSort = `${field}-${currentDir === 'asc' ? 'desc' : 'asc'}`;
+        } else {
+          currentSort = `${field}-asc`;
+        }
+        updateSortUI();
+        reorderDOM();
+      });
+    });
+  }
+
+  function updateSortUI() {
+    const [field, dir] = currentSort.split('-');
+    document.querySelectorAll('.sort-btn').forEach((btn) => {
+      const btnField = btn.getAttribute('data-sort');
+      const arrow = btn.querySelector('.sort-arrow') as HTMLSpanElement;
+      if (btnField === field) {
+        btn.classList.add('border-tibia-gold/60', 'text-tibia-gold', 'bg-tibia-gold/10');
+        btn.classList.remove('border-tibia-border-dark/30', 'text-tibia-text');
+        arrow.innerHTML = dir === 'asc'
+          ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-full h-full"><path fill-rule="evenodd" d="M10 15a.75.75 0 01-.75-.75V7.612L7.29 9.77a.75.75 0 01-1.08-1.06l3.25-3.5a.75.75 0 011.08 0l3.25 3.5a.75.75 0 11-1.08 1.06l-1.96-2.158v6.638A.75.75 0 0110 15z" clip-rule="evenodd" /></svg>`
+          : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-full h-full"><path fill-rule="evenodd" d="M10 5a.75.75 0 01.75.75v6.638l1.96-2.158a.75.75 0 111.08 1.06l-3.25 3.5a.75.75 0 01-1.08 0l-3.25-3.5a.75.75 0 111.08-1.06l1.96 2.158V5.75A.75.75 0 0110 5z" clip-rule="evenodd" /></svg>`;
+      } else {
+        btn.classList.remove('border-tibia-gold/60', 'text-tibia-gold', 'bg-tibia-gold/10');
+        btn.classList.add('border-tibia-border-dark/30', 'text-tibia-text');
+        arrow.innerHTML = '';
+      }
+    });
+  }
+
+  async function openModal(item: EquipmentItem) {
+    document.getElementById('modal-item-name')!.textContent = item.name;
+    document.getElementById('modal-item-tier')!.innerHTML = `<span class="text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded border tracking-wider ${getTierBadgeClass(item.tier)}">${item.tier.toUpperCase()}</span>`;
+    document.getElementById('modal-item-category')!.textContent = item.category || 'Geral';
+    document.getElementById('modal-item-id860')!.textContent = item.id860 ? formatNumber(item.id860) : '—';
+    document.getElementById('modal-item-id10')!.textContent = item.id10 ? formatNumber(item.id10) : '—';
+    document.getElementById('modal-item-attributes')!.textContent = item.attributes || 'Sem atributos registrados';
+
+    const spriteContainer = document.getElementById('modal-item-sprite')!;
+    spriteContainer.innerHTML = `<div class="sprite-container rounded border border-tibia-border-dark/20 w-16 h-16 p-1"><img src="${getItemSpriteUrl(item.id)}" alt="${item.name}" class="w-full h-full object-contain" onerror="this.src='${createFallbackSprite(item.name)}'" /></div>`;
+
+    const dropsEmpty = document.getElementById('modal-item-drops-empty') as HTMLDivElement;
+    const dropsTable = document.getElementById('modal-item-drops-table') as HTMLDivElement;
+    const dropsBody = document.getElementById('modal-item-drops-body') as HTMLTableSectionElement;
+
+    await loadMonsterCatalog();
+
+    const catalogedDrops = (item.drops || [])
+      .map((drop: ItemDrop) => {
+        const monster = findMonsterByName(drop.monster);
+        return monster ? { ...drop, monsterData: monster } : null;
+      })
+      .filter((d): d is { monster: string; chance: number; monsterData: CatalogedMonster } => d !== null);
+
+    if (catalogedDrops.length > 0) {
+      dropsEmpty.classList.add('hidden');
+      dropsTable.classList.remove('hidden');
+      dropsBody.innerHTML = catalogedDrops.map((drop) => {
+        const name = drop.monsterData.name;
+        const spriteUrl = getMonsterSpriteUrl(name);
+        const fallback = createFallbackSprite(name);
+        return `
+          <tr class="border-b border-tibia-border-dark/10 hover:bg-tibia-bg/40 transition-colors">
+            <td class="px-3 py-2">
+              <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded border border-tibia-border-dark/20 bg-tibia-bg/60 p-0.5 flex items-center justify-center shrink-0">
+                  <img src="${spriteUrl}" alt="${name}" class="w-full h-full object-contain" onerror="this.src='${fallback}'" />
+                </div>
+                <span class="text-tibia-text">${name}</span>
+              </div>
+            </td>
+            <td class="px-3 py-2 text-right font-mono text-tibia-gold align-middle">${drop.chance}%</td>
+          </tr>
+        `;
+      }).join('');
+    } else {
+      dropsEmpty.classList.remove('hidden');
+      dropsTable.classList.add('hidden');
+      dropsBody.innerHTML = '';
+    }
+
+    modal.classList.remove('hidden');
+    void modal.offsetWidth;
+    modalBackdrop.classList.remove('opacity-0');
+    modalPanel.classList.remove('opacity-0', 'scale-95');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function getTierBadgeClass(tier: string): string {
+    const colors: Record<string, string> = {
+      tier1: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
+      tier2: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
+      tier3: 'text-orange-400 border-orange-500/30 bg-orange-500/10',
+      tier4: 'text-red-400 border-red-500/30 bg-red-500/10',
+      bosses: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
+    };
+    return colors[tier] || colors.tier1;
+  }
+
+  function closeModal() {
+    modalBackdrop.classList.add('opacity-0');
+    modalPanel.classList.add('opacity-0', 'scale-95');
+    setTimeout(() => {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }, 300);
+  }
+
+  hub.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest('[data-tier]') as HTMLButtonElement;
+    if (!btn) return;
+
+    const tier = btn.getAttribute('data-tier') || '';
+    const locked = btn.getAttribute('data-locked') === 'true';
+
+    if (locked) {
+      showLocked();
+      return;
+    }
+
+    hub.querySelectorAll('[data-tier]').forEach((b) => {
+      b.classList.remove('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+    });
+    btn.classList.add('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+
+    showCategories(tier);
+  });
+
+  categoryHub.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest('[data-category]') as HTMLButtonElement;
+    if (!btn) return;
+
+    const category = btn.getAttribute('data-category') || '';
+
+    categoryHub.querySelectorAll('[data-category]').forEach((b) => {
+      b.classList.remove('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+    });
+    btn.classList.add('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+
+    showItems(category);
+  });
+
+  backToHubBtn.addEventListener('click', showHub);
+  backToCategoriesBtn.addEventListener('click', showCategoryHub);
+  lockedBackBtn.addEventListener('click', showHub);
+
+  searchInput.addEventListener('input', () => {
+    searchTerm = searchInput.value;
+    reorderDOM();
+  });
+
+  viewCardsBtn.addEventListener('click', () => {
+    currentView = 'cards';
+    viewCardsBtn.classList.add('text-tibia-gold', 'bg-tibia-gold/10');
+    viewCardsBtn.classList.remove('text-tibia-muted');
+    viewListBtn.classList.remove('text-tibia-gold', 'bg-tibia-gold/10');
+    viewListBtn.classList.add('text-tibia-muted');
+    itemsGrid.classList.remove('hidden');
+    itemsList.classList.add('hidden');
+    reorderDOM();
+  });
+
+  viewListBtn.addEventListener('click', () => {
+    currentView = 'list';
+    viewListBtn.classList.add('text-tibia-gold', 'bg-tibia-gold/10');
+    viewListBtn.classList.remove('text-tibia-muted');
+    viewCardsBtn.classList.remove('text-tibia-gold', 'bg-tibia-gold/10');
+    viewCardsBtn.classList.add('text-tibia-muted');
+    itemsGrid.classList.add('hidden');
+    itemsList.classList.remove('hidden');
+    reorderDOM();
+  });
+
+  document.addEventListener('click', async (e) => {
+    const card = (e.target as HTMLElement).closest('[data-item-id]') as HTMLElement;
+    if (!card || !card.closest('#items-grid, #items-list')) return;
+
+    const id = Number(card.getAttribute('data-item-id'));
+    const item = window.ITEMS_DATA.find((i) => i.id === id);
+    if (item) await openModal(item);
+  });
+
+  modalClose.addEventListener('click', closeModal);
+  modalBackdrop.addEventListener('click', closeModal);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+  });
+
+  initElementMaps();
+  updateSortUI();
+  loadMonsterCatalog().catch(() => {});
+</script>
+
+<style>
+  .tier-hub {
+    transform-origin: top center;
+  }
+
+  .tier-hub.hub-compact {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(3, auto) !important;
+    gap: 0.5rem !important;
+    max-width: 520px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    animation: hubToTop 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  @keyframes hubToTop {
+    0% { opacity: 0.7; transform: translateY(16px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card) {
+    padding: 0.375rem !important;
+    border-radius: 0.375rem !important;
+    min-height: auto !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card > div) {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    gap: 0.5rem !important;
+    padding: 0 !important;
+    min-height: auto !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card h3) {
+    font-size: 0.75rem !important;
+    margin-bottom: 0 !important;
+    line-height: 1.2 !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card p),
+  .tier-hub.hub-compact :global(.tier-hub-card > div > div:last-child) {
+    display: none !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card > div > div:first-child) {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+    font-size: 0.875rem !important;
+    margin-bottom: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card > div > div:first-child img) {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0.125rem !important;
+  }
+</style>

@@ -1,0 +1,6709 @@
+[
+  {
+    "id": 1,
+    "name": "Rat",
+    "tier": "tier1",
+    "hp": 150,
+    "xp": 150,
+    "speed": 140,
+    "looktype": 21,
+    "levelRange": "150 ao 500",
+    "levelMin": 150,
+    "levelMax": 500,
+    "minDano": 9,
+    "maxDano": 9,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "9",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "wooden shield",
+        "chance": 15,
+        "countmax": 1,
+        "itemid": 2512
+      },
+      {
+        "name": "sandals",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2642
+      },
+      {
+        "name": "coat",
+        "chance": 20,
+        "countmax": 1,
+        "itemid": 2651
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cave Rat",
+    "tier": "tier1",
+    "hp": 300,
+    "xp": 263,
+    "speed": 150,
+    "looktype": 56,
+    "levelRange": "150 ao 500",
+    "levelMin": 150,
+    "levelMax": 500,
+    "minDano": 13,
+    "maxDano": 13,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "13",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "wooden shield",
+        "chance": 15,
+        "countmax": 1,
+        "itemid": 2512
+      },
+      {
+        "name": "sandals",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2642
+      },
+      {
+        "name": "coat",
+        "chance": 20,
+        "countmax": 1,
+        "itemid": 2651
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Spider",
+    "tier": "tier1",
+    "hp": 200,
+    "xp": 375,
+    "speed": 152,
+    "looktype": 30,
+    "levelRange": "500 ao 1000",
+    "levelMin": 500,
+    "levelMax": 1000,
+    "minDano": 11,
+    "maxDano": 11,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "11",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "studded shield",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2526
+      },
+      {
+        "name": "leather boots",
+        "chance": 15,
+        "countmax": 1,
+        "itemid": 2643
+      },
+      {
+        "name": "jacket",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2650
+      },
+      {
+        "name": "arrow",
+        "chance": 25,
+        "countmax": 1,
+        "itemid": 2544
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bug",
+    "tier": "tier1",
+    "hp": 350,
+    "xp": 488,
+    "speed": 220,
+    "looktype": 45,
+    "levelRange": "500 ao 1000",
+    "levelMin": 500,
+    "levelMax": 1000,
+    "minDano": 53,
+    "maxDano": 53,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "53",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "studded shield",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2526
+      },
+      {
+        "name": "leather boots",
+        "chance": 15,
+        "countmax": 1,
+        "itemid": 2643
+      },
+      {
+        "name": "jacket",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2650
+      },
+      {
+        "name": "arrow",
+        "chance": 25,
+        "countmax": 1,
+        "itemid": 2544
+      },
+      {
+        "name": "cotonete",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2437
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Primitive",
+    "tier": "tier1",
+    "hp": 1000,
+    "xp": 750,
+    "speed": 250,
+    "looktype": 143,
+    "levelRange": "1000 ao 1500",
+    "levelMin": 1000,
+    "levelMax": 1500,
+    "minDano": 52,
+    "maxDano": 52,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "52",
+    "magicDamage": "Fogo 20",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "leather helmet",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2461
+      },
+      {
+        "name": "hatchet",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2388
+      },
+      {
+        "name": "knife",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2403
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Wild Warrior",
+    "tier": "tier1",
+    "hp": 800,
+    "xp": 900,
+    "speed": 220,
+    "looktype": 131,
+    "levelRange": "1000 ao 1500",
+    "levelMin": 1000,
+    "levelMax": 1500,
+    "minDano": 73,
+    "maxDano": 73,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "73",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "leather helmet",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2461
+      },
+      {
+        "name": "hatchet",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2388
+      },
+      {
+        "name": "knife",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2403
+      },
+      {
+        "name": "cotonete",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2437
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Frog (Orchid)",
+    "tier": "tier1",
+    "hp": 2000,
+    "xp": 1200,
+    "speed": 150,
+    "looktype": 5,
+    "levelRange": "1500 ao 2000",
+    "levelMin": 1500,
+    "levelMax": 2000,
+    "minDano": 418,
+    "maxDano": 418,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "418",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "leather legs",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2649
+      },
+      {
+        "name": "hand axe",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2380
+      },
+      {
+        "name": "dagger",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2379
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Badger",
+    "tier": "tier1",
+    "hp": 2800,
+    "xp": 1500,
+    "speed": 180,
+    "looktype": 105,
+    "levelRange": "2000 ao 2500",
+    "levelMin": 2000,
+    "levelMax": 2500,
+    "minDano": 540,
+    "maxDano": 540,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "540",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "leather legs",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2649
+      },
+      {
+        "name": "hand axe",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2380
+      },
+      {
+        "name": "dagger",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2379
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Skunk",
+    "tier": "tier1",
+    "hp": 2200,
+    "xp": 1800,
+    "speed": 120,
+    "looktype": 106,
+    "levelRange": "2000 ao 2500",
+    "levelMin": 2000,
+    "levelMax": 2500,
+    "minDano": 188,
+    "maxDano": 188,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "188",
+    "magicDamage": "Veneno 10–30",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "leather legs",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2649
+      },
+      {
+        "name": "hand axe",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2380
+      },
+      {
+        "name": "dagger",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2379
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Stalker",
+    "tier": "tier1",
+    "hp": 3200,
+    "xp": 2250,
+    "speed": 310,
+    "looktype": 128,
+    "levelRange": "2500 ao 3000",
+    "levelMin": 2500,
+    "levelMax": 3000,
+    "minDano": 75,
+    "maxDano": 75,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "75",
+    "magicDamage": "Lifedrain 120–530",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "white dress",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2658
+      },
+      {
+        "name": "brass helmet",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2460
+      },
+      {
+        "name": "axe",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2386
+      },
+      {
+        "name": "combat knife",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2404
+      },
+      {
+        "name": "poison dagger",
+        "chance": 6,
+        "countmax": 1,
+        "itemid": 2411
+      },
+      {
+        "name": "studded legs",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2468
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Wasp",
+    "tier": "tier1",
+    "hp": 6500,
+    "xp": 2700,
+    "speed": 460,
+    "looktype": 44,
+    "levelRange": "3000 ao 3500",
+    "levelMin": 3000,
+    "levelMax": 3500,
+    "minDano": 525,
+    "maxDano": 525,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "525",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "white dress",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2658
+      },
+      {
+        "name": "brass helmet",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2460
+      },
+      {
+        "name": "axe",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2386
+      },
+      {
+        "name": "combat knife",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2404
+      },
+      {
+        "name": "poison dagger",
+        "chance": 6,
+        "countmax": 1,
+        "itemid": 2411
+      },
+      {
+        "name": "studded legs",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2468
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Crazed Beggar",
+    "tier": "tier1",
+    "hp": 7000,
+    "xp": 3150,
+    "speed": 220,
+    "looktype": 153,
+    "levelRange": "3500 ao 4000",
+    "levelMin": 3500,
+    "levelMax": 4000,
+    "minDano": 1925,
+    "maxDano": 1925,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "1.925",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "girl's dress",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 8876
+      },
+      {
+        "name": "studded helmet",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2482
+      },
+      {
+        "name": "double axe",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2387
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Tortoise",
+    "tier": "tier1",
+    "hp": 10000,
+    "xp": 3750,
+    "speed": 200,
+    "looktype": 197,
+    "levelRange": "4000 ao 5000",
+    "levelMin": 4000,
+    "levelMax": 5000,
+    "minDano": 1330,
+    "maxDano": 1330,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "1.330",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 30,
+        "countmax": 8,
+        "itemid": 2148
+      },
+      {
+        "name": "plate shield",
+        "chance": 6,
+        "countmax": 1,
+        "itemid": 2510
+      },
+      {
+        "name": "tunic",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 8875
+      },
+      {
+        "name": "club",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2382
+      },
+      {
+        "name": "silver dagger",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2402
+      },
+      {
+        "name": "battle hammer",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2417
+      },
+      {
+        "name": "studded club",
+        "chance": 8,
+        "countmax": 1,
+        "itemid": 2448
+      },
+      {
+        "name": "bone shield",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2541
+      },
+      {
+        "name": "white dress",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2658
+      },
+      {
+        "name": "post officers hat",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2665
+      },
+      {
+        "name": "small stone",
+        "chance": 15,
+        "countmax": 1,
+        "itemid": 1294
+      },
+      {
+        "name": "bow",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2456
+      },
+      {
+        "name": "cotonete",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2437
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Skeleton",
+    "tier": "tier1",
+    "hp": 7000,
+    "xp": 4500,
+    "speed": 154,
+    "looktype": 33,
+    "levelRange": "5000 ao 5500",
+    "levelMin": 5000,
+    "levelMax": 5500,
+    "minDano": 1359,
+    "maxDano": 1359,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "1.359",
+    "magicDamage": "Lifedrain 187–473",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "bone shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2541
+      },
+      {
+        "name": "summer dress",
+        "chance": 6,
+        "countmax": 1,
+        "itemid": 8874
+      },
+      {
+        "name": "studded club",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2448
+      },
+      {
+        "name": "short sword",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2406
+      },
+      {
+        "name": "mace",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2398
+      },
+      {
+        "name": "copper shield",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2530
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Skeleton Warrior",
+    "tier": "tier1",
+    "hp": 12500,
+    "xp": 5250,
+    "speed": 180,
+    "looktype": 298,
+    "levelRange": "5000 ao 5500",
+    "levelMin": 5000,
+    "levelMax": 5500,
+    "minDano": 440,
+    "maxDano": 1540,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "440–1.540",
+    "magicDamage": "Lifedrain 495–1.067",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "bone shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2541
+      },
+      {
+        "name": "summer dress",
+        "chance": 6,
+        "countmax": 1,
+        "itemid": 8874
+      },
+      {
+        "name": "studded club",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2448
+      },
+      {
+        "name": "short sword",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2406
+      },
+      {
+        "name": "mace",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 2398
+      },
+      {
+        "name": "copper shield",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2530
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Fire Devil",
+    "tier": "tier1",
+    "hp": 6000,
+    "xp": 6000,
+    "speed": 190,
+    "looktype": 40,
+    "levelRange": "5500 ao 6000",
+    "levelMin": 5500,
+    "levelMax": 6000,
+    "minDano": 1100,
+    "maxDano": 1650,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "1.100–1.650",
+    "magicDamage": "Fogo 1.320–1.650",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "copper shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2530
+      },
+      {
+        "name": "hibiscus dress",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 8873
+      },
+      {
+        "name": "mace",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2398
+      },
+      {
+        "name": "rapier",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2384
+      },
+      {
+        "name": "double axe",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2387
+      },
+      {
+        "name": "brass shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2511
+      },
+      {
+        "name": "spear",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2389
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Penguin",
+    "tier": "tier1",
+    "hp": 8500,
+    "xp": 6750,
+    "speed": 220,
+    "looktype": 250,
+    "levelRange": "6000 ao 6500",
+    "levelMin": 6000,
+    "levelMax": 6500,
+    "minDano": 1210,
+    "maxDano": 1650,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "1.210–1.650",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 12,
+        "countmax": 10,
+        "itemid": 2148
+      },
+      {
+        "name": "meat",
+        "chance": 32,
+        "countmax": 1,
+        "itemid": 2666
+      },
+      {
+        "name": "mace",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2398
+      },
+      {
+        "name": "bone club",
+        "chance": 0.3,
+        "countmax": 2,
+        "itemid": 2449
+      },
+      {
+        "name": "yoyo",
+        "chance": 0.3,
+        "countmax": 2,
+        "itemid": 0
+      },
+      {
+        "name": "copper shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2530
+      },
+      {
+        "name": "double axe",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2387
+      },
+      {
+        "name": "brass shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2511
+      },
+      {
+        "name": "hibiscus dress",
+        "chance": 5,
+        "countmax": 1,
+        "itemid": 8873
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ghoul",
+    "tier": "tier1",
+    "hp": 9000,
+    "xp": 7500,
+    "speed": 145,
+    "looktype": 18,
+    "levelRange": "6500 ao 7000",
+    "levelMin": 6500,
+    "levelMax": 7000,
+    "minDano": 5456,
+    "maxDano": 5456,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "5.456",
+    "magicDamage": "Lifedrain 1.650–2.750",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "brass shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2511
+      },
+      {
+        "name": "cape",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2654
+      },
+      {
+        "name": "morning star",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2394
+      },
+      {
+        "name": "sabre",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2385
+      },
+      {
+        "name": "steel shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2509
+      },
+      {
+        "name": "snakebite rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2182
+      },
+      {
+        "name": "wand of vortex",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2190
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Crypt Shambler",
+    "tier": "tier1",
+    "hp": 7000,
+    "xp": 8250,
+    "speed": 180,
+    "looktype": 100,
+    "levelRange": "6500 ao 7000",
+    "levelMin": 6500,
+    "levelMax": 7000,
+    "minDano": 3240,
+    "maxDano": 3240,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "3.240",
+    "magicDamage": "Lifedrain 275–605",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "brass shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2511
+      },
+      {
+        "name": "cape",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2654
+      },
+      {
+        "name": "morning star",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2394
+      },
+      {
+        "name": "sabre",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2385
+      },
+      {
+        "name": "steel shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2509
+      },
+      {
+        "name": "snakebite rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2182
+      },
+      {
+        "name": "wand of vortex",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2190
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Amazon",
+    "tier": "tier1",
+    "hp": 10000,
+    "xp": 9375,
+    "speed": 180,
+    "looktype": 137,
+    "levelRange": "7000 ao 7500",
+    "levelMin": 7000,
+    "levelMax": 7500,
+    "minDano": 3520,
+    "maxDano": 3520,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "3.520",
+    "magicDamage": "Físico 0–440",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "steel shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2509
+      },
+      {
+        "name": "jacket",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2650
+      },
+      {
+        "name": "furry club",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 7432
+      },
+      {
+        "name": "machete",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2420
+      },
+      {
+        "name": "daramanian axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2441
+      },
+      {
+        "name": "chain helmet",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2458
+      },
+      {
+        "name": "bolt",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2543
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Valkyrie",
+    "tier": "tier1",
+    "hp": 13000,
+    "xp": 10500,
+    "speed": 180,
+    "looktype": 139,
+    "levelRange": "7000 ao 7500",
+    "levelMin": 7000,
+    "levelMax": 7500,
+    "minDano": 3713,
+    "maxDano": 3713,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "3.713",
+    "magicDamage": "Físico 0–550",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "steel shield",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 2509
+      },
+      {
+        "name": "jacket",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2650
+      },
+      {
+        "name": "furry club",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 7432
+      },
+      {
+        "name": "machete",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2420
+      },
+      {
+        "name": "daramanian axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2441
+      },
+      {
+        "name": "chain helmet",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2458
+      },
+      {
+        "name": "bolt",
+        "chance": 12,
+        "countmax": 1,
+        "itemid": 2543
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Cyclops",
+    "tier": "tier1",
+    "hp": 20000,
+    "xp": 11625,
+    "speed": 200,
+    "looktype": 22,
+    "levelRange": "7500 ao 8000",
+    "levelMin": 7500,
+    "levelMax": 8000,
+    "minDano": 8663,
+    "maxDano": 8663,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "8.663",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "salamander shield",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 3975
+      },
+      {
+        "name": "spectral dress",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 4847
+      },
+      {
+        "name": "iron hammer",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2422
+      },
+      {
+        "name": "sword",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 2376
+      },
+      {
+        "name": "halberd",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 2381
+      },
+      {
+        "name": "chain legs",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2648
+      },
+      {
+        "name": "snakebite rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2182
+      },
+      {
+        "name": "wand of vortex",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2190
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Nomad",
+    "tier": "tier1",
+    "hp": 16000,
+    "xp": 12750,
+    "speed": 215,
+    "looktype": 146,
+    "levelRange": "8000 ao 8500",
+    "levelMin": 8000,
+    "levelMax": 8500,
+    "minDano": 7260,
+    "maxDano": 7260,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "7.260",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "salamander shield",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 3975
+      },
+      {
+        "name": "spectral dress",
+        "chance": 3.5,
+        "countmax": 1,
+        "itemid": 4847
+      },
+      {
+        "name": "iron hammer",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2422
+      },
+      {
+        "name": "sword",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 2376
+      },
+      {
+        "name": "halberd",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 2381
+      },
+      {
+        "name": "chain legs",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 2648
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Mutated Human",
+    "tier": "tier1",
+    "hp": 17000,
+    "xp": 13500,
+    "speed": 245,
+    "looktype": 323,
+    "levelRange": "8500 ao 9000",
+    "levelMin": 8500,
+    "levelMax": 9000,
+    "minDano": 0,
+    "maxDano": 1045,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "0–1.045",
+    "magicDamage": "Morte 330–660",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "battle shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2513
+      },
+      {
+        "name": "red tunic",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2653
+      },
+      {
+        "name": "bone club",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2449
+      },
+      {
+        "name": "staff",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2401
+      },
+      {
+        "name": "red robe",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2655
+      },
+      {
+        "name": "sentinel shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 3974
+      },
+      {
+        "name": "mage hat",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8820
+      },
+      {
+        "name": "party hat",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 6578
+      },
+      {
+        "name": "mystic turban",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2663
+      },
+      {
+        "name": "bandana",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 5917
+      },
+      {
+        "name": "fur boots",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 7457
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Mutated Rat",
+    "tier": "tier1",
+    "hp": 16000,
+    "xp": 14250,
+    "speed": 245,
+    "looktype": 305,
+    "levelRange": "8500 ao 9000",
+    "levelMin": 8500,
+    "levelMax": 9000,
+    "minDano": 2682,
+    "maxDano": 2682,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "2.682",
+    "magicDamage": "Terra 495–935 / Lifedrain 550–3.300",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "battle shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2513
+      },
+      {
+        "name": "red tunic",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2653
+      },
+      {
+        "name": "bone club",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2449
+      },
+      {
+        "name": "staff",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2401
+      },
+      {
+        "name": "red robe",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2655
+      },
+      {
+        "name": "sentinel shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 3974
+      },
+      {
+        "name": "mage hat",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8820
+      },
+      {
+        "name": "party hat",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 6578
+      },
+      {
+        "name": "mystic turban",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2663
+      },
+      {
+        "name": "bandana",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 5917
+      },
+      {
+        "name": "fur boots",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 7457
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Chakoya (Windcaller)",
+    "tier": "tier1",
+    "hp": 9000,
+    "xp": 14625,
+    "speed": 270,
+    "looktype": 260,
+    "levelRange": "9000 ao 9500",
+    "levelMin": 9000,
+    "levelMax": 9500,
+    "minDano": 1650,
+    "maxDano": 1980,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "1.650–1.980",
+    "magicDamage": "Energia 2.750–3.850",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 15,
+        "itemid": 2148
+      },
+      {
+        "name": "battle shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2513
+      },
+      {
+        "name": "red tunic",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2653
+      },
+      {
+        "name": "bone club",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2449
+      },
+      {
+        "name": "staff",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2401
+      },
+      {
+        "name": "red robe",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2655
+      },
+      {
+        "name": "sentinel shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 3974
+      },
+      {
+        "name": "mage hat",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8820
+      },
+      {
+        "name": "party hat",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 6578
+      },
+      {
+        "name": "mystic turban",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2663
+      },
+      {
+        "name": "bandana",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 5917
+      },
+      {
+        "name": "fur boots",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 7457
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Stone Golem",
+    "tier": "tier1",
+    "hp": 27000,
+    "xp": 15000,
+    "speed": 180,
+    "looktype": 67,
+    "levelRange": "9500 ao 10000",
+    "levelMin": 9500,
+    "levelMax": 10000,
+    "minDano": 3240,
+    "maxDano": 3240,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "3.240",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 35,
+        "countmax": 12,
+        "itemid": 2148
+      },
+      {
+        "name": "sentinel shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 3974
+      },
+      {
+        "name": "red robe",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2655
+      },
+      {
+        "name": "staff",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2401
+      },
+      {
+        "name": "bone club",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2449
+      },
+      {
+        "name": "battle shield",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2513
+      },
+      {
+        "name": "red tunic",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2653
+      },
+      {
+        "name": "mage hat",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8820
+      },
+      {
+        "name": "party hat",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 6578
+      },
+      {
+        "name": "mystic turban",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2663
+      },
+      {
+        "name": "bandana",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 5917
+      },
+      {
+        "name": "fur boots",
+        "chance": 2.5,
+        "countmax": 1,
+        "itemid": 7457
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Gang Member",
+    "tier": "tier1",
+    "hp": 31000,
+    "xp": 18750,
+    "speed": 220,
+    "looktype": 151,
+    "levelRange": "10k ao 10.5k",
+    "levelMin": 10000,
+    "levelMax": 105000,
+    "minDano": 12000,
+    "maxDano": 12000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "12.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "green tunic",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2652
+      },
+      {
+        "name": "mammoth whopper",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 7381
+      },
+      {
+        "name": "scimitar",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2419
+      },
+      {
+        "name": "barbarian axe",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2429
+      },
+      {
+        "name": "dark helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2490
+      },
+      {
+        "name": "soldier helmet",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2481
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Smuggler",
+    "tier": "tier1",
+    "hp": 30000,
+    "xp": 20625,
+    "speed": 210,
+    "looktype": 134,
+    "levelRange": "10k ao 10.5k",
+    "levelMin": 10000,
+    "levelMax": 105000,
+    "minDano": 21250,
+    "maxDano": 21250,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "21.250",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "green tunic",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2652
+      },
+      {
+        "name": "mammoth whopper",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 7381
+      },
+      {
+        "name": "scimitar",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2419
+      },
+      {
+        "name": "barbarian axe",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2429
+      },
+      {
+        "name": "dark helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2490
+      },
+      {
+        "name": "soldier helmet",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2481
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Scarab",
+    "tier": "tier1",
+    "hp": 28000,
+    "xp": 22500,
+    "speed": 160,
+    "looktype": 83,
+    "levelRange": "10.5k ao 11k",
+    "levelMin": 105000,
+    "levelMax": 11000,
+    "minDano": 22500,
+    "maxDano": 22500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "22.500",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "green tunic",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2652
+      },
+      {
+        "name": "mammoth whopper",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 7381
+      },
+      {
+        "name": "scimitar",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2419
+      },
+      {
+        "name": "barbarian axe",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2429
+      },
+      {
+        "name": "dark helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2490
+      },
+      {
+        "name": "soldier helmet",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2481
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Larva",
+    "tier": "tier1",
+    "hp": 15000,
+    "xp": 24375,
+    "speed": 135,
+    "looktype": 82,
+    "levelRange": "10.5k ao 11k",
+    "levelMin": 105000,
+    "levelMax": 11000,
+    "minDano": 18000,
+    "maxDano": 18000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "18.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "green tunic",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2652
+      },
+      {
+        "name": "mammoth whopper",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 7381
+      },
+      {
+        "name": "scimitar",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2419
+      },
+      {
+        "name": "barbarian axe",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2429
+      },
+      {
+        "name": "dark helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2490
+      },
+      {
+        "name": "soldier helmet",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2481
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Gladiator",
+    "tier": "tier1",
+    "hp": 25000,
+    "xp": 26250,
+    "speed": 200,
+    "looktype": 131,
+    "levelRange": "11k ao 11.5k",
+    "levelMin": 11000,
+    "levelMax": 115000,
+    "minDano": 30875,
+    "maxDano": 30875,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "30.875",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "belted cape",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 8872
+      },
+      {
+        "name": "war hammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2391
+      },
+      {
+        "name": "heavy machete",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2442
+      },
+      {
+        "name": "battle axe",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2378
+      },
+      {
+        "name": "giant smithhammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2321
+      },
+      {
+        "name": "viking helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2473
+      },
+      {
+        "name": "brass legs",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2478
+      },
+      {
+        "name": "throwing knife",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2410
+      },
+      {
+        "name": "moonlight rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2186
+      },
+      {
+        "name": "wand of dragonbreath",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2191
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Gazer",
+    "tier": "tier1",
+    "hp": 21000,
+    "xp": 28500,
+    "speed": 240,
+    "looktype": 109,
+    "levelRange": "11.5k ao 12k",
+    "levelMin": 115000,
+    "levelMax": 12000,
+    "minDano": 25000,
+    "maxDano": 25000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "25.000",
+    "magicDamage": "Lifedrain 5.000–6.333",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "belted cape",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 8872
+      },
+      {
+        "name": "war hammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2391
+      },
+      {
+        "name": "heavy machete",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2442
+      },
+      {
+        "name": "battle axe",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2378
+      },
+      {
+        "name": "giant smithhammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2321
+      },
+      {
+        "name": "viking helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2473
+      },
+      {
+        "name": "brass legs",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2478
+      },
+      {
+        "name": "throwing knife",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2410
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Beholder",
+    "tier": "tier1",
+    "hp": 27000,
+    "xp": 30750,
+    "speed": 150,
+    "looktype": 17,
+    "levelRange": "11.5k ao 12k",
+    "levelMin": 115000,
+    "levelMax": 12000,
+    "minDano": 6300,
+    "maxDano": 6300,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "6.300",
+    "magicDamage": "Energia 3.500–10.500",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "tusk shield",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 3973
+      },
+      {
+        "name": "belted cape",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 8872
+      },
+      {
+        "name": "war hammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2391
+      },
+      {
+        "name": "heavy machete",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2442
+      },
+      {
+        "name": "battle axe",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2378
+      },
+      {
+        "name": "giant smithhammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2321
+      },
+      {
+        "name": "viking helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2473
+      },
+      {
+        "name": "brass legs",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2478
+      },
+      {
+        "name": "throwing knife",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2410
+      },
+      {
+        "name": "moonlight rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2186
+      },
+      {
+        "name": "wand of dragonbreath",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2191
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Bog Raider",
+    "tier": "tier1",
+    "hp": 30000,
+    "xp": 33000,
+    "speed": 300,
+    "looktype": 299,
+    "levelRange": "12k ao 12.5k",
+    "levelMin": 12000,
+    "levelMax": 125000,
+    "minDano": 1432,
+    "maxDano": 1432,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "1.432",
+    "magicDamage": "Terra 6.286–11.000",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "giant smithhammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2321
+      },
+      {
+        "name": "heavy machete",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2442
+      },
+      {
+        "name": "battle axe",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2378
+      },
+      {
+        "name": "war hammer",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2391
+      },
+      {
+        "name": "belted cape",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 8872
+      },
+      {
+        "name": "viking helmet",
+        "chance": 1,
+        "countmax": 1,
+        "itemid": 2473
+      },
+      {
+        "name": "brass legs",
+        "chance": 1.2,
+        "countmax": 1,
+        "itemid": 2478
+      },
+      {
+        "name": "throwing knife",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2410
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Priestess",
+    "tier": "tier1",
+    "hp": 22000,
+    "xp": 36000,
+    "speed": 220,
+    "looktype": 58,
+    "levelRange": "12.5k ao 13k",
+    "levelMin": 125000,
+    "levelMax": 13000,
+    "minDano": 25875,
+    "maxDano": 25875,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "25.875",
+    "magicDamage": "Morte 3.162–7.187",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "giant smithhammer",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2321
+      },
+      {
+        "name": "bone sword",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2450
+      },
+      {
+        "name": "sickle",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2405
+      },
+      {
+        "name": "daramanian mace",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2439
+      },
+      {
+        "name": "spellbook",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 2175
+      },
+      {
+        "name": "damaged steel helmet",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 5924
+      },
+      {
+        "name": "bunny slippers",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2644
+      },
+      {
+        "name": "crossbow",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2455
+      },
+      {
+        "name": "moonlight rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2186
+      },
+      {
+        "name": "wand of dragonbreath",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2191
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Novice of the Cult",
+    "tier": "tier1",
+    "hp": 23000,
+    "xp": 39000,
+    "speed": 210,
+    "looktype": 133,
+    "levelRange": "13k ao 13.5k",
+    "levelMin": 13000,
+    "levelMax": 135000,
+    "minDano": 27000,
+    "maxDano": 27000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "27.000",
+    "magicDamage": "Lifedrain 4.457–4.800",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "giant smithhammer",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2321
+      },
+      {
+        "name": "bone sword",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2450
+      },
+      {
+        "name": "sickle",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2405
+      },
+      {
+        "name": "daramanian mace",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2439
+      },
+      {
+        "name": "spellbook",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 2175
+      },
+      {
+        "name": "damaged steel helmet",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 5924
+      },
+      {
+        "name": "bunny slippers",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2644
+      },
+      {
+        "name": "crossbow",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2455
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Polar Bear",
+    "tier": "tier1",
+    "hp": 28000,
+    "xp": 42000,
+    "speed": 156,
+    "looktype": 42,
+    "levelRange": "13.5k ao 14k",
+    "levelMin": 135000,
+    "levelMax": 14000,
+    "minDano": 29250,
+    "maxDano": 29250,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "29.250",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "daramanian mace",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2439
+      },
+      {
+        "name": "bone sword",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2450
+      },
+      {
+        "name": "sickle",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2405
+      },
+      {
+        "name": "spellbook",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 2175
+      },
+      {
+        "name": "damaged steel helmet",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 5924
+      },
+      {
+        "name": "bunny slippers",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2644
+      },
+      {
+        "name": "crossbow",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2455
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Winter Wolf",
+    "tier": "tier1",
+    "hp": 20000,
+    "xp": 45000,
+    "speed": 200,
+    "looktype": 52,
+    "levelRange": "13.5k ao 14k",
+    "levelMin": 135000,
+    "levelMax": 14000,
+    "minDano": 19375,
+    "maxDano": 19375,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "19.375",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "daramanian mace",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2439
+      },
+      {
+        "name": "bone sword",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2450
+      },
+      {
+        "name": "sickle",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2405
+      },
+      {
+        "name": "spellbook",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 2175
+      },
+      {
+        "name": "damaged steel helmet",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 5924
+      },
+      {
+        "name": "bunny slippers",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2644
+      },
+      {
+        "name": "crossbow",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2455
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Carniphila",
+    "tier": "tier1",
+    "hp": 22000,
+    "xp": 48000,
+    "speed": 220,
+    "looktype": 120,
+    "levelRange": "14k ao 14.5k",
+    "levelMin": 14000,
+    "levelMax": 145000,
+    "minDano": 33750,
+    "maxDano": 33750,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "33.750",
+    "magicDamage": "Terra 1.350–4.387",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "daramanian mace",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2439
+      },
+      {
+        "name": "bone sword",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2450
+      },
+      {
+        "name": "sickle",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2405
+      },
+      {
+        "name": "spellbook",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 2175
+      },
+      {
+        "name": "damaged steel helmet",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 5924
+      },
+      {
+        "name": "bunny slippers",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2644
+      },
+      {
+        "name": "crossbow",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2455
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Spit Nettle",
+    "tier": "tier1",
+    "hp": 15000,
+    "xp": 51000,
+    "speed": 0,
+    "looktype": 221,
+    "levelRange": "14k ao 14.5k",
+    "levelMin": 14000,
+    "levelMax": 145000,
+    "minDano": 0,
+    "maxDano": 0,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "—",
+    "magicDamage": "Veneno 8.167–14.000",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "daramanian mace",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2439
+      },
+      {
+        "name": "bone sword",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2450
+      },
+      {
+        "name": "sickle",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 2405
+      },
+      {
+        "name": "spellbook",
+        "chance": 0.6,
+        "countmax": 1,
+        "itemid": 2175
+      },
+      {
+        "name": "damaged steel helmet",
+        "chance": 0.5,
+        "countmax": 1,
+        "itemid": 5924
+      },
+      {
+        "name": "bunny slippers",
+        "chance": 0.8,
+        "countmax": 1,
+        "itemid": 2644
+      },
+      {
+        "name": "crossbow",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 2455
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Gozzler",
+    "tier": "tier1",
+    "hp": 24000,
+    "xp": 54000,
+    "speed": 200,
+    "looktype": 313,
+    "levelRange": "14.5k ao 15k",
+    "levelMin": 145000,
+    "levelMax": 15000,
+    "minDano": 42775,
+    "maxDano": 42775,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "42.775",
+    "magicDamage": "Lifedrain 3.107–5.179",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "clerical mace",
+        "chance": 0.3,
+        "countmax": 1,
+        "itemid": 2423
+      },
+      {
+        "name": "carlin sword",
+        "chance": 0.3,
+        "countmax": 1,
+        "itemid": 2395
+      },
+      {
+        "name": "longsword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2397
+      },
+      {
+        "name": "necrotic rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2185
+      },
+      {
+        "name": "wand of decay",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2188
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Zombie",
+    "tier": "tier1",
+    "hp": 24000,
+    "xp": 54000,
+    "speed": 200,
+    "looktype": 311,
+    "levelRange": "14.5k ao 15k",
+    "levelMin": 145000,
+    "levelMax": 15000,
+    "minDano": 10183,
+    "maxDano": 14500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "10.183–14.500",
+    "magicDamage": "Manadrain 204–916",
+    "loot": [
+      {
+        "name": "worm",
+        "chance": 100,
+        "countmax": 10,
+        "itemid": 3976
+      },
+      {
+        "name": "gold coin",
+        "chance": 100,
+        "countmax": 52,
+        "itemid": 2148
+      },
+      {
+        "name": "bag",
+        "chance": 100,
+        "countmax": 1,
+        "itemid": 1987
+      },
+      {
+        "name": "halberd",
+        "chance": 2.9,
+        "countmax": 1,
+        "itemid": 2381
+      },
+      {
+        "name": "mace",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2398
+      },
+      {
+        "name": "torch",
+        "chance": 20,
+        "countmax": 1,
+        "itemid": 2050
+      },
+      {
+        "name": "mana potion",
+        "chance": 4,
+        "countmax": 1,
+        "itemid": 7620
+      },
+      {
+        "name": "life ring",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 2168
+      },
+      {
+        "name": "necrotic rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2185
+      },
+      {
+        "name": "wand of decay",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2188
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Nightstalker",
+    "tier": "tier1",
+    "hp": 25000,
+    "xp": 56250,
+    "speed": 260,
+    "looktype": 320,
+    "levelRange": "14.5k ao 15k",
+    "levelMin": 145000,
+    "levelMax": 15000,
+    "minDano": 9375,
+    "maxDano": 15000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "9.375–15.000",
+    "magicDamage": "Divine Missile 1.687–3.187",
+    "loot": [
+      {
+        "name": "gold coin",
+        "chance": 40,
+        "countmax": 25,
+        "itemid": 2148
+      },
+      {
+        "name": "spellbook of enlightenment",
+        "chance": 2,
+        "countmax": 1,
+        "itemid": 8900
+      },
+      {
+        "name": "magician's robe",
+        "chance": 1.5,
+        "countmax": 1,
+        "itemid": 8819
+      },
+      {
+        "name": "clerical mace",
+        "chance": 0.3,
+        "countmax": 1,
+        "itemid": 2423
+      },
+      {
+        "name": "carlin sword",
+        "chance": 0.3,
+        "countmax": 1,
+        "itemid": 2395
+      },
+      {
+        "name": "longsword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2397
+      },
+      {
+        "name": "necrotic rod",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2185
+      },
+      {
+        "name": "wand of decay",
+        "chance": 10,
+        "countmax": 1,
+        "itemid": 2188
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Bat",
+    "tier": "tier2",
+    "hp": 80000,
+    "xp": 34650,
+    "speed": 200,
+    "looktype": 122,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 366,
+    "maxDano": 1100,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "366–1.100",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "hunting spear",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 3965
+      },
+      {
+        "name": "onyx arrow",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7365
+      },
+      {
+        "name": "leather armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2467
+      },
+      {
+        "name": "carlin sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2395
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Bear",
+    "tier": "tier2",
+    "hp": 168400,
+    "xp": 149450,
+    "speed": 350,
+    "looktype": 16,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 586,
+    "maxDano": 1760,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "586–1.760",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "tribal mask",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 3967
+      },
+      {
+        "name": "orcish axe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2428
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Snake",
+    "tier": "tier2",
+    "hp": 256800,
+    "xp": 264250,
+    "speed": 120,
+    "looktype": 28,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 806,
+    "maxDano": 2420,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "806–2.420",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "naginata",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2426
+      },
+      {
+        "name": "dark shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2521
+      },
+      {
+        "name": "scale armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2483
+      },
+      {
+        "name": "glacier shoes",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7892
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Toad",
+    "tier": "tier2",
+    "hp": 345200,
+    "xp": 379050,
+    "speed": 240,
+    "looktype": 222,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 1100,
+    "maxDano": 3300,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "1.100–3.300",
+    "magicDamage": "Físico (range) 1.100–3.300",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "dark shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2521
+      },
+      {
+        "name": "crystal mace",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2445
+      },
+      {
+        "name": "orcish axe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2428
+      },
+      {
+        "name": "onyx arrow",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7365
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Black Sheep",
+    "tier": "tier2",
+    "hp": 433600,
+    "xp": 493850,
+    "speed": 200,
+    "looktype": 13,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 1394,
+    "maxDano": 4180,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "1.394–4.180",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "bright sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2407
+      },
+      {
+        "name": "doublet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2485
+      },
+      {
+        "name": "onyx arrow",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7365
+      },
+      {
+        "name": "daramanian waraxe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2440
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Cobra",
+    "tier": "tier2",
+    "hp": 522000,
+    "xp": 608720,
+    "speed": 170,
+    "looktype": 81,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 1686,
+    "maxDano": 5060,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "1.686–5.060",
+    "magicDamage": "Veneno 1.686–5.060",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "doublet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2485
+      },
+      {
+        "name": "crimson sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7385
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      },
+      {
+        "name": "dragon hammer",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2434
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Sandcrawler",
+    "tier": "tier2",
+    "hp": 610400,
+    "xp": 723520,
+    "speed": 220,
+    "looktype": 350,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 2016,
+    "maxDano": 6050,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "2.016–6.050",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "two handed sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2377
+      },
+      {
+        "name": "scarab shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2540
+      },
+      {
+        "name": "jagged sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8602
+      },
+      {
+        "name": "spike sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2383
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Centipede",
+    "tier": "tier2",
+    "hp": 698800,
+    "xp": 838320,
+    "speed": 195,
+    "looktype": 124,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 2346,
+    "maxDano": 7040,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "2.346–7.040",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "spike sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2383
+      },
+      {
+        "name": "hunting spear",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 3965
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "orcish axe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2428
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Mummy",
+    "tier": "tier2",
+    "hp": 787200,
+    "xp": 953120,
+    "speed": 220,
+    "looktype": 65,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 2676,
+    "maxDano": 8030,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "2.676–8.030",
+    "magicDamage": "Lifedrain 2.676–8.030",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 72,
+        "itemid": 2152
+      },
+      {
+        "name": "orcish axe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2428
+      },
+      {
+        "name": "studded armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2484
+      },
+      {
+        "name": "doublet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2485
+      },
+      {
+        "name": "bright sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2407
+      },
+      {
+        "name": "wand of draconia",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8921
+      },
+      {
+        "name": "northwind rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8911
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Scorpion",
+    "tier": "tier2",
+    "hp": 875600,
+    "xp": 1067920,
+    "speed": 150,
+    "looktype": 43,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 3006,
+    "maxDano": 9020,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "3.006–9.020",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "scarab shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2540
+      },
+      {
+        "name": "spike sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2383
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      },
+      {
+        "name": "orcish maul",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7392
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Troll",
+    "tier": "tier2",
+    "hp": 964000,
+    "xp": 1182720,
+    "speed": 126,
+    "looktype": 15,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 3336,
+    "maxDano": 10010,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "3.336–10.010",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "dragon hammer",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2434
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "daramanian waraxe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2440
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      },
+      {
+        "name": "serpent sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2409
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Terror Bird",
+    "tier": "tier2",
+    "hp": 1052400,
+    "xp": 1297520,
+    "speed": 280,
+    "looktype": 218,
+    "levelRange": "15.000 ao 27.500",
+    "levelMin": 15000,
+    "levelMax": 27500,
+    "minDano": 3666,
+    "maxDano": 11000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "3.666–11.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 40,
+        "itemid": 2152
+      },
+      {
+        "name": "legion helmet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2480
+      },
+      {
+        "name": "dark shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2521
+      },
+      {
+        "name": "earmuffs",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7459
+      },
+      {
+        "name": "leather armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2467
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Terramite",
+    "tier": "tier2",
+    "hp": 1140800,
+    "xp": 1412320,
+    "speed": 220,
+    "looktype": 346,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 4034,
+    "maxDano": 12100,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "4.034–12.100",
+    "magicDamage": "Energia 4.034–12.100",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "studded armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2484
+      },
+      {
+        "name": "dark shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2521
+      },
+      {
+        "name": "tribal mask",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 3967
+      },
+      {
+        "name": "dragonbone staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7430
+      },
+      {
+        "name": "feather headdress",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 3970
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Demon Skeleton",
+    "tier": "tier2",
+    "hp": 1229200,
+    "xp": 1527120,
+    "speed": 230,
+    "looktype": 37,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 4400,
+    "maxDano": 13200,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "4.400–13.200",
+    "magicDamage": "Lifedrain 4.400–13.200",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "orcish maul",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7392
+      },
+      {
+        "name": "scale armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2483
+      },
+      {
+        "name": "scarab shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2540
+      },
+      {
+        "name": "wand of draconia",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8921
+      },
+      {
+        "name": "northwind rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8911
+      },
+      {
+        "name": "katana",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2412
+      },
+      {
+        "name": "ranger's cloak",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2660
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Slime",
+    "tier": "tier2",
+    "hp": 1317600,
+    "xp": 1641920,
+    "speed": 120,
+    "looktype": 19,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 4766,
+    "maxDano": 14300,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "4.766–14.300",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "scarab shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2540
+      },
+      {
+        "name": "serpent sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2409
+      },
+      {
+        "name": "doublet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2485
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "broadsword",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2413
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Tiger",
+    "tier": "tier2",
+    "hp": 1406000,
+    "xp": 1756790,
+    "speed": 240,
+    "looktype": 125,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 5134,
+    "maxDano": 15400,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "5.134–15.400",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "scale armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2483
+      },
+      {
+        "name": "serpent sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2409
+      },
+      {
+        "name": "jagged sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8602
+      },
+      {
+        "name": "doublet axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2447
+      },
+      {
+        "name": "brass armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2465
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Elephant",
+    "tier": "tier2",
+    "hp": 1494400,
+    "xp": 1871590,
+    "speed": 240,
+    "looktype": 211,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 5500,
+    "maxDano": 16500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "5.500–16.500",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "headchopper",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7380
+      },
+      {
+        "name": "onyx arrow",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7365
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      },
+      {
+        "name": "ranger's cloak",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2660
+      },
+      {
+        "name": "ball gown",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2659
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Mammoth",
+    "tier": "tier2",
+    "hp": 1582800,
+    "xp": 1986390,
+    "speed": 240,
+    "looktype": 199,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 5866,
+    "maxDano": 17600,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "5.866–17.600",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "legion helmet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2480
+      },
+      {
+        "name": "scale armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2483
+      },
+      {
+        "name": "dragon hammer",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2434
+      },
+      {
+        "name": "ranger's cloak",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2660
+      },
+      {
+        "name": "terra boots",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7886
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Hyaena",
+    "tier": "tier2",
+    "hp": 1671200,
+    "xp": 2101190,
+    "speed": 206,
+    "looktype": 94,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 6234,
+    "maxDano": 18700,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "6.234–18.700",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "leather armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2467
+      },
+      {
+        "name": "legion helmet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2480
+      },
+      {
+        "name": "terra boots",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7886
+      },
+      {
+        "name": "dragonbone staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7430
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Lion",
+    "tier": "tier2",
+    "hp": 1759600,
+    "xp": 2215990,
+    "speed": 180,
+    "looktype": 41,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 6600,
+    "maxDano": 19800,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "6.600–19.800",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "chain armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2464
+      },
+      {
+        "name": "crimson sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7385
+      },
+      {
+        "name": "bright sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2407
+      },
+      {
+        "name": "broadsword",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2413
+      },
+      {
+        "name": "mining helmet",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7497
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Ghost",
+    "tier": "tier2",
+    "hp": 1848000,
+    "xp": 2330790,
+    "speed": 160,
+    "looktype": 48,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 6966,
+    "maxDano": 20900,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "6.966–20.900",
+    "magicDamage": "Lifedrain 6.966–20.900",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "crimson sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7385
+      },
+      {
+        "name": "naginata",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2426
+      },
+      {
+        "name": "legion helmet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2480
+      },
+      {
+        "name": "wand of cosmic energy",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2189
+      },
+      {
+        "name": "terra rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2181
+      },
+      {
+        "name": "spellbook novice",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 8901
+      },
+      {
+        "name": "epee",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2438
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Crocodile",
+    "tier": "tier2",
+    "hp": 1936400,
+    "xp": 2445590,
+    "speed": 420,
+    "looktype": 119,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 7334,
+    "maxDano": 22000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "7.334–22.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "orcish maul",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7392
+      },
+      {
+        "name": "earmuffs",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7459
+      },
+      {
+        "name": "amber staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7426
+      },
+      {
+        "name": "hat of the mad",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2323
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Panda",
+    "tier": "tier2",
+    "hp": 2024800,
+    "xp": 2560390,
+    "speed": 240,
+    "looktype": 123,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 7700,
+    "maxDano": 23100,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "7.700–23.100",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "naginata",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2426
+      },
+      {
+        "name": "serpent sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2409
+      },
+      {
+        "name": "orcish axe",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2428
+      },
+      {
+        "name": "magma boots",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7891
+      },
+      {
+        "name": "ball gown",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2659
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Mutated Tiger",
+    "tier": "tier2",
+    "hp": 2113200,
+    "xp": 2675190,
+    "speed": 245,
+    "looktype": 318,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 8066,
+    "maxDano": 24200,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "8.066–24.200",
+    "magicDamage": "Físico (área) 0–24.200",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "strange helmet",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2479
+      },
+      {
+        "name": "plate legs",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2647
+      },
+      {
+        "name": "spike sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2383
+      },
+      {
+        "name": "fur shorts",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7464
+      },
+      {
+        "name": "hat of the mad",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2323
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Mutated Bat",
+    "tier": "tier2",
+    "hp": 2201600,
+    "xp": 2789990,
+    "speed": 345,
+    "looktype": 307,
+    "levelRange": "27.500 ao 40.000",
+    "levelMin": 27500,
+    "levelMax": 40000,
+    "minDano": 8434,
+    "maxDano": 25300,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "2",
+    "physicalDamage": "8.434–25.300",
+    "magicDamage": "Terra 120–25.300",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 90,
+        "itemid": 2152
+      },
+      {
+        "name": "plate legs",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2647
+      },
+      {
+        "name": "crystal mace",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2445
+      },
+      {
+        "name": "onyx arrow",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7365
+      },
+      {
+        "name": "feather headdress",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 3970
+      },
+      {
+        "name": "tower shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2528
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Rotworm",
+    "tier": "tier2",
+    "hp": 2290000,
+    "xp": 2904860,
+    "speed": 180,
+    "looktype": 26,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 8800,
+    "maxDano": 26400,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "8.800–26.400",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "dark shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2521
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      },
+      {
+        "name": "tower shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2528
+      },
+      {
+        "name": "fur shorts",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7464
+      },
+      {
+        "name": "broadsword",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2413
+      },
+      {
+        "name": "piercing bolt",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7363
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Carrion Worm",
+    "tier": "tier2",
+    "hp": 2378400,
+    "xp": 3019660,
+    "speed": 190,
+    "looktype": 192,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 9166,
+    "maxDano": 27500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "9.166–27.500",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "crystal mace",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2445
+      },
+      {
+        "name": "dragon shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2516
+      },
+      {
+        "name": "feather headdress",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 3970
+      },
+      {
+        "name": "epee",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2438
+      },
+      {
+        "name": "cranial basher",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7415
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Rotworm Queen",
+    "tier": "tier2",
+    "hp": 2466800,
+    "xp": 3134460,
+    "speed": 200,
+    "looktype": 295,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 9534,
+    "maxDano": 28600,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "9.534–28.600",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "naginata",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2426
+      },
+      {
+        "name": "bright sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2407
+      },
+      {
+        "name": "flower wreath",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 9927
+      },
+      {
+        "name": "heroic axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7389
+      },
+      {
+        "name": "terra boots",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7886
+      },
+      {
+        "name": "terra mantle",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7884
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Frost Troll",
+    "tier": "tier2",
+    "hp": 2555200,
+    "xp": 3249260,
+    "speed": 190,
+    "looktype": 53,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 9900,
+    "maxDano": 29700,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "9.900–29.700",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "scale armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2483
+      },
+      {
+        "name": "chain armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2464
+      },
+      {
+        "name": "broadsword",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2413
+      },
+      {
+        "name": "flower wreath",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 9927
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "lightning robe",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7898
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Swamp Troll",
+    "tier": "tier2",
+    "hp": 2643600,
+    "xp": 3364060,
+    "speed": 128,
+    "looktype": 76,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 10266,
+    "maxDano": 30800,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "10.266–30.800",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "studded armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2484
+      },
+      {
+        "name": "bright sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2407
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "fur hood",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7458
+      },
+      {
+        "name": "solar bow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7438
+      },
+      {
+        "name": "warrior helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2475
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Troll Champion",
+    "tier": "tier2",
+    "hp": 2732000,
+    "xp": 3478860,
+    "speed": 120,
+    "looktype": 281,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 10634,
+    "maxDano": 31900,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "10.634–31.900",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "jagged sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8602
+      },
+      {
+        "name": "guardian halberd",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2427
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "heroic axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7389
+      },
+      {
+        "name": "sniper arrow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7364
+      },
+      {
+        "name": "spirit cloak",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 8870
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Dworc Venomsniper",
+    "tier": "tier2",
+    "hp": 2820400,
+    "xp": 3593660,
+    "speed": 240,
+    "looktype": 216,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 11000,
+    "maxDano": 33000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "11.000–33.000",
+    "magicDamage": "Veneno 11.000–33.000",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "earmuffs",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7459
+      },
+      {
+        "name": "bright sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2407
+      },
+      {
+        "name": "doublet axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2447
+      },
+      {
+        "name": "guardian shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2515
+      },
+      {
+        "name": "epee",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2438
+      },
+      {
+        "name": "magma coat",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7899
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Dworc Fleshhunter",
+    "tier": "tier2",
+    "hp": 2908800,
+    "xp": 3708460,
+    "speed": 240,
+    "looktype": 215,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 11366,
+    "maxDano": 34100,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "11.366–34.100",
+    "magicDamage": "Físico (range) 11.366–34.100",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "jagged sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 8602
+      },
+      {
+        "name": "spike sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2383
+      },
+      {
+        "name": "mining helmet",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7497
+      },
+      {
+        "name": "doublet axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2447
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "golden sickle",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2418
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Dworc Voodoomaster",
+    "tier": "tier2",
+    "hp": 2997200,
+    "xp": 3823260,
+    "speed": 560,
+    "looktype": 214,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 11734,
+    "maxDano": 35200,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "11.734–35.200",
+    "magicDamage": "Veneno (área) 11.734–35.200",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "orcish maul",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7392
+      },
+      {
+        "name": "dwarven shield",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2525
+      },
+      {
+        "name": "wand of cosmic energy",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2189
+      },
+      {
+        "name": "terra rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2181
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "spellbook novice",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 8901
+      },
+      {
+        "name": "doublet axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2447
+      },
+      {
+        "name": "piercing bolt",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7363
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Wolf",
+    "tier": "tier2",
+    "hp": 3085600,
+    "xp": 3938060,
+    "speed": 195,
+    "looktype": 27,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 12100,
+    "maxDano": 36300,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "12.100–36.300",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "earmuffs",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7459
+      },
+      {
+        "name": "orcish maul",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7392
+      },
+      {
+        "name": "fur hood",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7458
+      },
+      {
+        "name": "fur shorts",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7464
+      },
+      {
+        "name": "guardian shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2515
+      },
+      {
+        "name": "crown helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2491
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "War Wolf",
+    "tier": "tier2",
+    "hp": 3174000,
+    "xp": 4052930,
+    "speed": 200,
+    "looktype": 3,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 12466,
+    "maxDano": 37400,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "12.466–37.400",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "scale armor",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2483
+      },
+      {
+        "name": "orcish maul",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7392
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "doublet axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2447
+      },
+      {
+        "name": "dragonbone staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7430
+      },
+      {
+        "name": "blacksteel sword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7406
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Werewolf",
+    "tier": "tier2",
+    "hp": 3262400,
+    "xp": 4167730,
+    "speed": 320,
+    "looktype": 308,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 12834,
+    "maxDano": 38500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "12.834–38.500",
+    "magicDamage": "Energia/Físico 12.834–38.500",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "serpent sword",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2409
+      },
+      {
+        "name": "headchopper",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 7380
+      },
+      {
+        "name": "epee",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2438
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "magma boots",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7891
+      },
+      {
+        "name": "crystal sword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7449
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Dark Magician",
+    "tier": "tier2",
+    "hp": 3350800,
+    "xp": 4282530,
+    "speed": 230,
+    "looktype": 133,
+    "levelRange": "40.000 ao 52.500",
+    "levelMin": 40000,
+    "levelMax": 52500,
+    "minDano": 13200,
+    "maxDano": 39600,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "3",
+    "physicalDamage": "13.200–39.600",
+    "magicDamage": "Energia/Fogo 13.200–39.600",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "crystal mace",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2445
+      },
+      {
+        "name": "tribal mask",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 3967
+      },
+      {
+        "name": "wand of cosmic energy",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2189
+      },
+      {
+        "name": "terra rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2181
+      },
+      {
+        "name": "ranger's cloak",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2660
+      },
+      {
+        "name": "modified crossbow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 8849
+      },
+      {
+        "name": "royal axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7434
+      },
+      {
+        "name": "terra mantle",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7884
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Dark Apprentice",
+    "tier": "tier2",
+    "hp": 3439200,
+    "xp": 4397330,
+    "speed": 220,
+    "looktype": 133,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 13566,
+    "maxDano": 40700,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "13.566–40.700",
+    "magicDamage": "Energia/Fogo 13.566–40.700",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "wand of inferno",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2187
+      },
+      {
+        "name": "hailstorm rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2183
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "flower wreath",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 9927
+      },
+      {
+        "name": "dark armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2489
+      },
+      {
+        "name": "ball gown",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2659
+      },
+      {
+        "name": "crown helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2491
+      },
+      {
+        "name": "piercing bolt",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7363
+      },
+      {
+        "name": "spellbook of mind control",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 8902
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Kongra",
+    "tier": "tier2",
+    "hp": 3527600,
+    "xp": 4512130,
+    "speed": 184,
+    "looktype": 116,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 13934,
+    "maxDano": 41800,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "13.934–41.800",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "tower shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2528
+      },
+      {
+        "name": "mining helmet",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7497
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "sniper arrow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7364
+      },
+      {
+        "name": "throwing star",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2399
+      },
+      {
+        "name": "viking shield",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2531
+      },
+      {
+        "name": "blacksteel sword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7406
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Sibang",
+    "tier": "tier2",
+    "hp": 3616000,
+    "xp": 4626930,
+    "speed": 214,
+    "looktype": 118,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 14300,
+    "maxDano": 42900,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "14.300–42.900",
+    "magicDamage": "Físico (range) 14.300–42.900",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "heroic axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7389
+      },
+      {
+        "name": "mining helmet",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7497
+      },
+      {
+        "name": "ranger legs",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 8923
+      },
+      {
+        "name": "broadsword",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2413
+      },
+      {
+        "name": "ice rapier",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2396
+      },
+      {
+        "name": "crown helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2491
+      },
+      {
+        "name": "dreaded cleaver",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7419
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Merlkin",
+    "tier": "tier2",
+    "hp": 3704400,
+    "xp": 4741730,
+    "speed": 194,
+    "looktype": 117,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 14666,
+    "maxDano": 44000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "14.666–44.000",
+    "magicDamage": "Fogo/Energia 14.666–44.000",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "wand of inferno",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2187
+      },
+      {
+        "name": "hailstorm rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2183
+      },
+      {
+        "name": "dragon shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2516
+      },
+      {
+        "name": "dragonbone staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7430
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "ranger's cloak",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2660
+      },
+      {
+        "name": "lightning robe",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7898
+      },
+      {
+        "name": "taurus mace",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7425
+      },
+      {
+        "name": "steel helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2457
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Gargoyle",
+    "tier": "tier2",
+    "hp": 3792800,
+    "xp": 4856530,
+    "speed": 250,
+    "looktype": 95,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 15034,
+    "maxDano": 45100,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "15.034–45.100",
+    "magicDamage": "Físico (range) 15.034–45.100",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "tower shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2528
+      },
+      {
+        "name": "sniper arrow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7364
+      },
+      {
+        "name": "fur shorts",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7464
+      },
+      {
+        "name": "dark armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2489
+      },
+      {
+        "name": "magma coat",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7899
+      },
+      {
+        "name": "ice rapier",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2396
+      },
+      {
+        "name": "piercing bolt",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7363
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Blood Crab",
+    "tier": "tier2",
+    "hp": 3881200,
+    "xp": 4971330,
+    "speed": 210,
+    "looktype": 200,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 15400,
+    "maxDano": 46200,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "15.400–46.200",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "ranger's cloak",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2660
+      },
+      {
+        "name": "heroic axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7389
+      },
+      {
+        "name": "solar bow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7438
+      },
+      {
+        "name": "ball gown",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2659
+      },
+      {
+        "name": "obsidian lance",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2425
+      },
+      {
+        "name": "dragon lance",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2414
+      },
+      {
+        "name": "steel boots",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2645
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Thornback Tortoise",
+    "tier": "tier2",
+    "hp": 3969600,
+    "xp": 5086130,
+    "speed": 200,
+    "looktype": 198,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 16500,
+    "maxDano": 49500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "16.500–49.500",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "ranger legs",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 8923
+      },
+      {
+        "name": "katana",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2412
+      },
+      {
+        "name": "hat of the mad",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2323
+      },
+      {
+        "name": "broadsword",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2413
+      },
+      {
+        "name": "steel helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2457
+      },
+      {
+        "name": "dreaded cleaver",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7419
+      },
+      {
+        "name": "warrior helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2475
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Elder Beholder",
+    "tier": "tier2",
+    "hp": 4058000,
+    "xp": 5201000,
+    "speed": 270,
+    "looktype": 108,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 15766,
+    "maxDano": 47300,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "15.766–47.300",
+    "magicDamage": "Energia/Fogo/Veneno/Lifedrain 15.766–47.300",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "wand of inferno",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2187
+      },
+      {
+        "name": "hailstorm rod",
+        "chance": 30,
+        "countmax": 1,
+        "itemid": 2183
+      },
+      {
+        "name": "flower wreath",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 9927
+      },
+      {
+        "name": "feather headdress",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 3970
+      },
+      {
+        "name": "royal axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7434
+      },
+      {
+        "name": "mining helmet",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7497
+      },
+      {
+        "name": "dreaded cleaver",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7419
+      },
+      {
+        "name": "golden sickle",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2418
+      },
+      {
+        "name": "lich staff",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 3961
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Braindeath",
+    "tier": "tier2",
+    "hp": 4146400,
+    "xp": 5315800,
+    "speed": 270,
+    "looktype": 256,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 16134,
+    "maxDano": 48400,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "16.134–48.400",
+    "magicDamage": "Energia/Fogo/Veneno/Lifedrain 16.134–48.400",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "fur shorts",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7464
+      },
+      {
+        "name": "brutetamer's staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7379
+      },
+      {
+        "name": "flower wreath",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 9927
+      },
+      {
+        "name": "royal axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7434
+      },
+      {
+        "name": "taurus mace",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7425
+      },
+      {
+        "name": "xas robe",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7897
+      },
+      {
+        "name": "lightning boots",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7893
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Insect Swarm",
+    "tier": "tier2",
+    "hp": 4234800,
+    "xp": 5430600,
+    "speed": 100,
+    "looktype": 349,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 7334,
+    "maxDano": 22000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "7.334–22.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "guardian shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2515
+      },
+      {
+        "name": "royal axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7434
+      },
+      {
+        "name": "dragon shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2516
+      },
+      {
+        "name": "dragonbone staff",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7430
+      },
+      {
+        "name": "lightning boots",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7893
+      },
+      {
+        "name": "crown helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2491
+      },
+      {
+        "name": "spirit cloak",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 8870
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Gnarlhound",
+    "tier": "tier2",
+    "hp": 4323200,
+    "xp": 5545400,
+    "speed": 206,
+    "looktype": 341,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 11000,
+    "maxDano": 33000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "11.000–33.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "solar bow",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7438
+      },
+      {
+        "name": "dragon shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2516
+      },
+      {
+        "name": "epee",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2438
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "crystal sword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7449
+      },
+      {
+        "name": "viking shield",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2531
+      },
+      {
+        "name": "dreaded cleaver",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7419
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Worker Golem",
+    "tier": "tier2",
+    "hp": 4411600,
+    "xp": 5660200,
+    "speed": 270,
+    "looktype": 304,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 16500,
+    "maxDano": 49500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "16.500–49.500",
+    "magicDamage": "Físico (range) 16.500–49.500",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "guardian shield",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2515
+      },
+      {
+        "name": "feather headdress",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 3970
+      },
+      {
+        "name": "brass armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2465
+      },
+      {
+        "name": "heroic axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7389
+      },
+      {
+        "name": "golden sickle",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2418
+      },
+      {
+        "name": "xas robe",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7897
+      },
+      {
+        "name": "viking shield",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2531
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "War Golem",
+    "tier": "tier2",
+    "hp": 4500000,
+    "xp": 5775000,
+    "speed": 270,
+    "looktype": 326,
+    "levelRange": "52.500 ao 65.000",
+    "levelMin": 52500,
+    "levelMax": 65000,
+    "minDano": 16500,
+    "maxDano": 49500,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "4",
+    "physicalDamage": "16.500–49.500",
+    "magicDamage": "Energia 16.500–49.500",
+    "loot": [
+      {
+        "name": "gold",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2148
+      },
+      {
+        "name": "platinum",
+        "chance": 100,
+        "countmax": 100,
+        "itemid": 2152
+      },
+      {
+        "name": "glorious axe",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 7454
+      },
+      {
+        "name": "epee",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2438
+      },
+      {
+        "name": "plate armor",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 2463
+      },
+      {
+        "name": "flower wreath",
+        "chance": 3,
+        "countmax": 1,
+        "itemid": 9927
+      },
+      {
+        "name": "blacksteel sword",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7406
+      },
+      {
+        "name": "steel helmet",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 2457
+      },
+      {
+        "name": "xas robe",
+        "chance": 0.2,
+        "countmax": 1,
+        "itemid": 7897
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Aegis",
+    "tier": "bosses",
+    "hp": 100000,
+    "xp": 0,
+    "speed": 605,
+    "looktype": 287,
+    "levelRange": "100.000+",
+    "levelMin": 100000,
+    "levelMax": 100000,
+    "minDano": 0,
+    "maxDano": 0,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "Boss",
+    "physicalDamage": "",
+    "magicDamage": "",
+    "loot": []
+  }
+]

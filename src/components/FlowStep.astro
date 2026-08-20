@@ -1,0 +1,36 @@
+---
+export interface Props {
+  icon?: string;
+  title: string;
+  description?: string;
+  variant?: 'default' | 'gold' | 'success' | 'danger' | 'info';
+}
+
+const { icon, title, description, variant = 'default' } = Astro.props;
+
+const variantClasses = {
+  default: 'bg-tibia-bg/60 border-tibia-border-dark/30',
+  gold: 'bg-tibia-gold/10 border-tibia-gold/30',
+  success: 'bg-emerald-500/10 border-emerald-500/30',
+  danger: 'bg-red-500/10 border-red-500/30',
+  info: 'bg-blue-500/10 border-blue-500/30'
+};
+
+const iconClasses = {
+  default: 'text-tibia-gold',
+  gold: 'text-tibia-gold',
+  success: 'text-emerald-400',
+  danger: 'text-red-400',
+  info: 'text-blue-400'
+};
+---
+
+<div class={`relative flex-1 min-w-[180px] p-4 rounded-lg border ${variantClasses[variant]} transition-all duration-300 hover:scale-[1.02]`}>
+  {icon && (
+    <div class={`text-2xl mb-2 ${iconClasses[variant]}`}>{icon}</div>
+  )}
+  <h4 class="font-rpg text-sm text-tibia-text font-bold mb-1">{title}</h4>
+  {description && (
+    <p class="text-xs text-tibia-muted leading-relaxed">{description}</p>
+  )}
+</div>

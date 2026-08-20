@@ -1,0 +1,34 @@
+---
+export interface Props {
+  title: string;
+  defaultOpen?: boolean;
+}
+
+const { title, defaultOpen = false } = Astro.props;
+const uid = Math.random().toString(36).slice(2, 9);
+---
+
+<div class="my-3 rounded-lg border border-tibia-border-dark/30 bg-tibia-bg/40 overflow-hidden">
+  <button
+    type="button"
+    class="w-full flex items-center justify-between p-4 text-left transition-colors hover:bg-tibia-bg/60"
+    onclick={`document.getElementById('accordion-${uid}').classList.toggle('hidden'); this.querySelector('.accordion-icon').classList.toggle('rotate-180');`}
+  >
+    <span class="font-rpg text-sm text-tibia-gold font-bold tracking-wide">{title}</span>
+    <span class="accordion-icon text-tibia-muted transition-transform duration-300 {defaultOpen ? 'rotate-180' : ''}">▼</span>
+  </button>
+  <div id={`accordion-${uid}`} class={`px-4 pb-4 text-sm text-tibia-text/90 leading-relaxed ${defaultOpen ? '' : 'hidden'}`}>
+    <slot />
+  </div>
+</div>
+
+<script is:inline define:vars={{ uid, defaultOpen }}>
+  (function() {
+    const el = document.getElementById('accordion-' + uid);
+    const icon = document.querySelector('button[onclick*="accordion-' + uid + '"]').querySelector('.accordion-icon');
+    if (defaultOpen) {
+      el.classList.remove('hidden');
+      icon.classList.add('rotate-180');
+    }
+  })();
+</script>

@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import lores from '../data/lores.json';
+---
+
+<Layout title="Lore - IceYuriots Wiki">
+  <div class="max-w-4xl mx-auto space-y-8">
+    <div class="text-center">
+      <h2 class="font-rpg text-3xl text-tibia-gold font-bold tracking-wider mb-2">Crônicas de IceYuriots</h2>
+      <p class="text-tibia-muted text-sm">A história, lendas e profecias do servidor.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+      <!-- Menu de capítulos -->
+      <nav class="md:col-span-4 bg-tibia-panel/80 p-4 rounded rpg-border flex flex-col gap-2 sticky top-24">
+        <h3 class="font-rpg text-xs font-bold text-tibia-gold uppercase tracking-wider mb-2 border-b border-tibia-border-dark/20 pb-2">Capítulos</h3>
+        {lores.map((lore) => (
+          <a
+            href={`#lore-${lore.id}`}
+            class="text-left px-3 py-2 rounded text-sm border border-transparent text-tibia-muted hover:text-tibia-gold hover:border-tibia-gold/40 hover:bg-tibia-bg/40 transition-all"
+          >
+            {lore.title}
+          </a>
+        ))}
+      </nav>
+
+      <!-- Conteúdo -->
+      <div class="md:col-span-8 space-y-6">
+        {lores.map((lore) => (
+          <article id={`lore-${lore.id}`} class="bg-tibia-panel/85 p-6 rounded rpg-border scroll-mt-28">
+            <h3 class="font-rpg text-2xl text-tibia-gold font-bold tracking-wider mb-4 pb-2 border-b border-tibia-border-dark/30">
+              {lore.title}
+            </h3>
+            <div class="text-sm text-tibia-muted leading-relaxed space-y-4">
+              {lore.content.split('\n\n').map((paragraph) => (
+                <p>{paragraph}</p>
+              ))}
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>

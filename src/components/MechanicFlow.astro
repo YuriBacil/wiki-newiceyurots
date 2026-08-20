@@ -1,0 +1,19 @@
+---
+export interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+---
+
+<div class="my-8 p-5 rounded-lg bg-tibia-bg/40 border border-tibia-border-dark/30">
+  {title && (
+    <h4 class="font-rpg text-sm text-tibia-gold font-bold tracking-wider mb-4 flex items-center gap-2">
+      <span class="w-1.5 h-1.5 rounded-full bg-tibia-gold animate-pulse"></span>
+      {title}
+    </h4>
+  )}
+  <div class="flex flex-col md:flex-row gap-3 md:items-stretch">
+    <slot />
+  </div>
+</div>

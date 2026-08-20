@@ -1,0 +1,68 @@
+---
+import TierBadge from './TierBadge.astro';
+import MonsterSprite from './MonsterSprite.astro';
+
+interface Props {
+  id: number;
+  name: string;
+  tier: string;
+  hp: number;
+  xp: number;
+  levelRange?: string;
+  minDano?: number;
+  maxDano?: number;
+}
+
+const { id, name, tier, hp, xp, levelRange = '', minDano = 0, maxDano = 0 } = Astro.props;
+---
+
+<button
+  type="button"
+  data-monster-id={id}
+  data-tier={tier}
+  class="monster-card group w-full text-left bg-tibia-panel/80 border border-tibia-border-dark/30 hover:border-tibia-gold/40 transition-all cursor-pointer flex flex-col overflow-hidden relative rounded"
+>
+  <div class="absolute top-2 right-2 z-10">
+    <TierBadge tier={tier} />
+  </div>
+
+  <div class="relative h-52 border-b border-tibia-border-dark/15 flex items-center justify-center overflow-hidden bg-gradient-to-b from-tibia-bg/40 to-transparent">
+    <div class="absolute inset-0 sprite-container opacity-40"></div>
+    <MonsterSprite name={name} size="2xl" className="relative z-[1] group-hover:scale-110 transition-transform duration-300" />
+  </div>
+
+  <div class="p-4 flex flex-col flex-grow">
+    <h3 class="font-rpg text-base text-tibia-gold font-bold uppercase tracking-wide text-center group-hover:text-white transition-colors leading-tight">
+      {name}
+    </h3>
+    <span class="text-[10px] text-tibia-muted font-sans font-medium uppercase tracking-wider block text-center mt-1">
+      {levelRange || 'N/A'}
+    </span>
+
+    <div class="mt-4 pt-3 border-t border-tibia-border-dark/15 space-y-2">
+      <div class="flex items-center justify-between gap-2 text-xs">
+        <span class="flex items-center gap-1.5 text-tibia-muted font-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-emerald-400/80"><path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"/></svg>
+          HP
+        </span>
+        <strong class="font-mono tabular-nums text-emerald-400 text-xs">{hp.toLocaleString('pt-BR')}</strong>
+      </div>
+      <div class="flex items-center justify-between gap-2 text-xs">
+        <span class="flex items-center gap-1.5 text-tibia-muted font-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-tibia-gold/80"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"/></svg>
+          XP
+        </span>
+        <strong class="font-mono tabular-nums text-tibia-gold text-xs">+{xp.toLocaleString('pt-BR')}</strong>
+      </div>
+      {(minDano > 0 || maxDano > 0) && (
+        <div class="flex items-center justify-between gap-2 text-xs pt-2 border-t border-tibia-border-dark/10">
+          <span class="flex items-center gap-1.5 text-tibia-muted font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400/80"><path fill-rule="evenodd" d="M12.963 2.286a.75.75 0 00-1.071-.136 9.742 9.742 0 00-3.539 6.177 7.547 7.547 0 01-1.705-1.715.75.75 0 00-1.152-.082A9 9 0 1018 9.75c0-.423-.027-.835-.077-1.24a7.49 7.49 0 01-3.795 1.574 9.742 9.742 0 01-1.165-5.226z" clip-rule="evenodd"/></svg>
+            Dano
+          </span>
+          <strong class="font-mono tabular-nums text-red-400 text-xs">{minDano === maxDano ? maxDano.toLocaleString('pt-BR') : `${minDano.toLocaleString('pt-BR')} - ${maxDano.toLocaleString('pt-BR')}`}</strong>
+        </div>
+      )}
+    </div>
+  </div>
+</button>

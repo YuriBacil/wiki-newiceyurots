@@ -1,0 +1,658 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TierHubCard from '../components/TierHubCard.astro';
+import MonsterCard from '../components/MonsterCard.astro';
+import MonsterListItem from '../components/MonsterListItem.astro';
+import MonsterModal from '../components/MonsterModal.astro';
+import SearchInput from '../components/SearchInput.astro';
+import monsters from '../data/monsters.json';
+import type { Monster } from '../types';
+
+const tierConfig = [
+  { key: 'tier1', label: 'Tier 1', subtitle: 'Free', icon: '🌱', color: 'bg-emerald-500', locked: false },
+  { key: 'tier2', label: 'Tier 2', subtitle: 'City Collins', icon: '⚔️', color: 'bg-amber-500', locked: false },
+  { key: 'tier3', label: 'Tier 3', subtitle: 'Customs', icon: '🏰', color: 'bg-orange-500', locked: true },
+  { key: 'tier4', label: 'Tier 4', subtitle: 'Pharaonic', icon: '👑', color: 'bg-red-500', locked: true },
+  { key: 'bosses', label: 'Bosses', subtitle: 'Desafios Épicos', icon: '👹', color: 'bg-purple-500', locked: false },
+  { key: 'all', label: 'Todos', subtitle: 'Catálogo Completo', icon: '📚', color: 'bg-tibia-gold', locked: false },
+];
+
+const monstersByTier = monsters.reduce((acc, m) => {
+  acc[m.tier] = (acc[m.tier] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+const typedMonsters = monsters as Monster[];
+const sortedMonsters = [...typedMonsters].sort((a, b) => (a.levelMin || 0) - (b.levelMin || 0));
+---
+
+<Layout title="Bestiário - IceYuriots Wiki">
+  <div class="space-y-6 bestiary-page">
+    <!-- Header -->
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+      <div class="text-center md:text-left">
+        <h2 class="font-rpg text-3xl text-tibia-gold font-bold tracking-wider mb-2">Bestiário</h2>
+        <p class="text-tibia-muted text-sm">Explore as criaturas de cada tier e prepare-se para a caçada.</p>
+      </div>
+      <a
+        href="/"
+        class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-tibia-gold/30 text-tibia-gold hover:bg-tibia-gold/10 transition-colors text-sm font-semibold"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"/><path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z"/></svg>
+        Voltar à Home
+      </a>
+    </div>
+
+    <!-- Tier Hub -->
+    <div id="tier-hub" class="tier-hub grid grid-cols-2 gap-4 max-w-3xl mx-auto transition-all duration-700 ease-out">
+      {tierConfig.map((tier) => {
+        const orderClass = {
+          tier1: 'order-1',
+          tier2: 'order-2',
+          tier3: 'order-3',
+          tier4: 'order-4',
+          bosses: 'order-5',
+          all: 'order-6',
+        }[tier.key];
+        return (
+          <div class={orderClass}>
+            <TierHubCard
+              tier={tier.key}
+              label={tier.label}
+              subtitle={tier.subtitle}
+              count={tier.key === 'all' ? monsters.length : (monstersByTier[tier.key] || 0)}
+              color={tier.color}
+              locked={tier.locked}
+              icon={tier.icon}
+              assetFolder="bestiary-tiers"
+              countLabel="criaturas"
+            />
+          </div>
+        );
+      })}
+    </div>
+
+    <!-- Locked message -->
+    <div id="locked-message" class="hidden text-center py-16 animate-fade-in">
+      <div class="text-6xl mb-4">🔒</div>
+      <h3 class="font-rpg text-xl text-tibia-gold font-bold mb-2">Conteúdo em Produção</h3>
+      <p class="text-tibia-muted text-sm max-w-md mx-auto">
+        As criaturas deste tier ainda estão sendo catalogadas. Volte em breve para conferir as novidades!
+      </p>
+      <button
+        type="button"
+        id="locked-back-btn"
+        class="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-tibia-gold/30 text-tibia-gold hover:bg-tibia-gold/10 transition-colors text-sm font-semibold"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clip-rule="evenodd"/></svg>
+        Voltar ao Hub
+      </button>
+    </div>
+
+    <!-- Monster list controls -->
+    <div id="monsters-section" class="hidden space-y-4">
+      <div class="flex flex-col lg:flex-row gap-4 items-stretch lg:items-center justify-between bg-tibia-bg/60 p-3 rounded-lg border border-tibia-border-dark/25">
+        <div class="flex flex-wrap items-center gap-3">
+          <button
+            type="button"
+            id="back-to-hub-btn"
+            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-tibia-gold/30 text-tibia-gold hover:bg-tibia-gold/10 transition-colors text-xs font-bold uppercase tracking-wider"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clip-rule="evenodd"/></svg>
+            Voltar
+          </button>
+
+          <div class="h-6 w-px bg-tibia-border-dark/30 hidden sm:block"></div>
+
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-[10px] text-tibia-muted uppercase tracking-wider font-semibold">Ordenar</span>
+            <div class="flex items-center gap-1.5">
+              <button type="button" data-sort="level" class="sort-btn inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-tibia-border-dark/30 bg-tibia-panel text-xs font-medium text-tibia-text hover:border-tibia-gold/40 transition-colors" title="Ordenar por Level">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-tibia-gold"><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clip-rule="evenodd"/></svg>
+                Level
+                <span class="sort-arrow w-3.5 h-3.5 text-tibia-gold"></span>
+              </button>
+              <button type="button" data-sort="hp" class="sort-btn inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-tibia-border-dark/30 bg-tibia-panel text-xs font-medium text-tibia-text hover:border-tibia-gold/40 transition-colors" title="Ordenar por HP">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-red-400"><path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"/></svg>
+                HP
+                <span class="sort-arrow w-3.5 h-3.5 text-tibia-gold"></span>
+              </button>
+              <button type="button" data-sort="xp" class="sort-btn inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-tibia-border-dark/30 bg-tibia-panel text-xs font-medium text-tibia-text hover:border-tibia-gold/40 transition-colors" title="Ordenar por XP">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-amber-400"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"/></svg>
+                XP
+                <span class="sort-arrow w-3.5 h-3.5 text-tibia-gold"></span>
+              </button>
+              <button type="button" data-sort="name" class="sort-btn inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded border border-tibia-border-dark/30 bg-tibia-panel text-xs font-medium text-tibia-text hover:border-tibia-gold/40 transition-colors" title="Ordenar por Nome">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-400"><path fill-rule="evenodd" d="M2.25 5.25a3 3 0 013-3h13.5a3 3 0 013 3V15a3 3 0 01-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 01-.53 1.28h-9a.75.75 0 01-.53-1.28l.621-.622a2.25 2.25 0 00.659-1.591V18h-3a3 3 0 01-3-3V5.25zm1.5 0v9a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5z" clip-rule="evenodd"/></svg>
+                Nome
+                <span class="sort-arrow w-3.5 h-3.5 text-tibia-gold"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <div class="flex-1 min-w-[180px]">
+            <SearchInput id="monster-search" placeholder="Buscar criatura..." />
+          </div>
+
+          <div class="flex items-center bg-tibia-panel rounded-lg border border-tibia-border-dark/30 p-1">
+            <button
+              type="button"
+              id="view-cards"
+              class="view-toggle p-1.5 rounded text-tibia-gold bg-tibia-gold/10 transition-colors"
+              aria-label="Visualização em cards"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M15 3.75H9v16.5h6V3.75zm6.75 0h-5.25v16.5h5.25V3.75zM3.75 3.75H9v16.5H3.75V3.75z"/></svg>
+            </button>
+            <button
+              type="button"
+              id="view-list"
+              class="view-toggle p-1.5 rounded text-tibia-muted hover:text-tibia-gold transition-colors"
+              aria-label="Visualização em lista"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path fill-rule="evenodd" d="M2.625 6.75a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875 0A.75.75 0 018.25 6h12a.75.75 0 010 1.5h-12a.75.75 0 01-.75-.75zM2.625 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875 0a.75.75 0 01.75-.75h12a.75.75 0 010 1.5h-12a.75.75 0 01-.75-.75zM2.625 17.25a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875 0a.75.75 0 01.75-.75h12a.75.75 0 010 1.5h-12a.75.75 0 01-.75-.75z" clip-rule="evenodd"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="monsters-count" class="text-xs text-tibia-muted font-mono">
+        Exibindo 0 criaturas
+      </div>
+
+      <div id="monsters-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        {sortedMonsters.map((monster) => (
+          <MonsterCard
+            id={monster.id}
+            name={monster.name}
+            tier={monster.tier}
+            hp={monster.hp}
+            xp={monster.xp}
+            levelRange={monster.levelRange}
+            minDano={monster.minDano}
+            maxDano={monster.maxDano}
+          />
+        ))}
+      </div>
+
+      <div id="monsters-list" class="hidden flex-col gap-2">
+        {sortedMonsters.map((monster) => (
+          <MonsterListItem
+            id={monster.id}
+            name={monster.name}
+            tier={monster.tier}
+            hp={monster.hp}
+            xp={monster.xp}
+            levelRange={monster.levelRange}
+            minDano={monster.minDano}
+            maxDano={monster.maxDano}
+          />
+        ))}
+      </div>
+
+      <div id="no-results" class="hidden text-center py-16">
+        <p class="text-tibia-muted font-rpg text-lg">Nenhuma criatura encontrada.</p>
+        <p class="text-xs text-tibia-muted/60 mt-2">Tente outro termo de busca ou filtro.</p>
+      </div>
+    </div>
+  </div>
+
+  <MonsterModal />
+</Layout>
+
+<script is:inline define:vars={{ monstersData: typedMonsters }}>
+  window.MONSTERS_DATA = monstersData;
+</script>
+
+<script>
+  import type { Monster, MonsterLoot } from '../types';
+
+  declare global {
+    interface Window {
+      MONSTERS_DATA: Monster[];
+    }
+  }
+
+  const hub = document.getElementById('tier-hub') as HTMLDivElement;
+  const monstersSection = document.getElementById('monsters-section') as HTMLDivElement;
+  const lockedMessage = document.getElementById('locked-message') as HTMLDivElement;
+  const backToHubBtn = document.getElementById('back-to-hub-btn') as HTMLButtonElement;
+  const lockedBackBtn = document.getElementById('locked-back-btn') as HTMLButtonElement;
+  const searchInput = document.getElementById('monster-search') as HTMLInputElement;
+  const sortButtons = document.querySelectorAll('.sort-btn') as NodeListOf<HTMLButtonElement>;
+  const viewCardsBtn = document.getElementById('view-cards') as HTMLButtonElement;
+  const viewListBtn = document.getElementById('view-list') as HTMLButtonElement;
+  const monstersGrid = document.getElementById('monsters-grid') as HTMLDivElement;
+  const monstersList = document.getElementById('monsters-list') as HTMLDivElement;
+  const countEl = document.getElementById('monsters-count') as HTMLDivElement;
+  const noResults = document.getElementById('no-results') as HTMLDivElement;
+
+  const modal = document.getElementById('monster-modal') as HTMLDivElement;
+  const modalBackdrop = document.getElementById('monster-modal-backdrop') as HTMLDivElement;
+  const modalPanel = document.getElementById('monster-modal-panel') as HTMLDivElement;
+  const modalClose = document.getElementById('monster-modal-close') as HTMLButtonElement;
+
+  let activeTier = '';
+  let searchTerm = '';
+  let currentSort = 'level-asc';
+  let currentView = 'cards';
+
+  const gridCardMap = new Map<number, HTMLElement>();
+  const listItemMap = new Map<number, HTMLElement>();
+
+  function initElementMaps() {
+    monstersGrid.querySelectorAll('[data-monster-id]').forEach((el) => {
+      const id = Number(el.getAttribute('data-monster-id'));
+      gridCardMap.set(id, el as HTMLElement);
+    });
+    monstersList.querySelectorAll('[data-monster-id]').forEach((el) => {
+      const id = Number(el.getAttribute('data-monster-id'));
+      listItemMap.set(id, el as HTMLElement);
+    });
+  }
+
+  function formatNumber(n: number): string {
+    return n.toLocaleString('pt-BR');
+  }
+
+  function getMonsterSpriteUrl(name: string): string {
+    const cleanName = name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return `/monsters/${cleanName}.gif`;
+  }
+
+  function getItemSpriteUrl(itemId: number): string {
+    return `/items/${itemId}.png`;
+  }
+
+  function getInitials(name: string): string {
+    return name
+      .replace(/[()]/g, '')
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((w) => w[0].toUpperCase())
+      .join('');
+  }
+
+  function createFallbackSprite(name: string): string {
+    return `data:image/svg+xml;utf8,${encodeURIComponent(
+      `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="#1f2937" stroke="#c8a24d" stroke-width="1.5"/><text x="32" y="36" text-anchor="middle" fill="#d4b06a" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="700">${getInitials(name)}</text></svg>`
+    )}`;
+  }
+
+  type SortField = 'level' | 'hp' | 'xp' | 'name';
+
+  function compareMonsters(a: Monster, b: Monster, field: SortField, dir: 'asc' | 'desc'): number {
+    let cmp = 0;
+    switch (field) {
+      case 'level':
+        cmp = (a.levelMin || 0) - (b.levelMin || 0);
+        break;
+      case 'hp':
+        cmp = (a.hp || 0) - (b.hp || 0);
+        break;
+      case 'xp':
+        cmp = (a.xp || 0) - (b.xp || 0);
+        break;
+      case 'name':
+        cmp = (a.name || '').localeCompare(b.name || '');
+        break;
+    }
+    return dir === 'asc' ? cmp : -cmp;
+  }
+
+  function getFilteredMonsters(): Monster[] {
+    const term = searchTerm.trim().toLowerCase();
+    const [field, dir] = currentSort.split('-') as [SortField, 'asc' | 'desc'];
+
+    return window.MONSTERS_DATA
+      .filter((m) => activeTier === 'all' || m.tier === activeTier)
+      .filter((m) => !term || m.name.toLowerCase().includes(term))
+      .sort((a, b) => compareMonsters(a, b, field, dir));
+  }
+
+  function reorderDOM() {
+    const monsters = getFilteredMonsters();
+    const ids = new Set(monsters.map((m) => m.id));
+
+    // Move visible items to the end of their containers in sorted order.
+    // appendChild on an existing node moves it, avoiding full rebuilds.
+    monsters.forEach((monster) => {
+      const card = gridCardMap.get(monster.id);
+      const item = listItemMap.get(monster.id);
+      if (card) monstersGrid.appendChild(card);
+      if (item) monstersList.appendChild(item);
+    });
+
+    gridCardMap.forEach((card, id) => {
+      card.style.display = ids.has(id) && currentView === 'cards' ? '' : 'none';
+    });
+
+    listItemMap.forEach((item, id) => {
+      item.style.display = ids.has(id) && currentView === 'list' ? '' : 'none';
+    });
+
+    const visible = monsters.length;
+    countEl.textContent = `Exibindo ${visible} criatura${visible !== 1 ? 's' : ''}`;
+    noResults.classList.toggle('hidden', visible > 0);
+  }
+
+  function showLocked() {
+    hub.classList.add('hub-compact');
+    monstersSection.classList.add('hidden');
+    lockedMessage.classList.remove('hidden');
+  }
+
+  function showHub() {
+    activeTier = '';
+    hub.classList.remove('hub-compact');
+    monstersSection.classList.add('hidden');
+    lockedMessage.classList.add('hidden');
+  }
+
+  function showMonsters(tier: string) {
+    activeTier = tier;
+    hub.classList.add('hub-compact');
+    monstersSection.classList.remove('hidden');
+    lockedMessage.classList.add('hidden');
+    reorderDOM();
+  }
+
+  function getTierLabel(key: string): string {
+    const map: Record<string, string> = {
+      tier1: 'Tier 1 (Free)',
+      tier2: 'Tier 2 (Collins)',
+      tier3: 'Tier 3 (Customs)',
+      tier4: 'Tier 4 (Pharaonic)',
+      bosses: 'Bosses',
+      all: 'Todos os Tiers',
+    };
+    return map[key] || key;
+  }
+
+  function openModal(monster: Monster) {
+    document.getElementById('modal-name')!.textContent = monster.name;
+    document.getElementById('modal-tier')!.innerHTML = `<span class="text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded border tracking-wider ${getTierBadgeClass(monster.tier)}">${monster.tier.toUpperCase()}</span>`;
+    document.getElementById('modal-level')!.textContent = monster.levelRange || 'N/A';
+    document.getElementById('modal-hp')!.textContent = formatNumber(monster.hp || 0);
+    document.getElementById('modal-xp')!.textContent = '+' + formatNumber(monster.xp || 0);
+    document.getElementById('modal-speed')!.textContent = String(monster.speed || 0);
+    document.getElementById('modal-min-dano')!.textContent = formatNumber(monster.minDano || 0);
+    document.getElementById('modal-max-dano')!.textContent = formatNumber(monster.maxDano || 0);
+
+    const spriteContainer = document.getElementById('modal-sprite')!;
+    spriteContainer.innerHTML = `<div class="sprite-container rounded border border-tibia-border-dark/20 w-16 h-16 p-1"><img src="${getMonsterSpriteUrl(monster.name)}" alt="${monster.name}" class="w-full h-full object-contain" onerror="this.src='${createFallbackSprite(monster.name)}'" /></div>`;
+
+    // Damage types
+    const damageSection = document.getElementById('modal-damage-types') as HTMLDivElement;
+    const damageList = document.getElementById('modal-damage-list') as HTMLDivElement;
+    if (monster.physicalDamage || monster.magicDamage) {
+      damageSection.classList.remove('hidden');
+      damageList.innerHTML = '';
+      if (monster.physicalDamage && monster.physicalDamage !== '—') {
+        damageList.innerHTML += createDamageRow('Dano Físico', monster.physicalDamage, 'text-amber-400');
+      }
+      if (monster.magicDamage && monster.magicDamage !== '—') {
+        damageList.innerHTML += createDamageRow('Dano Mágico/Habilidade', monster.magicDamage, 'text-purple-400');
+      }
+    } else {
+      damageSection.classList.add('hidden');
+    }
+
+    // Vocation damage
+    const vocationSection = document.getElementById('modal-vocation-damage') as HTMLDivElement;
+    const vocationList = document.getElementById('modal-vocation-list') as HTMLDivElement;
+    if (monster.mageHp || monster.pallyHp || monster.knightHp) {
+      vocationSection.classList.remove('hidden');
+      vocationList.innerHTML = '';
+      if (monster.mageHp) vocationList.innerHTML += createVocationRow('Mage/Druid', monster.mageHp, 'text-red-400');
+      if (monster.pallyHp) vocationList.innerHTML += createVocationRow('Paladin', monster.pallyHp, 'text-amber-400');
+      if (monster.knightHp) vocationList.innerHTML += createVocationRow('Knight', monster.knightHp, 'text-emerald-400');
+    } else {
+      vocationSection.classList.add('hidden');
+    }
+
+    // Loot
+    const lootEmpty = document.getElementById('modal-loot-empty') as HTMLDivElement;
+    const lootTable = document.getElementById('modal-loot-table') as HTMLDivElement;
+    const lootBody = document.getElementById('modal-loot-body') as HTMLTableSectionElement;
+
+    if (monster.loot && monster.loot.length > 0) {
+      lootEmpty.classList.add('hidden');
+      lootTable.classList.remove('hidden');
+      lootBody.innerHTML = monster.loot.map((loot: MonsterLoot) => `
+        <tr class="border-b border-tibia-border-dark/10 hover:bg-tibia-bg/40 transition-colors">
+          <td class="px-3 py-2 text-center">
+            <img
+              src="${getItemSpriteUrl(loot.itemid)}"
+              alt="${loot.name}"
+              class="w-8 h-8 object-contain mx-auto"
+              onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%221%22 height=%221%22></svg>';this.style.opacity='0'"
+            />
+          </td>
+          <td class="px-3 py-2 text-tibia-text">${loot.name}</td>
+          <td class="px-3 py-2 text-right font-mono text-tibia-gold">${loot.chance}%</td>
+          <td class="px-3 py-2 text-right font-mono text-tibia-muted">${loot.countmax || 1}</td>
+        </tr>
+      `).join('');
+    } else {
+      lootEmpty.classList.remove('hidden');
+      lootTable.classList.add('hidden');
+      lootBody.innerHTML = '';
+    }
+
+    modal.classList.remove('hidden');
+    // Trigger reflow
+    void modal.offsetWidth;
+    modalBackdrop.classList.remove('opacity-0');
+    modalPanel.classList.remove('opacity-0', 'scale-95');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function createDamageRow(label: string, value: string, colorClass: string): string {
+    return `
+      <div class="bg-tibia-panel/60 rounded border border-tibia-border-dark/20 p-2.5">
+        <span class="block text-[9px] text-tibia-muted uppercase tracking-wider">${label}</span>
+        <strong class="font-mono text-sm ${colorClass}">${value}</strong>
+      </div>
+    `;
+  }
+
+  function createVocationRow(label: string, value: string, colorClass: string): string {
+    return `
+      <div class="bg-tibia-panel/60 rounded border border-tibia-border-dark/20 p-2 text-center">
+        <span class="block text-[9px] text-tibia-muted uppercase tracking-wider">${label}</span>
+        <strong class="font-mono text-sm ${colorClass}">${value}</strong>
+      </div>
+    `;
+  }
+
+  function getTierBadgeClass(tier: string): string {
+    const colors: Record<string, string> = {
+      tier1: 'text-emerald-400 border-emerald-500/30 bg-emerald-500/10',
+      tier2: 'text-amber-400 border-amber-500/30 bg-amber-500/10',
+      tier3: 'text-orange-400 border-orange-500/30 bg-orange-500/10',
+      tier4: 'text-red-400 border-red-500/30 bg-red-500/10',
+      bosses: 'text-purple-400 border-purple-500/30 bg-purple-500/10',
+    };
+    return colors[tier] || colors.tier1;
+  }
+
+  function closeModal() {
+    modalBackdrop.classList.add('opacity-0');
+    modalPanel.classList.add('opacity-0', 'scale-95');
+    setTimeout(() => {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }, 300);
+  }
+
+  // Hub tier click
+  hub.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest('[data-tier]') as HTMLButtonElement;
+    if (!btn) return;
+
+    const tier = btn.getAttribute('data-tier') || '';
+    const locked = btn.getAttribute('data-locked') === 'true';
+
+    if (locked) {
+      showLocked();
+      return;
+    }
+
+    // Update active state on hub buttons
+    hub.querySelectorAll('[data-tier]').forEach((b) => {
+      b.classList.remove('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+    });
+    btn.classList.add('ring-2', 'ring-tibia-gold', 'border-tibia-gold');
+
+    showMonsters(tier);
+  });
+
+  backToHubBtn.addEventListener('click', showHub);
+  lockedBackBtn.addEventListener('click', showHub);
+
+  searchInput.addEventListener('input', () => {
+    searchTerm = searchInput.value;
+    reorderDOM();
+  });
+
+  function updateSortUI() {
+    const [field, dir] = currentSort.split('-');
+    sortButtons.forEach((btn) => {
+      const btnField = btn.getAttribute('data-sort');
+      const arrow = btn.querySelector('.sort-arrow') as HTMLSpanElement;
+      if (btnField === field) {
+        btn.classList.add('border-tibia-gold/60', 'text-tibia-gold', 'bg-tibia-gold/10');
+        btn.classList.remove('border-tibia-border-dark/30', 'text-tibia-text');
+        arrow.innerHTML = dir === 'asc'
+          ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-full h-full"><path fill-rule="evenodd" d="M10 15a.75.75 0 01-.75-.75V7.612L7.29 9.77a.75.75 0 01-1.08-1.06l3.25-3.5a.75.75 0 011.08 0l3.25 3.5a.75.75 0 11-1.08 1.06l-1.96-2.158v6.638A.75.75 0 0110 15z" clip-rule="evenodd" /></svg>`
+          : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-full h-full"><path fill-rule="evenodd" d="M10 5a.75.75 0 01.75.75v6.638l1.96-2.158a.75.75 0 111.08 1.06l-3.25 3.5a.75.75 0 01-1.08 0l-3.25-3.5a.75.75 0 111.08-1.06l1.96 2.158V5.75A.75.75 0 0110 5z" clip-rule="evenodd" /></svg>`;
+      } else {
+        btn.classList.remove('border-tibia-gold/60', 'text-tibia-gold', 'bg-tibia-gold/10');
+        btn.classList.add('border-tibia-border-dark/30', 'text-tibia-text');
+        arrow.innerHTML = '';
+      }
+    });
+  }
+
+  sortButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const field = btn.getAttribute('data-sort') || 'level';
+      const [currentField, currentDir] = currentSort.split('-');
+      if (currentField === field) {
+        currentSort = `${field}-${currentDir === 'asc' ? 'desc' : 'asc'}`;
+      } else {
+        currentSort = `${field}-asc`;
+      }
+      updateSortUI();
+      reorderDOM();
+    });
+  });
+
+  updateSortUI();
+
+  viewCardsBtn.addEventListener('click', () => {
+    currentView = 'cards';
+    viewCardsBtn.classList.add('text-tibia-gold', 'bg-tibia-gold/10');
+    viewCardsBtn.classList.remove('text-tibia-muted');
+    viewListBtn.classList.remove('text-tibia-gold', 'bg-tibia-gold/10');
+    viewListBtn.classList.add('text-tibia-muted');
+    monstersGrid.classList.remove('hidden');
+    monstersList.classList.add('hidden');
+    reorderDOM();
+  });
+
+  viewListBtn.addEventListener('click', () => {
+    currentView = 'list';
+    viewListBtn.classList.add('text-tibia-gold', 'bg-tibia-gold/10');
+    viewListBtn.classList.remove('text-tibia-muted');
+    viewCardsBtn.classList.remove('text-tibia-gold', 'bg-tibia-gold/10');
+    viewCardsBtn.classList.add('text-tibia-muted');
+    monstersGrid.classList.add('hidden');
+    monstersList.classList.remove('hidden');
+    reorderDOM();
+  });
+
+  // Modal click handlers
+  document.addEventListener('click', (e) => {
+    const card = (e.target as HTMLElement).closest('[data-monster-id]') as HTMLElement;
+    if (!card || !card.closest('#monsters-grid, #monsters-list')) return;
+
+    const id = Number(card.getAttribute('data-monster-id'));
+    const monster = window.MONSTERS_DATA.find((m) => m.id === id);
+    if (monster) openModal(monster);
+  });
+
+  modalClose.addEventListener('click', closeModal);
+  modalBackdrop.addEventListener('click', closeModal);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
+  });
+
+  initElementMaps();
+</script>
+
+<style>
+  .tier-hub {
+    transform-origin: top center;
+  }
+
+  .tier-hub.hub-compact {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(3, auto) !important;
+    gap: 0.5rem !important;
+    max-width: 520px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    animation: hubToTop 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  @keyframes hubToTop {
+    0% { opacity: 0.7; transform: translateY(16px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card) {
+    padding: 0.375rem !important;
+    border-radius: 0.375rem !important;
+    min-height: auto !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card > div) {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    gap: 0.5rem !important;
+    padding: 0 !important;
+    min-height: auto !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card h3) {
+    font-size: 0.75rem !important;
+    margin-bottom: 0 !important;
+    line-height: 1.2 !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card p),
+  .tier-hub.hub-compact :global(.tier-hub-card > div > div:last-child) {
+    display: none !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card > div > div:first-child) {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+    font-size: 0.875rem !important;
+    margin-bottom: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  .tier-hub.hub-compact :global(.tier-hub-card > div > div:first-child img) {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0.125rem !important;
+  }
+</style>
