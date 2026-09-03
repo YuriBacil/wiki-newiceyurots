@@ -9,7 +9,7 @@
     "slot": "Spellbook",
     "description": "It shows your spells and can also shield against attack when worn.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Spellbook",
     "id860": 2175,
     "id10": 648,
     "attributesDesc": "Def: 15",
@@ -62,11 +62,30 @@
     "slot": "Rod",
     "description": "Small stones are flying from its tip.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Rod & Wand",
+    "id860": 2181,
+    "id10": 2181,
+    "attributesDesc": "Range: 3, Dano: Terra",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2181,
+        "monster": "Ghost",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2181,
+        "monster": "Dworc Voodoomaster",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2181,
+        "monster": "Dark Magician",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2182,
@@ -78,7 +97,7 @@
     "slot": "Rod",
     "description": "It seems to twitch and quiver as if trying to escape your grip.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2182,
     "id10": 2182,
     "attributesDesc": "Range: 3, Dano: 1650-1950 Earth, Mana: 30, Level: 5000",
@@ -87,19 +106,19 @@
         "id": 3782,
         "itemId": 2182,
         "monster": "Cyclops",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3783,
         "itemId": 2182,
         "monster": "Crypt Shambler",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3784,
         "itemId": 2182,
         "monster": "Ghoul",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3785,
@@ -173,11 +192,30 @@
     "slot": "Rod",
     "description": "It grants you the power of striking your foes with furious hailstorms.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Rod & Wand",
+    "id860": 2183,
+    "id10": 2183,
+    "attributesDesc": "Range: 3, Dano: Gelo",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2183,
+        "monster": "Dark Apprentice",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2183,
+        "monster": "Merlkin",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2183,
+        "monster": "Elder Beholder",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2185,
@@ -189,7 +227,7 @@
     "slot": "Rod",
     "description": "It was brought up from hell to deliver death.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2185,
     "id10": 2185,
     "attributesDesc": "Range: 3, Dano: 7500-7950 Death, Mana: 1200, Level: 15000",
@@ -198,19 +236,19 @@
         "id": 3795,
         "itemId": 2185,
         "monster": "Nightstalker",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3796,
         "itemId": 2185,
         "monster": "Gozzler",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3797,
         "itemId": 2185,
         "monster": "Zombie",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3798,
@@ -314,7 +352,7 @@
     "slot": "Rod",
     "description": "Icecold rays of moonlight shimmer on its tip.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2186,
     "id10": 2186,
     "attributesDesc": "Range: 3, Dano: 4200-4500 Ice, Mana: 690, Level: 10000",
@@ -323,19 +361,19 @@
         "id": 3813,
         "itemId": 2186,
         "monster": "Priestess",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3814,
         "itemId": 2186,
         "monster": "Gladiator",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3815,
         "itemId": 2186,
         "monster": "Beholder",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3816,
@@ -421,11 +459,30 @@
     "slot": "Wand",
     "description": "It unleashes the very fires of hell.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Rod & Wand",
+    "id860": 2187,
+    "id10": 2187,
+    "attributesDesc": "Range: 3, Dano: Fogo",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2187,
+        "monster": "Dark Apprentice",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2187,
+        "monster": "Merlkin",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2187,
+        "monster": "Elder Beholder",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2188,
@@ -437,7 +494,7 @@
     "slot": "Wand",
     "description": "It is half-rotten itself and reeks terribly.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2188,
     "id10": 2188,
     "attributesDesc": "Range: 3, Dano: 7500-7950 Death, Mana: 1200, Level: 15000",
@@ -446,19 +503,19 @@
         "id": 3828,
         "itemId": 2188,
         "monster": "Gozzler",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3829,
         "itemId": 2188,
         "monster": "Zombie",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3830,
         "itemId": 2188,
         "monster": "Nightstalker",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3831,
@@ -506,7 +563,7 @@
         "id": 3838,
         "itemId": 2188,
         "monster": "Orshabaal",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -520,11 +577,30 @@
     "slot": "Wand",
     "description": "The energy of a radiant star is trapped inside its globe.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Rod & Wand",
+    "id860": 2189,
+    "id10": 2189,
+    "attributesDesc": "Range: 3, Dano: Energia",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2189,
+        "monster": "Ghost",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2189,
+        "monster": "Dworc Voodoomaster",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2189,
+        "monster": "Dark Magician",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2190,
@@ -536,7 +612,7 @@
     "slot": "Wand",
     "description": "Surges of energy rush through the tip of this wand.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2190,
     "id10": 2190,
     "attributesDesc": "Range: 3, Dano: 1650-1950 Energy, Mana: 30, Level: 5000",
@@ -545,19 +621,19 @@
         "id": 3839,
         "itemId": 2190,
         "monster": "Ghoul",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3840,
         "itemId": 2190,
         "monster": "Cyclops",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3841,
         "itemId": 2190,
         "monster": "Crypt Shambler",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -571,7 +647,7 @@
     "slot": "Wand",
     "description": "Legends say that this wand holds the soul of a young dragon.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2191,
     "id10": 2191,
     "attributesDesc": "Range: 3, Dano: 4200-4500 Fire, Mana: 690, Level: 10000",
@@ -580,19 +656,19 @@
         "id": 3842,
         "itemId": 2191,
         "monster": "Priestess",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3843,
         "itemId": 2191,
         "monster": "Gladiator",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3844,
         "itemId": 2191,
         "monster": "Beholder",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -606,7 +682,7 @@
     "slot": "Club",
     "description": "This cyclopean hammer seems to be an awesome smithing tool.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2321,
     "id10": 3208,
     "attributesDesc": "Atk: 68, Def: 28",
@@ -615,13 +691,13 @@
         "id": 3845,
         "itemId": 2321,
         "monster": "Novice of the Cult",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3846,
         "itemId": 2321,
         "monster": "Priestess",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3847,
@@ -659,11 +735,30 @@
     "slot": "Helmet",
     "description": "You have a vague feeling that it looks somewhat silly.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 2323,
+    "id10": 3210,
+    "attributesDesc": "Arm: 16, Magic Level +1, Regeneração HP/Mana (+10 HP/Mana por Tick)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2323,
+        "monster": "Crocodile",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2323,
+        "monster": "Mutated Tiger",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2323,
+        "monster": "Thornback Tortoise",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2376,
@@ -675,7 +770,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2376,
     "id10": 3264,
     "attributesDesc": "Atk: 42, Def: 22",
@@ -684,19 +779,19 @@
         "id": 3851,
         "itemId": 2376,
         "monster": "Human",
-        "chance": "80.0"
+        "chance": "80"
       },
       {
         "id": 3852,
         "itemId": 2376,
         "monster": "Pirate Marauder",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 3853,
         "itemId": 2376,
         "monster": "Lizard Templar",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 3854,
@@ -728,11 +823,18 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2377,
+    "id10": 3265,
+    "attributesDesc": "Atk: 95, Def: 35 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2377,
+        "monster": "Sandcrawler",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2378,
@@ -744,7 +846,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2378,
     "id10": 3266,
     "attributesDesc": "Atk: 65, Def: 25",
@@ -753,7 +855,7 @@
         "id": 3857,
         "itemId": 2378,
         "monster": "Orc Champion",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 3858,
@@ -797,7 +899,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2379,
     "id10": 3267,
     "attributesDesc": "Atk: 15, Def: 12",
@@ -806,37 +908,37 @@
         "id": 3863,
         "itemId": 2379,
         "monster": "Ron the Ripper",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 3864,
         "itemId": 2379,
         "monster": "Demon",
-        "chance": "18.0"
+        "chance": "18"
       },
       {
         "id": 3865,
         "itemId": 2379,
         "monster": "Goblin Demon",
-        "chance": "18.0"
+        "chance": "18"
       },
       {
         "id": 3866,
         "itemId": 2379,
         "monster": "Skunk",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3867,
         "itemId": 2379,
         "monster": "Badger",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3868,
         "itemId": 2379,
         "monster": "Orchid Frog",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -850,7 +952,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2380,
     "id10": 3268,
     "attributesDesc": "Atk: 16, Def: 12",
@@ -859,19 +961,19 @@
         "id": 3869,
         "itemId": 2380,
         "monster": "Skunk",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3870,
         "itemId": 2380,
         "monster": "Orchid Frog",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3871,
         "itemId": 2380,
         "monster": "Badger",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3872,
@@ -891,7 +993,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2381,
     "id10": 3269,
     "attributesDesc": "Atk: 45, Def: 20",
@@ -900,19 +1002,19 @@
         "id": 3873,
         "itemId": 2381,
         "monster": "Blocker",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 3874,
         "itemId": 2381,
         "monster": "Black Knight",
-        "chance": "9.0"
+        "chance": "9"
       },
       {
         "id": 3875,
         "itemId": 2381,
         "monster": "Orc Champion",
-        "chance": "7.0"
+        "chance": "7"
       },
       {
         "id": 3876,
@@ -954,7 +1056,7 @@
         "id": 3882,
         "itemId": 2381,
         "monster": "Cyclops Drone",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3883,
@@ -986,7 +1088,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2382,
     "id10": 3270,
     "attributesDesc": "Atk: 10, Def: 10",
@@ -995,7 +1097,7 @@
         "id": 3886,
         "itemId": 2382,
         "monster": "Tortoise",
-        "chance": "8.0"
+        "chance": "8"
       }
     ]
   },
@@ -1009,11 +1111,42 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2383,
+    "id10": 3271,
+    "attributesDesc": "Atk: 80, Def: 25, Def Extra +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2383,
+        "monster": "Sandcrawler",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2383,
+        "monster": "Centipede",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2383,
+        "monster": "Scorpion",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2383,
+        "monster": "Mutated Tiger",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2383,
+        "monster": "Dworc Fleshhunter",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2384,
@@ -1025,7 +1158,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2384,
     "id10": 3272,
     "attributesDesc": "Atk: 32, Def: 18",
@@ -1054,7 +1187,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2385,
     "id10": 3273,
     "attributesDesc": "Atk: 35, Def: 20",
@@ -1063,31 +1196,31 @@
         "id": 3889,
         "itemId": 2385,
         "monster": "Orc",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3890,
         "itemId": 2385,
         "monster": "Eternal Guardian",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3891,
         "itemId": 2385,
         "monster": "Pirate Corsair",
-        "chance": "9.0"
+        "chance": "9"
       },
       {
         "id": 3892,
         "itemId": 2385,
         "monster": "Crypt Shambler",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 3893,
         "itemId": 2385,
         "monster": "Ghoul",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 3894,
@@ -1107,7 +1240,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2386,
     "id10": 3274,
     "attributesDesc": "Atk: 22, Def: 15",
@@ -1116,31 +1249,31 @@
         "id": 3895,
         "itemId": 2386,
         "monster": "Minotaur",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3896,
         "itemId": 2386,
         "monster": "Stalker",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 3897,
         "itemId": 2386,
         "monster": "Wasp",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 3898,
         "itemId": 2386,
         "monster": "Killer",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 3899,
         "itemId": 2386,
         "monster": "Dwarf",
-        "chance": "5.0"
+        "chance": "5"
       }
     ]
   },
@@ -1154,7 +1287,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2387,
     "id10": 3275,
     "attributesDesc": "Atk: 28, Def: 15",
@@ -1163,67 +1296,67 @@
         "id": 3900,
         "itemId": 2387,
         "monster": "Dwarf Guard",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 3901,
         "itemId": 2387,
         "monster": "Infernatil",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3902,
         "itemId": 2387,
         "monster": "Zathroth",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3903,
         "itemId": 2387,
         "monster": "Lazarus",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3904,
         "itemId": 2387,
         "monster": "Toxiros",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3905,
         "itemId": 2387,
         "monster": "Pyramo",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3906,
         "itemId": 2387,
         "monster": "Demora",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3907,
         "itemId": 2387,
         "monster": "Bazir",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3908,
         "itemId": 2387,
         "monster": "Apocalypse",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3909,
         "itemId": 2387,
         "monster": "Crazed Beggar",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3910,
         "itemId": 2387,
         "monster": "Ron the Ripper",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3911,
@@ -1235,61 +1368,61 @@
         "id": 3912,
         "itemId": 2387,
         "monster": "Minotaur Guard",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 3913,
         "itemId": 2387,
         "monster": "Fire Devil",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 3914,
         "itemId": 2387,
         "monster": "Penguin",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 3915,
         "itemId": 2387,
         "monster": "Dragon",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 3916,
         "itemId": 2387,
         "monster": "Quara Predator",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3917,
         "itemId": 2387,
         "monster": "Behemoth",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3918,
         "itemId": 2387,
         "monster": "Stonecracker",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3919,
         "itemId": 2387,
         "monster": "Sharptooth",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3920,
         "itemId": 2387,
         "monster": "Behemoth Supervip",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3921,
         "itemId": 2387,
         "monster": "Quara Predator Scout",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3922,
@@ -1301,13 +1434,13 @@
         "id": 3923,
         "itemId": 2387,
         "monster": "Forest Dragon",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3924,
         "itemId": 2387,
         "monster": "The Horned Fox",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3925,
@@ -1327,7 +1460,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2388,
     "id10": 3276,
     "attributesDesc": "Atk: 12, Def: 10",
@@ -1336,19 +1469,19 @@
         "id": 3926,
         "itemId": 2388,
         "monster": "Primitive",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3927,
         "itemId": 2388,
         "monster": "Wild Warrior",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3928,
         "itemId": 2388,
         "monster": "The Horned Fox",
-        "chance": "9.0"
+        "chance": "9"
       },
       {
         "id": 3929,
@@ -1374,7 +1507,7 @@
     "slot": "Spear",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Spear",
     "id860": 2389,
     "id10": 3277,
     "attributesDesc": "Atk: 30, Range: 5",
@@ -1383,49 +1516,49 @@
         "id": 3931,
         "itemId": 2389,
         "monster": "Black Knight",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 3932,
         "itemId": 2389,
         "monster": "Island Troll",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 3933,
         "itemId": 2389,
         "monster": "Blocker",
-        "chance": "30.0"
+        "chance": "30"
       },
       {
         "id": 3934,
         "itemId": 2389,
         "monster": "Lizard Sentinel",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 3935,
         "itemId": 2389,
         "monster": "Fire Devil",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 3936,
         "itemId": 2389,
         "monster": "Penguin",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 3937,
         "itemId": 2389,
         "monster": "Troll Champion",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3938,
         "itemId": 2389,
         "monster": "Big Boss Trolliver",
-        "chance": "2.0"
+        "chance": "2"
       }
     ]
   },
@@ -1439,7 +1572,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2391,
     "id10": 3279,
     "attributesDesc": "Atk: 65, Def: 25",
@@ -1454,37 +1587,37 @@
         "id": 3940,
         "itemId": 2391,
         "monster": "Paladin",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3941,
         "itemId": 2391,
         "monster": "Lumenia",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3942,
         "itemId": 2391,
         "monster": "Knight",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3943,
         "itemId": 2391,
         "monster": "Thief",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3944,
         "itemId": 2391,
         "monster": "Sorcerer",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3945,
         "itemId": 2391,
         "monster": "Druid",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3946,
@@ -1522,7 +1655,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2394,
     "id10": 3282,
     "attributesDesc": "Atk: 35, Def: 18",
@@ -1531,19 +1664,19 @@
         "id": 3950,
         "itemId": 2394,
         "monster": "Betrayed Wraith",
-        "chance": "14.0"
+        "chance": "14"
       },
       {
         "id": 3951,
         "itemId": 2394,
         "monster": "Ghoul",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 3952,
         "itemId": 2394,
         "monster": "Crypt Shambler",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 3953,
@@ -1563,7 +1696,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2395,
     "id10": 3283,
     "attributesDesc": "Atk: 65, Def: 28",
@@ -1572,7 +1705,7 @@
         "id": 3954,
         "itemId": 2395,
         "monster": "Bat",
-        "chance": "30.0"
+        "chance": "30"
       },
       {
         "id": 3955,
@@ -1598,11 +1731,24 @@
     "slot": "Sword",
     "description": "A deadly but fragile weapon.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2396,
+    "id10": 3284,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Sword +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2396,
+        "monster": "Sibang",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 2396,
+        "monster": "Gargoyle",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2397,
@@ -1614,7 +1760,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2397,
     "id10": 3285,
     "attributesDesc": "Atk: 70, Def: 30",
@@ -1623,19 +1769,19 @@
         "id": 3957,
         "itemId": 2397,
         "monster": "Elf Warlord",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 3958,
         "itemId": 2397,
         "monster": "Dragon",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 3959,
         "itemId": 2397,
         "monster": "Forest Dragon",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 3960,
@@ -1647,7 +1793,7 @@
         "id": 3961,
         "itemId": 2397,
         "monster": "Acolyte of the Cult",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 3962,
@@ -1673,7 +1819,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2398,
     "id10": 3286,
     "attributesDesc": "Atk: 30, Def: 18",
@@ -1682,31 +1828,31 @@
         "id": 3964,
         "itemId": 2398,
         "monster": "Undead Mine Worker",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 3965,
         "itemId": 2398,
         "monster": "Forest Dragon",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 3966,
         "itemId": 2398,
         "monster": "Smuggler Baron Silvertoe",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3967,
         "itemId": 2398,
         "monster": "Skeleton",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 3968,
         "itemId": 2398,
         "monster": "Skeleton Warrior",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 3969,
@@ -1718,7 +1864,7 @@
         "id": 3970,
         "itemId": 2398,
         "monster": "Chakoya Tribewarden",
-        "chance": "3.0"
+        "chance": "3"
       }
     ]
   },
@@ -1731,11 +1877,11 @@
     "weight": 2,
     "slot": "Spear",
     "description": "",
-    "tier": "tier2",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Spear",
+    "id860": 2399,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 75",
     "drops": []
   },
   {
@@ -1748,7 +1894,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2401,
     "id10": 3289,
     "attributesDesc": "Atk: 55, Def: 22",
@@ -1757,43 +1903,43 @@
         "id": 3971,
         "itemId": 2401,
         "monster": "Prince Almirith",
-        "chance": "11.0"
+        "chance": "11"
       },
       {
         "id": 3972,
         "itemId": 2401,
         "monster": "Koshei the Deathless",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3973,
         "itemId": 2401,
         "monster": "Lich",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3974,
         "itemId": 2401,
         "monster": "Barbaria",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3975,
         "itemId": 2401,
         "monster": "Barbarian Brutetamer",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3976,
         "itemId": 2401,
         "monster": "Dharalion",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 3977,
         "itemId": 2401,
         "monster": "Elf Arcanist",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 3978,
@@ -1811,25 +1957,25 @@
         "id": 3980,
         "itemId": 2401,
         "monster": "Stone Golem",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3981,
         "itemId": 2401,
         "monster": "Chakoya Windcaller",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3982,
         "itemId": 2401,
         "monster": "Mutated Human",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 3983,
         "itemId": 2401,
         "monster": "Mutated Rat",
-        "chance": "2.0"
+        "chance": "2"
       }
     ]
   },
@@ -1843,7 +1989,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2402,
     "id10": 3290,
     "attributesDesc": "Atk: 25, Def: 15",
@@ -1894,13 +2040,13 @@
         "id": 3991,
         "itemId": 2402,
         "monster": "Zugurosh",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3992,
         "itemId": 2402,
         "monster": "Tortoise",
-        "chance": "5.0"
+        "chance": "5"
       }
     ]
   },
@@ -1914,7 +2060,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2403,
     "id10": 3291,
     "attributesDesc": "Atk: 10, Def: 10",
@@ -1929,31 +2075,31 @@
         "id": 3994,
         "itemId": 2403,
         "monster": "Primitive",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3995,
         "itemId": 2403,
         "monster": "Wild Warrior",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3996,
         "itemId": 2403,
         "monster": "Assasin",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3997,
         "itemId": 2403,
         "monster": "Barbarian Headsplitter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 3998,
         "itemId": 2403,
         "monster": "Barbarian Skullhunter",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -1967,7 +2113,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2404,
     "id10": 3292,
     "attributesDesc": "Atk: 18, Def: 12",
@@ -1976,25 +2122,25 @@
         "id": 3999,
         "itemId": 2404,
         "monster": "Rift Phantom",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4000,
         "itemId": 2404,
         "monster": "Stalker",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4001,
         "itemId": 2404,
         "monster": "Wasp",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4002,
         "itemId": 2404,
         "monster": "Assasin",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -2008,7 +2154,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2405,
     "id10": 3293,
     "attributesDesc": "Atk: 70, Def: 28",
@@ -2061,7 +2207,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2406,
     "id10": 3294,
     "attributesDesc": "Atk: 30, Def: 18",
@@ -2076,79 +2222,79 @@
         "id": 4010,
         "itemId": 2406,
         "monster": "Frost Giant",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4011,
         "itemId": 2406,
         "monster": "Frost Giantess",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4012,
         "itemId": 2406,
         "monster": "Forest Dragon",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4013,
         "itemId": 2406,
         "monster": "Dragon",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4014,
         "itemId": 2406,
         "monster": "Necromancer",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4015,
         "itemId": 2406,
         "monster": "Goblin",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4016,
         "itemId": 2406,
         "monster": "Goblin Scavenger",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4017,
         "itemId": 2406,
         "monster": "Goblin Leader",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4018,
         "itemId": 2406,
         "monster": "Goblin Demon",
-        "chance": "9.0"
+        "chance": "9"
       },
       {
         "id": 4019,
         "itemId": 2406,
         "monster": "Demon",
-        "chance": "9.0"
+        "chance": "9"
       },
       {
         "id": 4020,
         "itemId": 2406,
         "monster": "Lizard Templar",
-        "chance": "7.0"
+        "chance": "7"
       },
       {
         "id": 4021,
         "itemId": 2406,
         "monster": "Skeleton",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4022,
         "itemId": 2406,
         "monster": "Skeleton Warrior",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -2162,11 +2308,48 @@
     "slot": "Sword",
     "description": "The blade shimmers in light blue.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2407,
+    "id10": 3295,
+    "attributesDesc": "Atk: 85, Def: 28, Def Extra +2",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2407,
+        "monster": "Black Sheep",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2407,
+        "monster": "Mummy",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2407,
+        "monster": "Lion",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2407,
+        "monster": "Rotworm Queen",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2407,
+        "monster": "Swamp Troll",
+        "chance": "30"
+      },
+      {
+        "id": 100005,
+        "itemId": 2407,
+        "monster": "Dworc Venomsniper",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2409,
@@ -2178,11 +2361,42 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2409,
+    "id10": 3297,
+    "attributesDesc": "Atk: 100, Def: 40 (Def base +5)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2409,
+        "monster": "Troll",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2409,
+        "monster": "Slime",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2409,
+        "monster": "Tiger",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2409,
+        "monster": "Panda",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2409,
+        "monster": "Werewolf",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2410,
@@ -2194,7 +2408,7 @@
     "slot": "Spear",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Spear",
     "id860": 2410,
     "id10": 3298,
     "attributesDesc": "Atk: 45, Range: 5",
@@ -2203,43 +2417,43 @@
         "id": 4023,
         "itemId": 2410,
         "monster": "Orc Leader",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4024,
         "itemId": 2410,
         "monster": "The Horned Fox",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4025,
         "itemId": 2410,
         "monster": "General Murius",
-        "chance": "50.0"
+        "chance": "50"
       },
       {
         "id": 4026,
         "itemId": 2410,
         "monster": "Gladiator",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4027,
         "itemId": 2410,
         "monster": "Beholder",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4028,
         "itemId": 2410,
         "monster": "Bog Raider",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4029,
         "itemId": 2410,
         "monster": "Gazer",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4030,
@@ -2259,7 +2473,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2411,
     "id10": 3299,
     "attributesDesc": "Atk: 22, Def: 15",
@@ -2268,13 +2482,13 @@
         "id": 4031,
         "itemId": 2411,
         "monster": "Wasp",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 4032,
         "itemId": 2411,
         "monster": "Stalker",
-        "chance": "6.0"
+        "chance": "6"
       }
     ]
   },
@@ -2288,11 +2502,24 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2412,
+    "id10": 3300,
+    "attributesDesc": "Atk: 110, Def: 50 (Def base +5)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2412,
+        "monster": "Demon Skeleton",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2412,
+        "monster": "Thornback Tortoise",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2413,
@@ -2304,11 +2531,48 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2413,
+    "id10": 3301,
+    "attributesDesc": "Atk: 105, Def: 45 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2413,
+        "monster": "Slime",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2413,
+        "monster": "Lion",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2413,
+        "monster": "Rotworm",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2413,
+        "monster": "Frost Troll",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 2413,
+        "monster": "Sibang",
+        "chance": "3"
+      },
+      {
+        "id": 100005,
+        "itemId": 2413,
+        "monster": "Thornback Tortoise",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2414,
@@ -2320,11 +2584,18 @@
     "slot": "Axe",
     "description": "The extraordinary sharp blade penetrates every armor.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2414,
+    "id10": 3302,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Axe +1 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2414,
+        "monster": "Blood Crab",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2416,
@@ -2336,7 +2607,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2416,
     "id10": 3304,
     "attributesDesc": "Atk: 14, Def: 12",
@@ -2359,7 +2630,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2417,
     "id10": 3305,
     "attributesDesc": "Atk: 20, Def: 15",
@@ -2374,31 +2645,31 @@
         "id": 4035,
         "itemId": 2417,
         "monster": "Tortoise",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4036,
         "itemId": 2417,
         "monster": "Blocker",
-        "chance": "7.0"
+        "chance": "7"
       },
       {
         "id": 4037,
         "itemId": 2417,
         "monster": "Black Knight",
-        "chance": "7.0"
+        "chance": "7"
       },
       {
         "id": 4038,
         "itemId": 2417,
         "monster": "Undead Minion",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4039,
         "itemId": 2417,
         "monster": "Durin",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -2412,11 +2683,30 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2418,
+    "id10": 3306,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Axe +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2418,
+        "monster": "Dworc Fleshhunter",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 2418,
+        "monster": "Elder Beholder",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 2418,
+        "monster": "Worker Golem",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2419,
@@ -2428,7 +2718,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2419,
     "id10": 3307,
     "attributesDesc": "Atk: 48, Def: 22",
@@ -2437,49 +2727,49 @@
         "id": 4040,
         "itemId": 2419,
         "monster": "The Horned Fox",
-        "chance": "50.0"
+        "chance": "50"
       },
       {
         "id": 4041,
         "itemId": 2419,
         "monster": "Goshnar",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4042,
         "itemId": 2419,
         "monster": "Orc Leader",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4043,
         "itemId": 2419,
         "monster": "General Murius",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4044,
         "itemId": 2419,
         "monster": "Smuggler",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4045,
         "itemId": 2419,
         "monster": "Gang Member",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4046,
         "itemId": 2419,
         "monster": "Larva",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4047,
         "itemId": 2419,
         "monster": "Scarab",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -2493,7 +2783,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2420,
     "id10": 3308,
     "attributesDesc": "Atk: 38, Def: 20",
@@ -2502,25 +2792,25 @@
         "id": 4048,
         "itemId": 2420,
         "monster": "Xenia",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4049,
         "itemId": 2420,
         "monster": "Goblin",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4050,
         "itemId": 2420,
         "monster": "Amazon",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4051,
         "itemId": 2420,
         "monster": "Valkyrie",
-        "chance": "3.0"
+        "chance": "3"
       }
     ]
   },
@@ -2534,7 +2824,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2422,
     "id10": 3310,
     "attributesDesc": "Atk: 45, Def: 20",
@@ -2543,13 +2833,13 @@
         "id": 4052,
         "itemId": 2422,
         "monster": "Nomad",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4053,
         "itemId": 2422,
         "monster": "Cyclops",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4054,
@@ -2569,7 +2859,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2423,
     "id10": 3311,
     "attributesDesc": "Atk: 72, Def: 30",
@@ -2604,11 +2894,18 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2425,
+    "id10": 3313,
+    "attributesDesc": "Atk: 120, Def: 60 (Def base +5), Axe +1 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2425,
+        "monster": "Blood Crab",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2426,
@@ -2620,11 +2917,36 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2426,
+    "id10": 3314,
+    "attributesDesc": "Atk: 90, Def: 30, Def Extra +2 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2426,
+        "monster": "Snake",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2426,
+        "monster": "Ghost",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2426,
+        "monster": "Panda",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2426,
+        "monster": "Rotworm Queen",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2427,
@@ -2636,11 +2958,54 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2427,
+    "id10": 3315,
+    "attributesDesc": "Atk: 80, Def: 25, Def Extra +1 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2427,
+        "monster": "Bear",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2427,
+        "monster": "Centipede",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2427,
+        "monster": "Troll",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2427,
+        "monster": "Hyaena",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2427,
+        "monster": "Crocodile",
+        "chance": "30"
+      },
+      {
+        "id": 100005,
+        "itemId": 2427,
+        "monster": "Carrion Worm",
+        "chance": "30"
+      },
+      {
+        "id": 100006,
+        "itemId": 2427,
+        "monster": "Troll Champion",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2428,
@@ -2652,11 +3017,42 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2428,
+    "id10": 3316,
+    "attributesDesc": "Atk: 75, Def: 20, Def Extra +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2428,
+        "monster": "Bear",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2428,
+        "monster": "Toad",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2428,
+        "monster": "Centipede",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2428,
+        "monster": "Mummy",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2428,
+        "monster": "Panda",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2429,
@@ -2668,7 +3064,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2429,
     "id10": 3317,
     "attributesDesc": "Atk: 55, Def: 22",
@@ -2677,25 +3073,25 @@
         "id": 4058,
         "itemId": 2429,
         "monster": "Scarab",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4059,
         "itemId": 2429,
         "monster": "Smuggler",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4060,
         "itemId": 2429,
         "monster": "Gang Member",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4061,
         "itemId": 2429,
         "monster": "Larva",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -2709,11 +3105,30 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 2434,
+    "id10": 3322,
+    "attributesDesc": "Atk: 75, Def: 20, Def Extra +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2434,
+        "monster": "Cobra",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2434,
+        "monster": "Troll",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2434,
+        "monster": "Mammoth",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2437,
@@ -2725,7 +3140,7 @@
     "slot": "Wand",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Rod & Wand",
     "id860": 2437,
     "id10": 2437,
     "attributesDesc": "Range: 3, Dano: 510-600 Holy, Mana: 3, Level: 1",
@@ -2734,19 +3149,19 @@
         "id": 4062,
         "itemId": 2437,
         "monster": "Wild Warrior",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4063,
         "itemId": 2437,
         "monster": "Tortoise",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4064,
         "itemId": 2437,
         "monster": "Bug",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -2760,11 +3175,48 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 2438,
+    "id10": 3326,
+    "attributesDesc": "Atk: 115, Def: 55 (Def base +5), Sword +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2438,
+        "monster": "Ghost",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2438,
+        "monster": "Carrion Worm",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2438,
+        "monster": "Dworc Venomsniper",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2438,
+        "monster": "Werewolf",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 2438,
+        "monster": "Gnarlhound",
+        "chance": "3"
+      },
+      {
+        "id": 100005,
+        "itemId": 2438,
+        "monster": "War Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2439,
@@ -2776,7 +3228,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2439,
     "id10": 3327,
     "attributesDesc": "Atk: 70, Def: 28",
@@ -2841,11 +3293,24 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2440,
+    "id10": 3328,
+    "attributesDesc": "Atk: 85, Def: 28, Def Extra +2",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2440,
+        "monster": "Black Sheep",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2440,
+        "monster": "Troll",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2441,
@@ -2857,7 +3322,7 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Axe",
     "id860": 2441,
     "id10": 3329,
     "attributesDesc": "Atk: 35, Def: 18",
@@ -2866,13 +3331,13 @@
         "id": 4073,
         "itemId": 2441,
         "monster": "Valkyrie",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4074,
         "itemId": 2441,
         "monster": "Amazon",
-        "chance": "3.0"
+        "chance": "3"
       }
     ]
   },
@@ -2886,7 +3351,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2442,
     "id10": 3330,
     "attributesDesc": "Atk: 52, Def: 25",
@@ -2895,7 +3360,7 @@
         "id": 4075,
         "itemId": 2442,
         "monster": "Marid",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4076,
@@ -2933,11 +3398,36 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 2445,
+    "id10": 3333,
+    "attributesDesc": "Atk: 85, Def: 25, Def Extra +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2445,
+        "monster": "Toad",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2445,
+        "monster": "Mutated Bat",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2445,
+        "monster": "Carrion Worm",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2445,
+        "monster": "Dark Magician",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2447,
@@ -2949,11 +3439,42 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 2447,
+    "id10": 3335,
+    "attributesDesc": "Atk: 115, Def: 55 (Def base +5), Axe +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2447,
+        "monster": "Tiger",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2447,
+        "monster": "Dworc Venomsniper",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2447,
+        "monster": "Dworc Fleshhunter",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2447,
+        "monster": "Dworc Voodoomaster",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 2447,
+        "monster": "War Wolf",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2448,
@@ -2965,7 +3486,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2448,
     "id10": 3336,
     "attributesDesc": "Atk: 25, Def: 15",
@@ -2974,25 +3495,25 @@
         "id": 4080,
         "itemId": 2448,
         "monster": "Yeti",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4081,
         "itemId": 2448,
         "monster": "Tortoise",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4082,
         "itemId": 2448,
         "monster": "Troll Champion",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4083,
         "itemId": 2448,
         "monster": "Big Boss Trolliver",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4084,
@@ -3018,7 +3539,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 2449,
     "id10": 3337,
     "attributesDesc": "Atk: 50, Def: 22",
@@ -3027,7 +3548,7 @@
         "id": 4086,
         "itemId": 2449,
         "monster": "Goblin Demon",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4087,
@@ -3039,25 +3560,25 @@
         "id": 4088,
         "itemId": 2449,
         "monster": "Stone Golem",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4089,
         "itemId": 2449,
         "monster": "Mutated Rat",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4090,
         "itemId": 2449,
         "monster": "Mutated Human",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4091,
         "itemId": 2449,
         "monster": "Chakoya Windcaller",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4092,
@@ -3077,7 +3598,7 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Sword",
     "id860": 2450,
     "id10": 3338,
     "attributesDesc": "Atk: 58, Def: 25",
@@ -3130,7 +3651,7 @@
     "slot": "Crossbow",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Bow & Crossbow",
     "id860": 2455,
     "id10": 3349,
     "attributesDesc": "Atk: 25, Range: 5",
@@ -3139,13 +3660,13 @@
         "id": 4099,
         "itemId": 2455,
         "monster": "Dwarf Soldier",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4100,
         "itemId": 2455,
         "monster": "Forest Dragon",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4101,
@@ -3193,7 +3714,7 @@
         "id": 4108,
         "itemId": 2455,
         "monster": "Adept of the Cult",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -3207,7 +3728,7 @@
     "slot": "Bow",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Bow & Crossbow",
     "id860": 2456,
     "id10": 3350,
     "attributesDesc": "Atk: 15, Range: 6",
@@ -3216,67 +3737,67 @@
         "id": 4109,
         "itemId": 2456,
         "monster": "Paladin",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4110,
         "itemId": 2456,
         "monster": "Lumenia",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4111,
         "itemId": 2456,
         "monster": "Thief",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4112,
         "itemId": 2456,
         "monster": "Sorcerer",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4113,
         "itemId": 2456,
         "monster": "Knight",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4114,
         "itemId": 2456,
         "monster": "Druid",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4115,
         "itemId": 2456,
         "monster": "Elf Scout",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4116,
         "itemId": 2456,
         "monster": "Hero",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4117,
         "itemId": 2456,
         "monster": "Orc Marauder",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 4118,
         "itemId": 2456,
         "monster": "Tortoise",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4119,
         "itemId": 2456,
         "monster": "Elf Warlord",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -3290,11 +3811,30 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 2457,
+    "id10": 3351,
+    "attributesDesc": "Arm: 18",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2457,
+        "monster": "Merlkin",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 2457,
+        "monster": "Thornback Tortoise",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 2457,
+        "monster": "War Golem",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2458,
@@ -3306,7 +3846,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2458,
     "id10": 3352,
     "attributesDesc": "Arm: 7",
@@ -3315,19 +3855,19 @@
         "id": 4120,
         "itemId": 2458,
         "monster": "Orc Champion",
-        "chance": "11.0"
+        "chance": "11"
       },
       {
         "id": 4121,
         "itemId": 2458,
         "monster": "Valkyrie",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4122,
         "itemId": 2458,
         "monster": "Amazon",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4123,
@@ -3363,7 +3903,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2460,
     "id10": 3354,
     "attributesDesc": "Arm: 2",
@@ -3378,31 +3918,31 @@
         "id": 4125,
         "itemId": 2460,
         "monster": "Stalker",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4126,
         "itemId": 2460,
         "monster": "Wasp",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4127,
         "itemId": 2460,
         "monster": "Barbarian Headsplitter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4128,
         "itemId": 2460,
         "monster": "Barbarian Skullhunter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4129,
         "itemId": 2460,
         "monster": "Quara Constrictor Scout",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -3416,7 +3956,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2461,
     "id10": 3355,
     "attributesDesc": "Arm: 1",
@@ -3425,103 +3965,103 @@
         "id": 4130,
         "itemId": 2461,
         "monster": "Island Troll",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4131,
         "itemId": 2461,
         "monster": "Wild Warrior",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4132,
         "itemId": 2461,
         "monster": "Primitive",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4133,
         "itemId": 2461,
         "monster": "Hunter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4134,
         "itemId": 2461,
         "monster": "Demon",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4135,
         "itemId": 2461,
         "monster": "Random Noob",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4136,
         "itemId": 2461,
         "monster": "Poacher",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4137,
         "itemId": 2461,
         "monster": "Magebomb",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4138,
         "itemId": 2461,
         "monster": "Goblin Demon",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4139,
         "itemId": 2461,
         "monster": "Goblin Assassin",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4140,
         "itemId": 2461,
         "monster": "Goblin Leader",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4141,
         "itemId": 2461,
         "monster": "Goblin",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4142,
         "itemId": 2461,
         "monster": "Human",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4143,
         "itemId": 2461,
         "monster": "Goblin Scavenger",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4144,
         "itemId": 2461,
         "monster": "Apprentice Sheng",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4145,
         "itemId": 2461,
         "monster": "Minotaur Mage",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4146,
         "itemId": 2461,
         "monster": "Troll Champion",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -3551,11 +4091,54 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2463,
+    "id10": 3357,
+    "attributesDesc": "Arm: 21",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2463,
+        "monster": "Slime",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2463,
+        "monster": "Frost Troll",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2463,
+        "monster": "Dworc Fleshhunter",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2463,
+        "monster": "Werewolf",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 2463,
+        "monster": "Merlkin",
+        "chance": "3"
+      },
+      {
+        "id": 100005,
+        "itemId": 2463,
+        "monster": "Gnarlhound",
+        "chance": "3"
+      },
+      {
+        "id": 100006,
+        "itemId": 2463,
+        "monster": "War Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2464,
@@ -3567,11 +4150,24 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2464,
+    "id10": 3358,
+    "attributesDesc": "Arm: 15",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2464,
+        "monster": "Lion",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2464,
+        "monster": "Frost Troll",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2465,
@@ -3583,11 +4179,24 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2465,
+    "id10": 3359,
+    "attributesDesc": "Arm: 18",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2465,
+        "monster": "Tiger",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2465,
+        "monster": "Worker Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2467,
@@ -3599,11 +4208,30 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2467,
+    "id10": 3361,
+    "attributesDesc": "Arm: 13",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2467,
+        "monster": "Bat",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2467,
+        "monster": "Terror Bird",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2467,
+        "monster": "Hyaena",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2468,
@@ -3615,7 +4243,7 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Legs",
     "id860": 2468,
     "id10": 3362,
     "attributesDesc": "Arm: 2",
@@ -3624,19 +4252,19 @@
         "id": 4147,
         "itemId": 2468,
         "monster": "Wasp",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4148,
         "itemId": 2468,
         "monster": "Stalker",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4149,
         "itemId": 2468,
         "monster": "Orc Spearman",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -3650,7 +4278,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2473,
     "id10": 3367,
     "attributesDesc": "Arm: 9",
@@ -3659,31 +4287,31 @@
         "id": 4150,
         "itemId": 2473,
         "monster": "Barbarian Headsplitter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4151,
         "itemId": 2473,
         "monster": "Gazer",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4152,
         "itemId": 2473,
         "monster": "Gladiator",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4153,
         "itemId": 2473,
         "monster": "Beholder",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4154,
         "itemId": 2473,
         "monster": "Bog Raider",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -3697,11 +4325,24 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 2475,
+    "id10": 3369,
+    "attributesDesc": "Arm: 20, Regeneração HP/Mana (+15 HP/Mana por Tick)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2475,
+        "monster": "Swamp Troll",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 2475,
+        "monster": "Thornback Tortoise",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2478,
@@ -3713,7 +4354,7 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Legs",
     "id860": 2478,
     "id10": 3372,
     "attributesDesc": "Arm: 5",
@@ -3722,25 +4363,25 @@
         "id": 4155,
         "itemId": 2478,
         "monster": "Tarantula",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4156,
         "itemId": 2478,
         "monster": "Blocker",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4157,
         "itemId": 2478,
         "monster": "Goshnar",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4158,
         "itemId": 2478,
         "monster": "Elf",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4159,
@@ -3778,11 +4419,36 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 2480,
+    "id10": 3374,
+    "attributesDesc": "Arm: 13",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2480,
+        "monster": "Terror Bird",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2480,
+        "monster": "Mammoth",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2480,
+        "monster": "Hyaena",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2480,
+        "monster": "Ghost",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2481,
@@ -3794,7 +4460,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2481,
     "id10": 3375,
     "attributesDesc": "Arm: 8",
@@ -3803,7 +4469,7 @@
         "id": 4163,
         "itemId": 2481,
         "monster": "Dwarf Soldier",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4164,
@@ -3847,7 +4513,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2482,
     "id10": 3376,
     "attributesDesc": "Arm: 3",
@@ -3856,13 +4522,13 @@
         "id": 4169,
         "itemId": 2482,
         "monster": "Crazed Beggar",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4170,
         "itemId": 2482,
         "monster": "Elf Warlord",
-        "chance": "8.0"
+        "chance": "8"
       }
     ]
   },
@@ -3876,11 +4542,48 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2483,
+    "id10": 3377,
+    "attributesDesc": "Arm: 16",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2483,
+        "monster": "Snake",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2483,
+        "monster": "Demon Skeleton",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2483,
+        "monster": "Tiger",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2483,
+        "monster": "Mammoth",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2483,
+        "monster": "Frost Troll",
+        "chance": "30"
+      },
+      {
+        "id": 100005,
+        "itemId": 2483,
+        "monster": "War Wolf",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2484,
@@ -3892,11 +4595,30 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2484,
+    "id10": 3378,
+    "attributesDesc": "Arm: 14",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2484,
+        "monster": "Mummy",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2484,
+        "monster": "Terramite",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2484,
+        "monster": "Swamp Troll",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2485,
@@ -3908,11 +4630,36 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2485,
+    "id10": 3379,
+    "attributesDesc": "Arm: 12",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2485,
+        "monster": "Black Sheep",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2485,
+        "monster": "Cobra",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2485,
+        "monster": "Mummy",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2485,
+        "monster": "Slime",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2489,
@@ -3924,11 +4671,24 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2489,
+    "id10": 3383,
+    "attributesDesc": "Arm: 19",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2489,
+        "monster": "Dark Apprentice",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2489,
+        "monster": "Gargoyle",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2490,
@@ -3940,7 +4700,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2490,
     "id10": 3384,
     "attributesDesc": "Arm: 7",
@@ -3967,7 +4727,7 @@
         "id": 4174,
         "itemId": 2490,
         "monster": "Blocker",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4175,
@@ -3979,25 +4739,25 @@
         "id": 4176,
         "itemId": 2490,
         "monster": "Scarab",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4177,
         "itemId": 2490,
         "monster": "Smuggler",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4178,
         "itemId": 2490,
         "monster": "Larva",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4179,
         "itemId": 2490,
         "monster": "Gang Member",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -4011,11 +4771,36 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 2491,
+    "id10": 3385,
+    "attributesDesc": "Arm: 19, Físico +1%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2491,
+        "monster": "Wolf",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 2491,
+        "monster": "Dark Apprentice",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 2491,
+        "monster": "Sibang",
+        "chance": "0.2"
+      },
+      {
+        "id": 100003,
+        "itemId": 2491,
+        "monster": "Insect Swarm",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2509,
@@ -4027,7 +4812,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2509,
     "id10": 3409,
     "attributesDesc": "Def: 45",
@@ -4042,7 +4827,7 @@
         "id": 4181,
         "itemId": 2509,
         "monster": "Forest Dragon",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4182,
@@ -4066,13 +4851,13 @@
         "id": 4185,
         "itemId": 2509,
         "monster": "Ghoul",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4186,
         "itemId": 2509,
         "monster": "Crypt Shambler",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4187,
@@ -4084,7 +4869,7 @@
         "id": 4188,
         "itemId": 2509,
         "monster": "Assasin",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -4098,7 +4883,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2510,
     "id10": 3410,
     "attributesDesc": "Def: 25",
@@ -4107,19 +4892,19 @@
         "id": 4189,
         "itemId": 2510,
         "monster": "The Horned Fox",
-        "chance": "50.0"
+        "chance": "50"
       },
       {
         "id": 4190,
         "itemId": 2510,
         "monster": "Tarantula",
-        "chance": "17.0"
+        "chance": "17"
       },
       {
         "id": 4191,
         "itemId": 2510,
         "monster": "Tortoise",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 4192,
@@ -4137,19 +4922,19 @@
         "id": 4194,
         "itemId": 2510,
         "monster": "General Murius",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4195,
         "itemId": 2510,
         "monster": "Orc Leader",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4196,
         "itemId": 2510,
         "monster": "Assasin",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4197,
@@ -4169,7 +4954,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2511,
     "id10": 3411,
     "attributesDesc": "Def: 40",
@@ -4178,7 +4963,7 @@
         "id": 4198,
         "itemId": 2511,
         "monster": "A Fading Memory",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4199,
@@ -4216,7 +5001,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2512,
     "id10": 3412,
     "attributesDesc": "Def: 15",
@@ -4225,19 +5010,19 @@
         "id": 4203,
         "itemId": 2512,
         "monster": "Rat",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4204,
         "itemId": 2512,
         "monster": "Cave Rat",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4205,
         "itemId": 2512,
         "monster": "Orc Warrior",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4206,
@@ -4257,7 +5042,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2513,
     "id10": 3413,
     "attributesDesc": "Def: 55",
@@ -4284,7 +5069,7 @@
         "id": 4210,
         "itemId": 2513,
         "monster": "The Horned Fox",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4211,
@@ -4320,7 +5105,7 @@
         "id": 4216,
         "itemId": 2513,
         "monster": "Undead Minion",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -4334,11 +5119,36 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2515,
+    "id10": 3415,
+    "attributesDesc": "Def: 79",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2515,
+        "monster": "Dworc Venomsniper",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2515,
+        "monster": "Wolf",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2515,
+        "monster": "Insect Swarm",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2515,
+        "monster": "Worker Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2516,
@@ -4350,11 +5160,36 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2516,
+    "id10": 3416,
+    "attributesDesc": "Def: 82",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2516,
+        "monster": "Carrion Worm",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2516,
+        "monster": "Merlkin",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2516,
+        "monster": "Insect Swarm",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2516,
+        "monster": "Gnarlhound",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2521,
@@ -4366,11 +5201,42 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2521,
+    "id10": 3421,
+    "attributesDesc": "Def: 70",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2521,
+        "monster": "Snake",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2521,
+        "monster": "Toad",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2521,
+        "monster": "Terror Bird",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2521,
+        "monster": "Terramite",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2521,
+        "monster": "Rotworm",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2525,
@@ -4382,11 +5248,54 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2525,
+    "id10": 3425,
+    "attributesDesc": "Def: 73",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2525,
+        "monster": "Bear",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2525,
+        "monster": "Cobra",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2525,
+        "monster": "Scorpion",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2525,
+        "monster": "Troll",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 2525,
+        "monster": "Elephant",
+        "chance": "30"
+      },
+      {
+        "id": 100005,
+        "itemId": 2525,
+        "monster": "Rotworm",
+        "chance": "30"
+      },
+      {
+        "id": 100006,
+        "itemId": 2525,
+        "monster": "Dworc Voodoomaster",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2526,
@@ -4398,7 +5307,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2526,
     "id10": 3426,
     "attributesDesc": "Def: 20",
@@ -4407,13 +5316,13 @@
         "id": 4217,
         "itemId": 2526,
         "monster": "Spider",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4218,
         "itemId": 2526,
         "monster": "Bug",
-        "chance": "12.0"
+        "chance": "12"
       }
     ]
   },
@@ -4427,11 +5336,36 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2528,
+    "id10": 3428,
+    "attributesDesc": "Def: 85",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2528,
+        "monster": "Mutated Bat",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2528,
+        "monster": "Rotworm",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2528,
+        "monster": "Kongra",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2528,
+        "monster": "Gargoyle",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2531,
@@ -4443,11 +5377,30 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2531,
+    "id10": 3431,
+    "attributesDesc": "Def: 91, Físico +1%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2531,
+        "monster": "Kongra",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 2531,
+        "monster": "Gnarlhound",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 2531,
+        "monster": "Worker Golem",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2534,
@@ -4459,10 +5412,10 @@
     "slot": "Shield",
     "description": "Dark powers enchant this shield.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "category": "Shield",
+    "id860": 2534,
+    "id10": 3434,
+    "attributesDesc": "Def: 95, Físico +2%",
     "drops": []
   },
   {
@@ -4475,11 +5428,36 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2540,
+    "id10": 3440,
+    "attributesDesc": "Def: 76",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2540,
+        "monster": "Sandcrawler",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2540,
+        "monster": "Scorpion",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 2540,
+        "monster": "Demon Skeleton",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 2540,
+        "monster": "Slime",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2541,
@@ -4491,7 +5469,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 2541,
     "id10": 3441,
     "attributesDesc": "Def: 30",
@@ -4500,7 +5478,7 @@
         "id": 4219,
         "itemId": 2541,
         "monster": "Tortoise",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4220,
@@ -4532,7 +5510,7 @@
     "slot": "Ammo",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Arrow & Bolt",
     "id860": 2543,
     "id10": 3446,
     "attributesDesc": "Atk: 20",
@@ -4541,25 +5519,25 @@
         "id": 4223,
         "itemId": 2543,
         "monster": "Minotaur Archer",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4224,
         "itemId": 2543,
         "monster": "Dwarf Soldier",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4225,
         "itemId": 2543,
         "monster": "Valkyrie",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4226,
         "itemId": 2543,
         "monster": "Amazon",
-        "chance": "12.0"
+        "chance": "12"
       }
     ]
   },
@@ -4573,7 +5551,7 @@
     "slot": "Ammo",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Arrow & Bolt",
     "id860": 2544,
     "id10": 3447,
     "attributesDesc": "Atk: 10",
@@ -4582,79 +5560,79 @@
         "id": 4227,
         "itemId": 2544,
         "monster": "Omruc",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4228,
         "itemId": 2544,
         "monster": "Elf",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4229,
         "itemId": 2544,
         "monster": "Elf Scout",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4230,
         "itemId": 2544,
         "monster": "Elf Warlord",
-        "chance": "30.0"
+        "chance": "30"
       },
       {
         "id": 4231,
         "itemId": 2544,
         "monster": "Sorcerer",
-        "chance": "27.0"
+        "chance": "27"
       },
       {
         "id": 4232,
         "itemId": 2544,
         "monster": "Paladin",
-        "chance": "27.0"
+        "chance": "27"
       },
       {
         "id": 4233,
         "itemId": 2544,
         "monster": "Thief",
-        "chance": "27.0"
+        "chance": "27"
       },
       {
         "id": 4234,
         "itemId": 2544,
         "monster": "Lumenia",
-        "chance": "27.0"
+        "chance": "27"
       },
       {
         "id": 4235,
         "itemId": 2544,
         "monster": "Druid",
-        "chance": "27.0"
+        "chance": "27"
       },
       {
         "id": 4236,
         "itemId": 2544,
         "monster": "Knight",
-        "chance": "27.0"
+        "chance": "27"
       },
       {
         "id": 4237,
         "itemId": 2544,
         "monster": "Spider",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4238,
         "itemId": 2544,
         "monster": "Bug",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4239,
         "itemId": 2544,
         "monster": "Prince Almirith",
-        "chance": "6.0"
+        "chance": "6"
       }
     ]
   },
@@ -4721,7 +5699,7 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Boots",
     "id860": 2642,
     "id10": 3551,
     "attributesDesc": "Arm: 1",
@@ -4730,31 +5708,31 @@
         "id": 4246,
         "itemId": 2642,
         "monster": "Dharalion",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4247,
         "itemId": 2642,
         "monster": "Elf Arcanist",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4248,
         "itemId": 2642,
         "monster": "Prince Almirith",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4249,
         "itemId": 2642,
         "monster": "Rift Phantom",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4250,
         "itemId": 2642,
         "monster": "Elf Warlord",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4251,
@@ -4814,13 +5792,13 @@
         "id": 4260,
         "itemId": 2642,
         "monster": "Cave Rat",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4261,
         "itemId": 2642,
         "monster": "Rat",
-        "chance": "5.0"
+        "chance": "5"
       }
     ]
   },
@@ -4834,7 +5812,7 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Boots",
     "id860": 2643,
     "id10": 3552,
     "attributesDesc": "Arm: 2",
@@ -4843,55 +5821,55 @@
         "id": 4262,
         "itemId": 2643,
         "monster": "Durin",
-        "chance": "40.0"
+        "chance": "40"
       },
       {
         "id": 4263,
         "itemId": 2643,
         "monster": "Dwarf Soldier",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4264,
         "itemId": 2643,
         "monster": "Elf",
-        "chance": "25.0"
+        "chance": "25"
       },
       {
         "id": 4265,
         "itemId": 2643,
         "monster": "Dwarf Geomancer",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4266,
         "itemId": 2643,
         "monster": "Spider",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4267,
         "itemId": 2643,
         "monster": "Bug",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4268,
         "itemId": 2643,
         "monster": "Witch",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4269,
         "itemId": 2643,
         "monster": "Island Troll",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4270,
         "itemId": 2643,
         "monster": "Troll Champion",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -4905,7 +5883,7 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Boots",
     "id860": 2644,
     "id10": 3553,
     "attributesDesc": "Arm: 5",
@@ -4958,11 +5936,18 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Boots",
+    "id860": 2645,
+    "id10": 3554,
+    "attributesDesc": "Arm: 10, Speed +50",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2645,
+        "monster": "Blood Crab",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 2647,
@@ -4974,11 +5959,24 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Legs",
+    "id860": 2647,
+    "id10": 3557,
+    "attributesDesc": "Arm: 7",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2647,
+        "monster": "Mutated Tiger",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 2647,
+        "monster": "Mutated Bat",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2648,
@@ -4990,7 +5988,7 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Legs",
     "id860": 2648,
     "id10": 3558,
     "attributesDesc": "Arm: 4",
@@ -4999,19 +5997,19 @@
         "id": 4277,
         "itemId": 2648,
         "monster": "The Horned Fox",
-        "chance": "15.0"
+        "chance": "15"
       },
       {
         "id": 4278,
         "itemId": 2648,
         "monster": "Nomad",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4279,
         "itemId": 2648,
         "monster": "Cyclops",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -5025,7 +6023,7 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Legs",
     "id860": 2649,
     "id10": 3559,
     "attributesDesc": "Arm: 1",
@@ -5034,103 +6032,103 @@
         "id": 4280,
         "itemId": 2649,
         "monster": "Poacher",
-        "chance": "100.0"
+        "chance": "100"
       },
       {
         "id": 4281,
         "itemId": 2649,
         "monster": "Skunk",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4282,
         "itemId": 2649,
         "monster": "Orchid Frog",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4283,
         "itemId": 2649,
         "monster": "Badger",
-        "chance": "12.0"
+        "chance": "12"
       },
       {
         "id": 4284,
         "itemId": 2649,
         "monster": "Poacher",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4285,
         "itemId": 2649,
         "monster": "Random Noob",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4286,
         "itemId": 2649,
         "monster": "Minotaur",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4287,
         "itemId": 2649,
         "monster": "Magebomb",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4288,
         "itemId": 2649,
         "monster": "Killer",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4289,
         "itemId": 2649,
         "monster": "Minotaur Guard",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4290,
         "itemId": 2649,
         "monster": "Dwarf Geomancer",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4291,
         "itemId": 2649,
         "monster": "Hunter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4292,
         "itemId": 2649,
         "monster": "Dwarf",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4293,
         "itemId": 2649,
         "monster": "Vampire",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4294,
         "itemId": 2649,
         "monster": "Dracula",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4295,
         "itemId": 2649,
         "monster": "Apprentice Sheng",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4296,
         "itemId": 2649,
         "monster": "Minotaur Mage",
-        "chance": "8.0"
+        "chance": "8"
       }
     ]
   },
@@ -5144,7 +6142,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2650,
     "id10": 3561,
     "attributesDesc": "Arm: 5",
@@ -5153,25 +6151,25 @@
         "id": 4297,
         "itemId": 2650,
         "monster": "Spider",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4298,
         "itemId": 2650,
         "monster": "Bug",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4299,
         "itemId": 2650,
         "monster": "Valkyrie",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4300,
         "itemId": 2650,
         "monster": "Amazon",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -5185,7 +6183,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2651,
     "id10": 3562,
     "attributesDesc": "Arm: 1",
@@ -5194,19 +6192,19 @@
         "id": 4301,
         "itemId": 2651,
         "monster": "Rat",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4302,
         "itemId": 2651,
         "monster": "Cave Rat",
-        "chance": "20.0"
+        "chance": "20"
       },
       {
         "id": 4303,
         "itemId": 2651,
         "monster": "Witch",
-        "chance": "5.0"
+        "chance": "5"
       }
     ]
   },
@@ -5220,7 +6218,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2652,
     "id10": 3563,
     "attributesDesc": "Arm: 8",
@@ -5229,43 +6227,43 @@
         "id": 4304,
         "itemId": 2652,
         "monster": "Paladin",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4305,
         "itemId": 2652,
         "monster": "Lumenia",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4306,
         "itemId": 2652,
         "monster": "Thief",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4307,
         "itemId": 2652,
         "monster": "Sorcerer",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4308,
         "itemId": 2652,
         "monster": "Knight",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4309,
         "itemId": 2652,
         "monster": "Druid",
-        "chance": "8.0"
+        "chance": "8"
       },
       {
         "id": 4310,
         "itemId": 2652,
         "monster": "Prince Almirith",
-        "chance": "7.0"
+        "chance": "7"
       },
       {
         "id": 4311,
@@ -5303,7 +6301,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2653,
     "id10": 3564,
     "attributesDesc": "Arm: 6",
@@ -5318,25 +6316,25 @@
         "id": 4316,
         "itemId": 2653,
         "monster": "Mutated Rat",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4317,
         "itemId": 2653,
         "monster": "Stone Golem",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4318,
         "itemId": 2653,
         "monster": "Chakoya Windcaller",
-        "chance": "3.0"
+        "chance": "3"
       },
       {
         "id": 4319,
         "itemId": 2653,
         "monster": "Mutated Human",
-        "chance": "3.0"
+        "chance": "3"
       }
     ]
   },
@@ -5350,7 +6348,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2654,
     "id10": 3565,
     "attributesDesc": "Arm: 4",
@@ -5359,37 +6357,37 @@
         "id": 4320,
         "itemId": 2654,
         "monster": "Hand of Cursed Fate",
-        "chance": "35.0"
+        "chance": "35"
       },
       {
         "id": 4321,
         "itemId": 2654,
         "monster": "Lizard Snakecharmer",
-        "chance": "13.0"
+        "chance": "13"
       },
       {
         "id": 4322,
         "itemId": 2654,
         "monster": "Alezzo",
-        "chance": "9.0"
+        "chance": "9"
       },
       {
         "id": 4323,
         "itemId": 2654,
         "monster": "Enlightened of the Cult",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4324,
         "itemId": 2654,
         "monster": "Ghoul",
-        "chance": "4.0"
+        "chance": "4"
       },
       {
         "id": 4325,
         "itemId": 2654,
         "monster": "Crypt Shambler",
-        "chance": "4.0"
+        "chance": "4"
       }
     ]
   },
@@ -5403,7 +6401,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2655,
     "id10": 3566,
     "attributesDesc": "Arm: 7",
@@ -5412,25 +6410,25 @@
         "id": 4326,
         "itemId": 2655,
         "monster": "Stone Golem",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4327,
         "itemId": 2655,
         "monster": "Mutated Rat",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4328,
         "itemId": 2655,
         "monster": "Mutated Human",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4329,
         "itemId": 2655,
         "monster": "Chakoya Windcaller",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4330,
@@ -5456,7 +6454,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 2658,
     "id10": 3569,
     "attributesDesc": "Arm: 2",
@@ -5465,19 +6463,19 @@
         "id": 4332,
         "itemId": 2658,
         "monster": "Tortoise",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4333,
         "itemId": 2658,
         "monster": "Wasp",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4334,
         "itemId": 2658,
         "monster": "Stalker",
-        "chance": "5.0"
+        "chance": "5"
       }
     ]
   },
@@ -5491,11 +6489,36 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2659,
+    "id10": 3570,
+    "attributesDesc": "Arm: 20",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2659,
+        "monster": "Elephant",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2659,
+        "monster": "Panda",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2659,
+        "monster": "Dark Apprentice",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2659,
+        "monster": "Blood Crab",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2660,
@@ -5507,11 +6530,48 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2660,
+    "id10": 3571,
+    "attributesDesc": "Arm: 17",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2660,
+        "monster": "Demon Skeleton",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 2660,
+        "monster": "Elephant",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 2660,
+        "monster": "Mammoth",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 2660,
+        "monster": "Dark Magician",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 2660,
+        "monster": "Merlkin",
+        "chance": "3"
+      },
+      {
+        "id": 100005,
+        "itemId": 2660,
+        "monster": "Blood Crab",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 2663,
@@ -5523,7 +6583,7 @@
     "slot": "Helmet",
     "description": "Something is strange about this turban.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 2663,
     "id10": 3574,
     "attributesDesc": "Arm: 5, Magic Level +1",
@@ -5532,25 +6592,25 @@
         "id": 4335,
         "itemId": 2663,
         "monster": "Stone Golem",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4336,
         "itemId": 2663,
         "monster": "Mutated Rat",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4337,
         "itemId": 2663,
         "monster": "Mutated Human",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4338,
         "itemId": 2663,
         "monster": "Chakoya Windcaller",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4339,
@@ -5570,11 +6630,18 @@
     "slot": "Helmet",
     "description": "This hat is the insignia of all tibian post officers.",
     "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 2665,
+    "id10": 3576,
+    "attributesDesc": "Arm: 4",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2665,
+        "monster": "Tortoise",
+        "chance": "5"
+      }
+    ]
   },
   {
     "id": 3961,
@@ -5586,11 +6653,18 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 3961,
+    "id10": 3343,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Club +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 3961,
+        "monster": "Elder Beholder",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 3965,
@@ -5601,11 +6675,11 @@
     "weight": 22,
     "slot": "Spear",
     "description": "",
-    "tier": "tier2",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Spear",
+    "id860": 3965,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 65",
     "drops": []
   },
   {
@@ -5618,11 +6692,30 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 3967,
+    "id10": 3403,
+    "attributesDesc": "Arm: 11",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 3967,
+        "monster": "Bear",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 3967,
+        "monster": "Terramite",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 3967,
+        "monster": "Dark Magician",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 3973,
@@ -5634,7 +6727,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 3973,
     "id10": 3443,
     "attributesDesc": "Def: 65",
@@ -5643,19 +6736,19 @@
         "id": 4340,
         "itemId": 3973,
         "monster": "Gazer",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4341,
         "itemId": 3973,
         "monster": "Gladiator",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4342,
         "itemId": 3973,
         "monster": "Beholder",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4343,
@@ -5693,7 +6786,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 3974,
     "id10": 3444,
     "attributesDesc": "Def: 60",
@@ -5734,7 +6827,7 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Shield",
     "id860": 3975,
     "id10": 3445,
     "attributesDesc": "Def: 50",
@@ -5743,7 +6836,7 @@
         "id": 4351,
         "itemId": 3975,
         "monster": "Lizard Templar",
-        "chance": "18.0"
+        "chance": "18"
       },
       {
         "id": 4352,
@@ -5769,7 +6862,7 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Boots",
     "id860": 3982,
     "id10": 3556,
     "attributesDesc": "Arm: 3",
@@ -5849,7 +6942,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 4847,
     "id10": 4836,
     "attributesDesc": "Arm: 5",
@@ -6054,7 +7147,7 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 5917,
     "id10": 5917,
     "attributesDesc": "Arm: 6",
@@ -6063,25 +7156,25 @@
         "id": 4382,
         "itemId": 5917,
         "monster": "Mutated Rat",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4383,
         "itemId": 5917,
         "monster": "Stone Golem",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4384,
         "itemId": 5917,
         "monster": "Chakoya Windcaller",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4385,
         "itemId": 5917,
         "monster": "Mutated Human",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4386,
@@ -6107,7 +7200,7 @@
     "slot": "Helmet",
     "description": "The words 'Ramsay the Reckless' are engraved inside. It appears to be cracked and broken.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 5924,
     "id10": 5924,
     "attributesDesc": "Arm: 10",
@@ -6160,10 +7253,10 @@
     "slot": "Shield",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "category": "Shield",
+    "id860": 6131,
+    "id10": 6131,
+    "attributesDesc": "Def: 88",
     "drops": []
   },
   {
@@ -6176,7 +7269,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 6578,
     "id10": 6578,
     "attributesDesc": "Arm: 5",
@@ -6217,11 +7310,36 @@
     "slot": "Ammo",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Arrow & Bolt",
+    "id860": 7363,
+    "id10": 7363,
+    "attributesDesc": "Atk: 55, Hit %: 90",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7363,
+        "monster": "Rotworm",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7363,
+        "monster": "Dworc Voodoomaster",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 7363,
+        "monster": "Dark Apprentice",
+        "chance": "0.2"
+      },
+      {
+        "id": 100003,
+        "itemId": 7363,
+        "monster": "Gargoyle",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7364,
@@ -6233,11 +7351,30 @@
     "slot": "Ammo",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Arrow & Bolt",
+    "id860": 7364,
+    "id10": 7364,
+    "attributesDesc": "Atk: 45, Hit %: 100",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7364,
+        "monster": "Troll Champion",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7364,
+        "monster": "Kongra",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7364,
+        "monster": "Gargoyle",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7365,
@@ -6249,11 +7386,42 @@
     "slot": "Ammo",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Arrow & Bolt",
+    "id860": 7365,
+    "id10": 7365,
+    "attributesDesc": "Atk: 35, Hit %: 90",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7365,
+        "monster": "Bat",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 7365,
+        "monster": "Toad",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 7365,
+        "monster": "Black Sheep",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 7365,
+        "monster": "Elephant",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 7365,
+        "monster": "Mutated Bat",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 7379,
@@ -6265,11 +7433,18 @@
     "slot": "Club",
     "description": "Barbarian women are said to use it for conjuring beasts.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 7379,
+    "id10": 7379,
+    "attributesDesc": "Atk: 110, Def: 45 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7379,
+        "monster": "Braindeath",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7380,
@@ -6281,11 +7456,24 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 7380,
+    "id10": 7380,
+    "attributesDesc": "Atk: 95, Def: 35 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7380,
+        "monster": "Elephant",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 7380,
+        "monster": "Werewolf",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 7381,
@@ -6297,7 +7485,7 @@
     "slot": "Club",
     "description": "Made from a mammoth's legbones, it is one of the favoured weapons among barbarians.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 7381,
     "id10": 7381,
     "attributesDesc": "Atk: 60, Def: 25",
@@ -6306,31 +7494,31 @@
         "id": 4398,
         "itemId": 7381,
         "monster": "Spectre",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4399,
         "itemId": 7381,
         "monster": "Scarab",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4400,
         "itemId": 7381,
         "monster": "Smuggler",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4401,
         "itemId": 7381,
         "monster": "Gang Member",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4402,
         "itemId": 7381,
         "monster": "Larva",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4403,
@@ -6350,11 +7538,30 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 7385,
+    "id10": 7385,
+    "attributesDesc": "Atk: 90, Def: 30, Def Extra +2",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7385,
+        "monster": "Cobra",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 7385,
+        "monster": "Lion",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 7385,
+        "monster": "Ghost",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 7387,
@@ -6366,10 +7573,10 @@
     "slot": "Club",
     "description": "The beautiful jewel on the top of this sceptre is sharp enough to cut through glass.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "category": "Club",
+    "id860": 7387,
+    "id10": 7387,
+    "attributesDesc": "Atk: 90, Def: 28, Def Extra +2",
     "drops": []
   },
   {
@@ -6382,11 +7589,42 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 7389,
+    "id10": 7389,
+    "attributesDesc": "Atk: 100, Def: 40 (Def base +5)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7389,
+        "monster": "Rotworm Queen",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7389,
+        "monster": "Troll Champion",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7389,
+        "monster": "Sibang",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 7389,
+        "monster": "Blood Crab",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 7389,
+        "monster": "Worker Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7392,
@@ -6398,11 +7636,48 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 7392,
+    "id10": 7392,
+    "attributesDesc": "Atk: 95, Def: 35 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7392,
+        "monster": "Scorpion",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 7392,
+        "monster": "Demon Skeleton",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 7392,
+        "monster": "Crocodile",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 7392,
+        "monster": "Dworc Voodoomaster",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 7392,
+        "monster": "Wolf",
+        "chance": "30"
+      },
+      {
+        "id": 100005,
+        "itemId": 7392,
+        "monster": "War Wolf",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 7406,
@@ -6414,11 +7689,30 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 7406,
+    "id10": 7406,
+    "attributesDesc": "Atk: 120, Def: 60 (Def base +5), Sword +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7406,
+        "monster": "War Wolf",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7406,
+        "monster": "Kongra",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 7406,
+        "monster": "War Golem",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7415,
@@ -6430,11 +7724,18 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 7415,
+    "id10": 7415,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Club +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7415,
+        "monster": "Carrion Worm",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7419,
@@ -6446,11 +7747,36 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 7419,
+    "id10": 7419,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Sword +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7419,
+        "monster": "Sibang",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7419,
+        "monster": "Thornback Tortoise",
+        "chance": "0.2"
+      },
+      {
+        "id": 100002,
+        "itemId": 7419,
+        "monster": "Elder Beholder",
+        "chance": "0.2"
+      },
+      {
+        "id": 100003,
+        "itemId": 7419,
+        "monster": "Gnarlhound",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7425,
@@ -6462,11 +7788,24 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 7425,
+    "id10": 7425,
+    "attributesDesc": "Atk: 120, Def: 60 (Def base +5), Club +1 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7425,
+        "monster": "Merlkin",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7425,
+        "monster": "Braindeath",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7426,
@@ -6478,11 +7817,18 @@
     "slot": "Club",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 7426,
+    "id10": 7426,
+    "attributesDesc": "Atk: 115, Def: 55 (Def base +5), Club +1 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7426,
+        "monster": "Crocodile",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7430,
@@ -6494,11 +7840,42 @@
     "slot": "Club",
     "description": "Small flames are dancing around this strange weapon.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Club",
+    "id860": 7430,
+    "id10": 7430,
+    "attributesDesc": "Atk: 105, Def: 40 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7430,
+        "monster": "Terramite",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7430,
+        "monster": "Hyaena",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7430,
+        "monster": "War Wolf",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 7430,
+        "monster": "Merlkin",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 7430,
+        "monster": "Insect Swarm",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7432,
@@ -6510,7 +7887,7 @@
     "slot": "Club",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Club",
     "id860": 7432,
     "id10": 7432,
     "attributesDesc": "Atk: 40, Def: 20",
@@ -6539,11 +7916,36 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 7434,
+    "id10": 7434,
+    "attributesDesc": "Atk: 110, Def: 50 (Def base +5)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7434,
+        "monster": "Dark Magician",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7434,
+        "monster": "Elder Beholder",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7434,
+        "monster": "Braindeath",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 7434,
+        "monster": "Insect Swarm",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7449,
@@ -6555,11 +7957,24 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 7449,
+    "id10": 7449,
+    "attributesDesc": "Atk: 125, Def: 65 (Def base +5), Sword +1 (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7449,
+        "monster": "Werewolf",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7449,
+        "monster": "Gnarlhound",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7454,
@@ -6571,11 +7986,54 @@
     "slot": "Axe",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Axe",
+    "id860": 7454,
+    "id10": 7454,
+    "attributesDesc": "Atk: 105, Def: 45 (Def base +5) (2 mãos)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7454,
+        "monster": "Swamp Troll",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7454,
+        "monster": "Troll Champion",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7454,
+        "monster": "Dworc Voodoomaster",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 7454,
+        "monster": "War Wolf",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 7454,
+        "monster": "Dark Apprentice",
+        "chance": "3"
+      },
+      {
+        "id": 100005,
+        "itemId": 7454,
+        "monster": "Kongra",
+        "chance": "3"
+      },
+      {
+        "id": 100006,
+        "itemId": 7454,
+        "monster": "War Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7457,
@@ -6587,7 +8045,7 @@
     "slot": "Boots",
     "description": "These boots keep your toes warm in even the iciest regions but they feel kind of heavy.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Boots",
     "id860": 7457,
     "id10": 7457,
     "attributesDesc": "Arm: 4",
@@ -6596,7 +8054,7 @@
         "id": 4406,
         "itemId": 7457,
         "monster": "Barbarian Headsplitter",
-        "chance": "10.0"
+        "chance": "10"
       },
       {
         "id": 4407,
@@ -6646,11 +8104,24 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 7458,
+    "id10": 7458,
+    "attributesDesc": "Arm: 18, Regeneração HP/Mana (+10 HP/Mana por Tick)",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7458,
+        "monster": "Swamp Troll",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7458,
+        "monster": "Wolf",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7459,
@@ -6662,11 +8133,36 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 7459,
+    "id10": 7459,
+    "attributesDesc": "Arm: 10",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7459,
+        "monster": "Terror Bird",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 7459,
+        "monster": "Crocodile",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 7459,
+        "monster": "Dworc Venomsniper",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 7459,
+        "monster": "Wolf",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 7464,
@@ -6678,11 +8174,42 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Legs",
+    "id860": 7464,
+    "id10": 7464,
+    "attributesDesc": "Arm: 9, Speed +10",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7464,
+        "monster": "Mutated Tiger",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7464,
+        "monster": "Rotworm",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7464,
+        "monster": "Wolf",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 7464,
+        "monster": "Gargoyle",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 7464,
+        "monster": "Braindeath",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7497,
@@ -7794,11 +9321,24 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 7884,
+    "id10": 811,
+    "attributesDesc": "Arm: 25, Terra +2%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7884,
+        "monster": "Rotworm Queen",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7884,
+        "monster": "Dark Magician",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7886,
@@ -7810,11 +9350,30 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Boots",
+    "id860": 7886,
+    "id10": 813,
+    "attributesDesc": "Arm: 6, Terra +1%, Speed +30",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7886,
+        "monster": "Mammoth",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7886,
+        "monster": "Hyaena",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7886,
+        "monster": "Rotworm Queen",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7891,
@@ -7826,11 +9385,24 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Boots",
+    "id860": 7891,
+    "id10": 818,
+    "attributesDesc": "Arm: 5, Fogo +1%, Speed +25",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7891,
+        "monster": "Panda",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7891,
+        "monster": "Werewolf",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7892,
@@ -7842,11 +9414,18 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Boots",
+    "id860": 7892,
+    "id10": 819,
+    "attributesDesc": "Arm: 4, Gelo +1%, Speed +20",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7892,
+        "monster": "Snake",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 7893,
@@ -7858,11 +9437,24 @@
     "slot": "Boots",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Boots",
+    "id860": 7893,
+    "id10": 820,
+    "attributesDesc": "Arm: 8, Energia +1%, Speed +40",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7893,
+        "monster": "Braindeath",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7893,
+        "monster": "Insect Swarm",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7895,
@@ -7874,10 +9466,10 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "category": "Legs",
+    "id860": 7895,
+    "id10": 822,
+    "attributesDesc": "Arm: 16, Energia +1%, Speed +25",
     "drops": []
   },
   {
@@ -7890,11 +9482,24 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 7898,
+    "id10": 825,
+    "attributesDesc": "Arm: 23, Energia +1%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7898,
+        "monster": "Frost Troll",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7898,
+        "monster": "Merlkin",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7939,
@@ -7906,11 +9511,42 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Helmet",
+    "id860": 7939,
+    "id10": 875,
+    "attributesDesc": "Arm: 17",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7939,
+        "monster": "Lion",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7939,
+        "monster": "Dworc Fleshhunter",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7939,
+        "monster": "Kongra",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 7939,
+        "monster": "Sibang",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 7939,
+        "monster": "Elder Beholder",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 8190,
@@ -7975,11 +9611,36 @@
     "slot": "Sword",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Sword",
+    "id860": 8602,
+    "id10": 7774,
+    "attributesDesc": "Atk: 75, Def: 20, Def Extra +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8602,
+        "monster": "Sandcrawler",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 8602,
+        "monster": "Tiger",
+        "chance": "30"
+      },
+      {
+        "id": 100002,
+        "itemId": 8602,
+        "monster": "Troll Champion",
+        "chance": "30"
+      },
+      {
+        "id": 100003,
+        "itemId": 8602,
+        "monster": "Dworc Fleshhunter",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 8819,
@@ -7991,7 +9652,7 @@
     "slot": "Armor",
     "description": "This robe feels soft and light as a feather.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 8819,
     "id10": 7991,
     "attributesDesc": "Arm: 8, Magic Level +1",
@@ -8068,7 +9729,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Helmet",
     "id860": 8820,
     "id10": 7992,
     "attributesDesc": "Arm: 4, Magic Level +1",
@@ -8077,25 +9738,25 @@
         "id": 4501,
         "itemId": 8820,
         "monster": "Mutated Rat",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4502,
         "itemId": 8820,
         "monster": "Stone Golem",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4503,
         "itemId": 8820,
         "monster": "Chakoya Windcaller",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4504,
         "itemId": 8820,
         "monster": "Mutated Human",
-        "chance": "2.0"
+        "chance": "2"
       }
     ]
   },
@@ -8109,11 +9770,18 @@
     "slot": "Crossbow",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Bow & Crossbow",
+    "id860": 8849,
+    "id10": 8021,
+    "attributesDesc": "Atk: 8, Range: 5, Hit +5%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8849,
+        "monster": "Dark Magician",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 8855,
@@ -8125,10 +9793,10 @@
     "slot": "Bow",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "category": "Bow & Crossbow",
+    "id860": 8855,
+    "id10": 8027,
+    "attributesDesc": "Atk: 6, Range: 6, Hit +4%",
     "drops": []
   },
   {
@@ -8141,11 +9809,24 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 8870,
+    "id10": 8042,
+    "attributesDesc": "Arm: 22, Magic Level +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8870,
+        "monster": "Troll Champion",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 8870,
+        "monster": "Insect Swarm",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 8872,
@@ -8157,7 +9838,7 @@
     "slot": "Helmet",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 8872,
     "id10": 8044,
     "attributesDesc": "Arm: 10",
@@ -8166,25 +9847,25 @@
         "id": 4505,
         "itemId": 8872,
         "monster": "Gazer",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4506,
         "itemId": 8872,
         "monster": "Gladiator",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4507,
         "itemId": 8872,
         "monster": "Beholder",
-        "chance": "1.0"
+        "chance": "1"
       },
       {
         "id": 4508,
         "itemId": 8872,
         "monster": "Bog Raider",
-        "chance": "1.0"
+        "chance": "1"
       }
     ]
   },
@@ -8198,7 +9879,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 8873,
     "id10": 8045,
     "attributesDesc": "Arm: 4",
@@ -8207,13 +9888,13 @@
         "id": 4509,
         "itemId": 8873,
         "monster": "Penguin",
-        "chance": "5.0"
+        "chance": "5"
       },
       {
         "id": 4510,
         "itemId": 8873,
         "monster": "Fire Devil",
-        "chance": "5.0"
+        "chance": "5"
       }
     ]
   },
@@ -8227,7 +9908,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 8874,
     "id10": 8046,
     "attributesDesc": "Arm: 3",
@@ -8236,13 +9917,13 @@
         "id": 4511,
         "itemId": 8874,
         "monster": "Skeleton",
-        "chance": "6.0"
+        "chance": "6"
       },
       {
         "id": 4512,
         "itemId": 8874,
         "monster": "Skeleton Warrior",
-        "chance": "6.0"
+        "chance": "6"
       }
     ]
   },
@@ -8256,7 +9937,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 8875,
     "id10": 8047,
     "attributesDesc": "Arm: 3",
@@ -8265,7 +9946,7 @@
         "id": 4513,
         "itemId": 8875,
         "monster": "Tortoise",
-        "chance": "10.0"
+        "chance": "10"
       }
     ]
   },
@@ -8279,7 +9960,7 @@
     "slot": "Armor",
     "description": "",
     "tier": "tier1",
-    "category": "all",
+    "category": "Armor",
     "id860": 8876,
     "id10": 8048,
     "attributesDesc": "Arm: 2",
@@ -8288,7 +9969,7 @@
         "id": 4514,
         "itemId": 8876,
         "monster": "Crazed Beggar",
-        "chance": "12.0"
+        "chance": "12"
       }
     ]
   },
@@ -8302,7 +9983,7 @@
     "slot": "Spellbook",
     "description": "It shows your spells and can also shield against attack when worn.",
     "tier": "tier1",
-    "category": "all",
+    "category": "Spellbook",
     "id860": 8900,
     "id10": 8072,
     "attributesDesc": "Def: 40, Magic Level +1",
@@ -8311,55 +9992,61 @@
         "id": 4515,
         "itemId": 8900,
         "monster": "Bog Raider",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4516,
         "itemId": 8900,
         "monster": "Nightstalker",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4517,
         "itemId": 8900,
         "monster": "Gozzler",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4518,
         "itemId": 8900,
         "monster": "Polar Bear",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4519,
         "itemId": 8900,
         "monster": "Novice of the Cult",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4520,
         "itemId": 8900,
         "monster": "Spit Nettle",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4521,
         "itemId": 8900,
         "monster": "Priestess",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4522,
         "itemId": 8900,
         "monster": "Winter Wolf",
-        "chance": "2.0"
+        "chance": "2"
       },
       {
         "id": 4523,
         "itemId": 8900,
         "monster": "Carniphila",
-        "chance": "2.0"
+        "chance": "2"
+      },
+      {
+        "id": 100009,
+        "itemId": 8900,
+        "monster": "Acolyte of the Cult",
+        "chance": "1.79"
       }
     ]
   },
@@ -8373,11 +10060,24 @@
     "slot": "Spellbook",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Spellbook",
+    "id860": 8901,
+    "id10": 8073,
+    "attributesDesc": "Def: 20, Magic Level +1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8901,
+        "monster": "Ghost",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 8901,
+        "monster": "Dworc Voodoomaster",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 8902,
@@ -8389,11 +10089,18 @@
     "slot": "Spellbook",
     "description": "It shows your spells and can also shield against attack when worn.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Spellbook",
+    "id860": 8902,
+    "id10": 8074,
+    "attributesDesc": "Def: 25, Magic Level +2",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8902,
+        "monster": "Dark Apprentice",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 8911,
@@ -8405,11 +10112,24 @@
     "slot": "Rod",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Rod & Wand",
+    "id860": 8911,
+    "id10": 8911,
+    "attributesDesc": "Range: 3, Dano: Gelo",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8911,
+        "monster": "Mummy",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 8911,
+        "monster": "Demon Skeleton",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 8921,
@@ -8421,11 +10141,24 @@
     "slot": "Wand",
     "description": "A York Wand.",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Rod & Wand",
+    "id860": 8921,
+    "id10": 8921,
+    "attributesDesc": "Range: 4, Dano: Fogo",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8921,
+        "monster": "Mummy",
+        "chance": "30"
+      },
+      {
+        "id": 100001,
+        "itemId": 8921,
+        "monster": "Demon Skeleton",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 8923,
@@ -8437,11 +10170,24 @@
     "slot": "Legs",
     "description": "",
     "tier": "tier2",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Legs",
+    "id860": 8923,
+    "id10": 8095,
+    "attributesDesc": "Arm: 11, Speed +15",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 8923,
+        "monster": "Sibang",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 8923,
+        "monster": "Thornback Tortoise",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 100,
@@ -17733,34 +19479,40 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "category": "Spear",
+    "id860": 1294,
+    "id10": 1781,
+    "attributesDesc": "Atk: 15, Range: 5",
     "drops": [
       {
         "id": 3772,
         "itemId": 1294,
-        "monster": "Earth Elemental",
-        "chance": "100.0"
+        "monster": "Massive Earth Elemental",
+        "chance": "100"
       },
       {
         "id": 3773,
         "itemId": 1294,
-        "monster": "Demon",
-        "chance": "30.0"
+        "monster": "Earth Elemental",
+        "chance": "100"
       },
       {
         "id": 3774,
         "itemId": 1294,
-        "monster": "Goblin Demon",
-        "chance": "30.0"
+        "monster": "Demon",
+        "chance": "30"
       },
       {
         "id": 3775,
         "itemId": 1294,
+        "monster": "Goblin Demon",
+        "chance": "30"
+      },
+      {
+        "id": 100004,
+        "itemId": 1294,
         "monster": "Tortoise",
-        "chance": "15.0"
+        "chance": "15"
       }
     ]
   },
@@ -31901,11 +33653,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 2184,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Sem atributos especiais",
     "drops": []
   },
   {
@@ -31965,11 +33717,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 2195,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 14, Speed +90",
     "drops": []
   },
   {
@@ -34845,11 +36597,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 2392,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 130, Def: 30, Def Extra +3, Sword +1",
     "drops": []
   },
   {
@@ -34861,11 +36613,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 2393,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 170, Def: 52 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -34909,11 +36661,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2415,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 135, Def: 32, Def Extra +3, Axe +1",
     "drops": []
   },
   {
@@ -34941,11 +36693,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2424,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 55 (Def base +8), Club +3",
     "drops": []
   },
   {
@@ -34957,11 +36709,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2430,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 170, Def: 52 (Def base +8), Axe +3",
     "drops": []
   },
   {
@@ -34989,11 +36741,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2432,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 130, Def: 30, Def Extra +3, Axe +1",
     "drops": []
   },
   {
@@ -35037,11 +36789,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2436,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 135, Def: 32, Def Extra +3, Club +1",
     "drops": []
   },
   {
@@ -35069,11 +36821,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2444,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 55 (Def base +8), Club +3",
     "drops": []
   },
   {
@@ -35101,11 +36853,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 2451,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 58 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -35117,11 +36869,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2452,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 55 (Def base +8), Club +3",
     "drops": []
   },
   {
@@ -35149,11 +36901,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2454,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 160, Def: 46 (Def base +8), Axe +2",
     "drops": []
   },
   {
@@ -35261,11 +37013,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2476,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 26",
     "drops": []
   },
   {
@@ -35277,11 +37029,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 2477,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 23, Speed +45, Físico +2%",
     "drops": []
   },
   {
@@ -35293,12 +37045,19 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "tier": "tier2",
+    "category": "Helmet",
+    "id860": 2479,
+    "id10": 3373,
+    "attributesDesc": "Arm: 12",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2479,
+        "monster": "Mutated Tiger",
+        "chance": "30"
+      }
+    ]
   },
   {
     "id": 2486,
@@ -35309,11 +37068,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2486,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 27",
     "drops": []
   },
   {
@@ -35325,11 +37084,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2487,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 32, Físico +2%",
     "drops": []
   },
   {
@@ -35341,11 +37100,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 2488,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 25, Speed +50, Físico +2%",
     "drops": []
   },
   {
@@ -35437,11 +37196,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2497,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 26, Regeneração HP (+20.000 por Tick)",
     "drops": []
   },
   {
@@ -35453,11 +37212,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2498,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 24, Regeneração HP (+15.000 por Tick)",
     "drops": []
   },
   {
@@ -35597,11 +37356,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 2507,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 21, Speed +40, Físico +2%",
     "drops": []
   },
   {
@@ -35661,11 +37420,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2518,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 115, Físico +2%",
     "drops": []
   },
   {
@@ -35677,11 +37436,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2519,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 104",
     "drops": []
   },
   {
@@ -35693,11 +37452,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2520,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 113",
     "drops": []
   },
   {
@@ -35741,11 +37500,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2524,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 120, Físico +4%",
     "drops": []
   },
   {
@@ -35773,11 +37532,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2529,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 98",
     "drops": []
   },
   {
@@ -35790,11 +37549,54 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Shield",
+    "id860": 2530,
+    "id10": 3430,
+    "attributesDesc": "Def: 35",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2530,
+        "monster": "Dwarf",
+        "chance": "6.67"
+      },
+      {
+        "id": 100001,
+        "itemId": 2530,
+        "monster": "Killer",
+        "chance": "6.67"
+      },
+      {
+        "id": 100002,
+        "itemId": 2530,
+        "monster": "A Fading Memory",
+        "chance": "5"
+      },
+      {
+        "id": 100003,
+        "itemId": 2530,
+        "monster": "Skeleton Warrior",
+        "chance": "4"
+      },
+      {
+        "id": 100004,
+        "itemId": 2530,
+        "monster": "Orc Warrior",
+        "chance": "4"
+      },
+      {
+        "id": 100005,
+        "itemId": 2530,
+        "monster": "Skeleton",
+        "chance": "4"
+      },
+      {
+        "id": 100006,
+        "itemId": 2530,
+        "monster": "Fire Devil",
+        "chance": "3.5"
+      }
+    ]
   },
   {
     "id": 2532,
@@ -35805,11 +37607,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2532,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 118, Físico +3%",
     "drops": []
   },
   {
@@ -35821,11 +37623,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2533,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 101",
     "drops": []
   },
   {
@@ -35837,11 +37639,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2535,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 110",
     "drops": []
   },
   {
@@ -35853,11 +37655,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2536,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 107",
     "drops": []
   },
   {
@@ -35933,11 +37735,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Arrow & Bolt",
+    "id860": 2545,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 60",
     "drops": []
   },
   {
@@ -35949,11 +37751,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Arrow & Bolt",
+    "id860": 2546,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 70",
     "drops": []
   },
   {
@@ -35965,11 +37767,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Arrow & Bolt",
+    "id860": 2547,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 85",
     "drops": []
   },
   {
@@ -37469,11 +39271,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 2646,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 16, Speed +100, Físico +2%",
     "drops": []
   },
   {
@@ -37485,11 +39287,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2656,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 34, Magic Level +2",
     "drops": []
   },
   {
@@ -37502,11 +39304,18 @@
     "slot": "Equipamento",
     "description": "",
     "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "category": "Armor",
+    "id860": 2657,
+    "id10": 3568,
+    "attributesDesc": "Arm: 1",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 2657,
+        "monster": "Banshee",
+        "chance": "5"
+      }
+    ]
   },
   {
     "id": 2661,
@@ -37533,11 +39342,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2662,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 22, Magic Level +2, Regeneração Mana (+10.000 por Tick)",
     "drops": []
   },
   {
@@ -37549,11 +39358,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2664,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 21",
     "drops": []
   },
   {
@@ -57037,11 +58846,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 10943,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 150, Def: 40 (Def base +8), Club +2",
     "drops": []
   },
   {
@@ -57053,11 +58862,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 3964,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 150, Def: 40 (Def base +8), Axe +2",
     "drops": []
   },
   {
@@ -57069,11 +58878,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 3966,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 140, Def: 35, Def Extra +3, Club +1",
     "drops": []
   },
   {
@@ -57085,11 +58894,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 3968,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 28",
     "drops": []
   },
   {
@@ -57117,12 +58926,43 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "tier": "tier2",
+    "category": "Helmet",
+    "id860": 3970,
+    "id10": 3406,
+    "attributesDesc": "Arm: 14",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 3970,
+        "monster": "Terramite",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 3970,
+        "monster": "Mutated Bat",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 3970,
+        "monster": "Carrion Worm",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 3970,
+        "monster": "Elder Beholder",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 3970,
+        "monster": "Worker Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 3971,
@@ -57133,11 +58973,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 3971,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 23, Magic Level +2, Regeneração Mana (+12.000 por Tick)",
     "drops": []
   },
   {
@@ -79005,11 +80845,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 5462,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 11, Speed +60",
     "drops": []
   },
   {
@@ -84381,11 +86221,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 5803,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 14, Range 5, Hit +7%",
     "drops": []
   },
   {
@@ -89517,11 +91357,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 6132,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 15, Speed +100",
     "drops": []
   },
   {
@@ -95821,11 +97661,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 6531,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 30, Magic Level +3, Regeneração HP/Mana (+28.000 por Tick)",
     "drops": []
   },
   {
@@ -95869,11 +97709,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 6534,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 155, Def: 43 (Def base +8), Club +2",
     "drops": []
   },
   {
@@ -96173,11 +98013,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 6553,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 165, Def: 49 (Def base +8), Axe +2",
     "drops": []
   },
   {
@@ -109149,11 +110989,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7383,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 160, Def: 46 (Def base +8), Sword +2",
     "drops": []
   },
   {
@@ -109165,11 +111005,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7384,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 140, Def: 35, Def Extra +3, Sword +1",
     "drops": []
   },
   {
@@ -109181,11 +111021,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7386,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 135, Def: 32, Def Extra +3, Sword +1",
     "drops": []
   },
   {
@@ -109229,11 +111069,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7391,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 175, Def: 55 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -109389,11 +111229,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7402,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 165, Def: 49 (Def base +8), Sword +2",
     "drops": []
   },
   {
@@ -109405,11 +111245,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7403,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 155, Def: 43 (Def base +8), Sword +2",
     "drops": []
   },
   {
@@ -109421,11 +111261,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7404,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 150, Def: 40 (Def base +8), Sword +2",
     "drops": []
   },
   {
@@ -109453,11 +111293,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7407,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 58 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -109469,11 +111309,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7408,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 58 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -109501,11 +111341,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 7410,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 170, Def: 52 (Def base +8), Club +3",
     "drops": []
   },
   {
@@ -109517,11 +111357,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 7411,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 145, Def: 38, Def Extra +3, Axe +1",
     "drops": []
   },
   {
@@ -109533,11 +111373,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 7412,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 140, Def: 35, Def Extra +3, Axe +1",
     "drops": []
   },
   {
@@ -109597,11 +111437,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7417,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 58 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -109613,11 +111453,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7418,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 58 (Def base +8), Sword +3",
     "drops": []
   },
   {
@@ -109821,11 +111661,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 7437,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 145, Def: 38, Def Extra +3, Club +1",
     "drops": []
   },
   {
@@ -109837,12 +111677,31 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "tier": "tier2",
+    "category": "Bow & Crossbow",
+    "id860": 7438,
+    "id10": 7438,
+    "attributesDesc": "Atk: 4, Range: 6, Hit +3%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7438,
+        "monster": "Swamp Troll",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 7438,
+        "monster": "Blood Crab",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 7438,
+        "monster": "Gnarlhound",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 7439,
@@ -110045,11 +111904,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 7452,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 165, Def: 49 (Def base +8), Club +2",
     "drops": []
   },
   {
@@ -110093,11 +111952,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 7456,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 180, Def: 55 (Def base +8), Axe +3",
     "drops": []
   },
   {
@@ -110141,11 +112000,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7462,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 30, Regeneração HP/Mana (+28.000 por Tick)",
     "drops": []
   },
   {
@@ -110157,11 +112016,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 7463,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 30, Magic Level +2",
     "drops": []
   },
   {
@@ -114029,11 +115888,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 7730,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 26, Speed +60, Físico +3%",
     "drops": []
   },
   {
@@ -115837,11 +117696,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 7885,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 17, Speed +30, Terra +2%",
     "drops": []
   },
   {
@@ -115917,11 +117776,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 7894,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 19, Speed +35, Fogo +2%",
     "drops": []
   },
   {
@@ -115933,11 +117792,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "tier": "tier2",
+    "category": "Legs",
+    "id860": 7896,
+    "id10": 823,
+    "attributesDesc": "Arm: 13, Gelo +1%, Speed +20",
     "drops": []
   },
   {
@@ -115949,11 +117808,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
+    "tier": "tier2",
+    "category": "Armor",
+    "id860": 7897,
+    "id10": 824,
+    "attributesDesc": "Arm: 24, Gelo +1%",
     "drops": []
   },
   {
@@ -115965,12 +117824,25 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "tier": "tier2",
+    "category": "Armor",
+    "id860": 7899,
+    "id10": 826,
+    "attributesDesc": "Arm: 24, Fogo +1%",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 7899,
+        "monster": "Dworc Venomsniper",
+        "chance": "0.2"
+      },
+      {
+        "id": 100001,
+        "itemId": 7899,
+        "monster": "Gargoyle",
+        "chance": "0.2"
+      }
+    ]
   },
   {
     "id": 7900,
@@ -115981,11 +117853,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7900,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 30, Regeneração HP/Mana (+25.000 por Tick)",
     "drops": []
   },
   {
@@ -115997,11 +117869,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7901,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 27, Regeneração HP/Mana (+20.000 por Tick)",
     "drops": []
   },
   {
@@ -116013,11 +117885,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7902,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 29, Magic Level +2, Regeneração HP/Mana (+25.000 por Tick)",
     "drops": []
   },
   {
@@ -116029,11 +117901,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7903,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 28, Regeneração HP/Mana (+22.000 por Tick)",
     "drops": []
   },
   {
@@ -116845,11 +118717,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 7958,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Sem atributos especiais",
     "drops": []
   },
   {
@@ -128141,11 +130013,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 8851,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 16, Range 5, Hit +9%",
     "drops": []
   },
   {
@@ -128205,11 +130077,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 8856,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 12, Range 6, Hit +8%",
     "drops": []
   },
   {
@@ -128221,11 +130093,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 8857,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 10, Range 6, Hit +6%",
     "drops": []
   },
   {
@@ -128333,11 +130205,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8871,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 29, Magic Level +2",
     "drops": []
   },
   {
@@ -128349,11 +130221,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8877,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 36, Físico +3%",
     "drops": []
   },
   {
@@ -128365,11 +130237,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8878,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 35, Físico +3%",
     "drops": []
   },
   {
@@ -128381,11 +130253,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8879,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 40, Físico +4%",
     "drops": []
   },
   {
@@ -128397,11 +130269,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8880,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 39, Físico +3%",
     "drops": []
   },
   {
@@ -128461,11 +130333,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8884,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 37, Físico +3%",
     "drops": []
   },
   {
@@ -128525,11 +130397,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8888,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 38, Distance +2, Físico +3%",
     "drops": []
   },
   {
@@ -128541,11 +130413,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8889,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 40, Físico +4%",
     "drops": []
   },
   {
@@ -128589,11 +130461,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8891,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 33, Distance +1, Físico +2%",
     "drops": []
   },
   {
@@ -128621,11 +130493,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Spellbook",
+    "id860": 8903,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 30, Magic Level +3, Energia +1%",
     "drops": []
   },
   {
@@ -128637,11 +130509,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Spellbook",
+    "id860": 8904,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 33, Magic Level +3, Fogo +1%",
     "drops": []
   },
   {
@@ -128733,11 +130605,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8910,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Sem atributos especiais",
     "drops": []
   },
   {
@@ -128749,11 +130621,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8912,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Sem atributos especiais",
     "drops": []
   },
   {
@@ -128765,11 +130637,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Spellbook",
+    "id860": 8918,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Def: 36, Magic Level +4, Físico +2%",
     "drops": []
   },
   {
@@ -128797,11 +130669,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8920,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Sem atributos especiais",
     "drops": []
   },
   {
@@ -128813,11 +130685,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8922,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Sem atributos especiais",
     "drops": []
   },
   {
@@ -136829,12 +138701,49 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
-    "id10": 0,
-    "attributesDesc": "",
-    "drops": []
+    "tier": "tier2",
+    "category": "Helmet",
+    "id860": 9927,
+    "id10": 9013,
+    "attributesDesc": "Arm: 15",
+    "drops": [
+      {
+        "id": 100000,
+        "itemId": 9927,
+        "monster": "Rotworm Queen",
+        "chance": "3"
+      },
+      {
+        "id": 100001,
+        "itemId": 9927,
+        "monster": "Frost Troll",
+        "chance": "3"
+      },
+      {
+        "id": 100002,
+        "itemId": 9927,
+        "monster": "Dark Apprentice",
+        "chance": "3"
+      },
+      {
+        "id": 100003,
+        "itemId": 9927,
+        "monster": "Elder Beholder",
+        "chance": "3"
+      },
+      {
+        "id": 100004,
+        "itemId": 9927,
+        "monster": "Braindeath",
+        "chance": "3"
+      },
+      {
+        "id": 100005,
+        "itemId": 9927,
+        "monster": "War Golem",
+        "chance": "3"
+      }
+    ]
   },
   {
     "id": 9928,
@@ -136893,11 +138802,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 9931,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 13, Speed +80",
     "drops": []
   },
   {
@@ -144669,11 +146578,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 11295,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 31, Físico +2%",
     "drops": []
   },
   {
@@ -144685,11 +146594,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 11296,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 30, Regeneração HP/Mana (+30.000 por Tick), Físico +2%",
     "drops": []
   },
   {
@@ -144701,11 +146610,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 11297,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 12, Speed +70",
     "drops": []
   },
   {
@@ -144765,11 +146674,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 11301,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 145, Def: 38, Def Extra +3, Sword +1",
     "drops": []
   },
   {
@@ -144781,11 +146690,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 11302,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 130, Def: 30, Def Extra +3, Club +1",
     "drops": []
   },
   {
@@ -144797,11 +146706,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 11303,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 160, Def: 46 (Def base +8), Club +2",
     "drops": []
   },
   {
@@ -144829,11 +146738,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 11317,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Atk: 155, Def: 43 (Def base +8), Axe +2",
     "drops": []
   },
   {
@@ -145069,11 +146978,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 11349,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 40, Magic Level +3",
     "drops": []
   },
   {
@@ -145085,11 +146994,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 11350,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 40, Magic Level +3",
     "drops": []
   },
   {
@@ -145101,11 +147010,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 10047,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 25, Magic Level +2, Regeneração Mana (+18.000 por Tick)",
     "drops": []
   },
   {
@@ -145165,11 +147074,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 11362,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 30, Magic Level +3, Regeneração HP/Mana (+30.000 por Tick)",
     "drops": []
   },
   {
@@ -145437,11 +147346,11 @@
     "weight": 0,
     "slot": "Equipamento",
     "description": "",
-    "tier": "tier1",
-    "category": "all",
-    "id860": 0,
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 12618,
     "id10": 0,
-    "attributesDesc": "",
+    "attributesDesc": "Arm: 40, Magic Level +3",
     "drops": []
   },
   {

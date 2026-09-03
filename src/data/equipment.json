@@ -11,27 +11,27 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Spit Nettle",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Winter Wolf",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Carniphila",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Polar Bear",
-        "chance": 6
+        "chance": 0.6
       }
     ]
   },
@@ -47,43 +47,43 @@
     "drops": [
       {
         "monster": "Bog Raider",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Nightstalker",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Gozzler",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Polar Bear",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Spit Nettle",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Priestess",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Winter Wolf",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Carniphila",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Acolyte of the Cult",
-        "chance": 179
+        "chance": 1.79
       }
     ]
   },
@@ -99,19 +99,19 @@
     "drops": [
       {
         "monster": "Rat",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Cave Rat",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Orc Warrior",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Troll Champion",
-        "chance": 15
+        "chance": 1.5
       }
     ]
   },
@@ -127,11 +127,11 @@
     "drops": [
       {
         "monster": "Spider",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Bug",
-        "chance": 120
+        "chance": 12
       }
     ]
   },
@@ -147,39 +147,39 @@
     "drops": [
       {
         "monster": "The Horned Fox",
-        "chance": 500
+        "chance": 50
       },
       {
         "monster": "Tarantula",
-        "chance": 170
+        "chance": 17
       },
       {
         "monster": "Tortoise",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Frost Giant",
-        "chance": 533
+        "chance": 5.33
       },
       {
         "monster": "Frost Giantess",
-        "chance": 533
+        "chance": 5.33
       },
       {
         "monster": "General Murius",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Orc Leader",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Assasin",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Tortoise",
-        "chance": 3
+        "chance": 0.03
       }
     ]
   },
@@ -195,19 +195,19 @@
     "drops": [
       {
         "monster": "Tortoise",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Skeleton",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Skeleton Warrior",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Chakoya Tribewarden",
-        "chance": 33
+        "chance": 0.33
       }
     ]
   },
@@ -223,31 +223,31 @@
     "drops": [
       {
         "monster": "Dwarf",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Killer",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "A Fading Memory",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Skeleton Warrior",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Orc Warrior",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Skeleton",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Fire Devil",
-        "chance": 35
+        "chance": 3.5
       }
     ]
   },
@@ -263,23 +263,23 @@
     "drops": [
       {
         "monster": "A Fading Memory",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Ghoul",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Penguin",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Fire Devil",
-        "chance": 35
+        "chance": 3.5
       }
     ]
   },
@@ -295,39 +295,39 @@
     "drops": [
       {
         "monster": "Cyclops Drone",
-        "chance": 3333
+        "chance": 33.33
       },
       {
         "monster": "Forest Dragon",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "A Fading Memory",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Amazon",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Valkyrie",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Ghoul",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dragon",
-        "chance": 182
+        "chance": 1.82
       },
       {
         "monster": "Assasin",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -343,15 +343,15 @@
     "drops": [
       {
         "monster": "Lizard Templar",
-        "chance": 180
+        "chance": 18
       },
       {
         "monster": "Nomad",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Cyclops",
-        "chance": 25
+        "chance": 2.5
       }
     ]
   },
@@ -367,43 +367,43 @@
     "drops": [
       {
         "monster": "Durin",
-        "chance": 75
+        "chance": 7.5
       },
       {
         "monster": "Foreman Kneebiter",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Chakoya Toolshaper",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "The Horned Fox",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Stone Golem",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Mutated Rat",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Mutated Human",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Assasin",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Undead Minion",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -419,19 +419,19 @@
     "drops": [
       {
         "monster": "Mutated Rat",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Stone Golem",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Mutated Human",
-        "chance": 15
+        "chance": 1.5
       }
     ]
   },
@@ -447,31 +447,31 @@
     "drops": [
       {
         "monster": "Gazer",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Gladiator",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Beholder",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Scarab",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Smuggler",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gang Member",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Larva",
-        "chance": 8
+        "chance": 0.8
       }
     ]
   },
@@ -487,15 +487,15 @@
     "drops": [
       {
         "monster": "Rat",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Cave Rat",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Witch",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -511,7 +511,7 @@
     "drops": [
       {
         "monster": "Banshee",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -527,15 +527,15 @@
     "drops": [
       {
         "monster": "Tortoise",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Wasp",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Stalker",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -551,7 +551,7 @@
     "drops": [
       {
         "monster": "Crazed Beggar",
-        "chance": 120
+        "chance": 12
       }
     ]
   },
@@ -567,7 +567,7 @@
     "drops": [
       {
         "monster": "Tortoise",
-        "chance": 100
+        "chance": 10
       }
     ]
   },
@@ -583,11 +583,11 @@
     "drops": [
       {
         "monster": "Skeleton",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Skeleton Warrior",
-        "chance": 60
+        "chance": 6
       }
     ]
   },
@@ -603,11 +603,11 @@
     "drops": [
       {
         "monster": "Penguin",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Fire Devil",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -623,27 +623,27 @@
     "drops": [
       {
         "monster": "Hand of Cursed Fate",
-        "chance": 350
+        "chance": 35
       },
       {
         "monster": "Lizard Snakecharmer",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Alezzo",
-        "chance": 90
+        "chance": 9
       },
       {
         "monster": "Enlightened of the Cult",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Ghoul",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -659,19 +659,19 @@
     "drops": [
       {
         "monster": "Spider",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Bug",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Valkyrie",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Amazon",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -687,11 +687,11 @@
     "drops": [
       {
         "monster": "Nomad",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Cyclops",
-        "chance": 35
+        "chance": 3.5
       }
     ]
   },
@@ -707,23 +707,23 @@
     "drops": [
       {
         "monster": "Chakoya Toolshaper",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Mutated Rat",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Stone Golem",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Mutated Human",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -739,27 +739,27 @@
     "drops": [
       {
         "monster": "Stone Golem",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Rat",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Human",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Adept of the Cult",
-        "chance": 143
+        "chance": 1.43
       },
       {
         "monster": "Pirate Ghost",
-        "chance": 67
+        "chance": 0.67
       }
     ]
   },
@@ -775,47 +775,47 @@
     "drops": [
       {
         "monster": "Paladin",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Lumenia",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Thief",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Sorcerer",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Knight",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Druid",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Prince Almirith",
-        "chance": 70
+        "chance": 7
       },
       {
         "monster": "Gang Member",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Larva",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Scarab",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Smuggler",
-        "chance": 12
+        "chance": 1.2
       }
     ]
   },
@@ -831,19 +831,19 @@
     "drops": [
       {
         "monster": "Gazer",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gladiator",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Beholder",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Bog Raider",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -859,43 +859,43 @@
     "drops": [
       {
         "monster": "Gozzler",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Bog Raider",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Nightstalker",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Acolyte of the Cult",
-        "chance": 143
+        "chance": 1.43
       },
       {
         "monster": "Priestess",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Spit Nettle",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Winter Wolf",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Carniphila",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 6
+        "chance": 0.6
       },
       {
         "monster": "Polar Bear",
-        "chance": 6
+        "chance": 0.6
       }
     ]
   },
@@ -911,71 +911,71 @@
     "drops": [
       {
         "monster": "Island Troll",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Wild Warrior",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Primitive",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Hunter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Demon",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Random Noob",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Poacher",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Magebomb",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Demon",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Assassin",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Leader",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Human",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Scavenger",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Apprentice Sheng",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Minotaur Mage",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Troll Champion",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -991,27 +991,27 @@
     "drops": [
       {
         "monster": "Undead Prospector",
-        "chance": 1925
+        "chance": 19.25
       },
       {
         "monster": "Stalker",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Wasp",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Barbarian Headsplitter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Barbarian Skullhunter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Quara Constrictor Scout",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -1027,11 +1027,11 @@
     "drops": [
       {
         "monster": "Crazed Beggar",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Elf Warlord",
-        "chance": 80
+        "chance": 8
       }
     ]
   },
@@ -1047,7 +1047,7 @@
     "drops": [
       {
         "monster": "Tortoise",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -1063,19 +1063,19 @@
     "drops": [
       {
         "monster": "Mutated Rat",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Stone Golem",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Human",
-        "chance": 20
+        "chance": 2
       }
     ]
   },
@@ -1091,19 +1091,19 @@
     "drops": [
       {
         "monster": "Mutated Rat",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Stone Golem",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Mutated Human",
-        "chance": 15
+        "chance": 1.5
       }
     ]
   },
@@ -1119,23 +1119,23 @@
     "drops": [
       {
         "monster": "Stone Golem",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Rat",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Human",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Blue Djinn",
-        "chance": 1
+        "chance": 0.1
       }
     ]
   },
@@ -1151,27 +1151,27 @@
     "drops": [
       {
         "monster": "Mutated Rat",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Stone Golem",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Human",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Pirate Ghost",
-        "chance": 92
+        "chance": 0.92
       },
       {
         "monster": "Pirate Marauder",
-        "chance": 92
+        "chance": 0.92
       }
     ]
   },
@@ -1187,32 +1187,21 @@
     "drops": [
       {
         "monster": "Orc Champion",
-        "chance": 110
+        "chance": 11
       },
       {
         "monster": "Valkyrie",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Amazon",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Orc Shaman",
-        "chance": 222
+        "chance": 2.22
       }
     ]
-  },
-  {
-    "id": 5461,
-    "name": "Helmet of the Deep",
-    "normalizedName": "helmetofthedeep",
-    "tier": "tier1",
-    "category": "Helmet",
-    "id860": 5461,
-    "id10": 5460,
-    "attributes": "Arm: 2",
-    "drops": []
   },
   {
     "id": 2490,
@@ -1226,39 +1215,39 @@
     "drops": [
       {
         "monster": "Black Knight",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Cyclops Smith",
-        "chance": 286
+        "chance": 2.86
       },
       {
         "monster": "Frost Giantess",
-        "chance": 278
+        "chance": 2.78
       },
       {
         "monster": "Blocker",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Goshnar",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Scarab",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Smuggler",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Larva",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gang Member",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -1274,27 +1263,27 @@
     "drops": [
       {
         "monster": "Dwarf Soldier",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Minotaur Archer",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Smuggler",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Scarab",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Gang Member",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Larva",
-        "chance": 12
+        "chance": 1.2
       }
     ]
   },
@@ -1310,23 +1299,23 @@
     "drops": [
       {
         "monster": "Barbarian Headsplitter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Gazer",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gladiator",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Beholder",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Bog Raider",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -1342,27 +1331,27 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Spit Nettle",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Winter Wolf",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Carniphila",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Polar Bear",
-        "chance": 5
+        "chance": 0.5
       }
     ]
   },
@@ -1378,67 +1367,67 @@
     "drops": [
       {
         "monster": "Dharalion",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Elf Arcanist",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Prince Almirith",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Rift Phantom",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Elf Warlord",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Target",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Trainer",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Tha Exp Carrier",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Training Monk",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Trainer Slayer",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Dark Monk",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Fernfang",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Monk",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Vip Trainer",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Cave Rat",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Rat",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -1454,39 +1443,39 @@
     "drops": [
       {
         "monster": "Durin",
-        "chance": 400
+        "chance": 40
       },
       {
         "monster": "Dwarf Soldier",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Elf",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Dwarf Geomancer",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Spider",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Bug",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Witch",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Island Troll",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Troll Champion",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -1502,11 +1491,11 @@
     "drops": [
       {
         "monster": "Killer Caiman",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Penguin",
-        "chance": 32
+        "chance": 0.32
       }
     ]
   },
@@ -1522,31 +1511,31 @@
     "drops": [
       {
         "monster": "Barbarian Headsplitter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Mutated Rat",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Mutated Human",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Stone Golem",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Barbaria",
-        "chance": 73
+        "chance": 0.73
       },
       {
         "monster": "Barbarian Brutetamer",
-        "chance": 73
+        "chance": 0.73
       }
     ]
   },
@@ -1562,27 +1551,27 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Spit Nettle",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Winter Wolf",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Carniphila",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Polar Bear",
-        "chance": 8
+        "chance": 0.8
       }
     ]
   },
@@ -1598,71 +1587,71 @@
     "drops": [
       {
         "monster": "Poacher",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Skunk",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Orchid Frog",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Badger",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Poacher",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Random Noob",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Minotaur",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Magebomb",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Killer",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Minotaur Guard",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Dwarf Geomancer",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Hunter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Dwarf",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Vampire",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Dracula",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Apprentice Sheng",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Minotaur Mage",
-        "chance": 80
+        "chance": 8
       }
     ]
   },
@@ -1678,28 +1667,17 @@
     "drops": [
       {
         "monster": "Wasp",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Stalker",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Orc Spearman",
-        "chance": 100
+        "chance": 10
       }
     ]
-  },
-  {
-    "id": 3983,
-    "name": "Bast Skirt",
-    "normalizedName": "bastskirt",
-    "tier": "tier1",
-    "category": "Legs",
-    "id860": 3983,
-    "id10": 3560,
-    "attributes": "Arm: 3",
-    "drops": []
   },
   {
     "id": 2648,
@@ -1713,15 +1691,15 @@
     "drops": [
       {
         "monster": "The Horned Fox",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Nomad",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Cyclops",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -1737,35 +1715,35 @@
     "drops": [
       {
         "monster": "Tarantula",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Blocker",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Goshnar",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Elf",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Beholder",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Bog Raider",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Gazer",
-        "chance": 12
+        "chance": 1.2
       },
       {
         "monster": "Gladiator",
-        "chance": 12
+        "chance": 1.2
       }
     ]
   },
@@ -1781,23 +1759,23 @@
     "drops": [
       {
         "monster": "Primitive",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Wild Warrior",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "The Horned Fox",
-        "chance": 90
+        "chance": 9
       },
       {
         "monster": "Killer",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Dwarf",
-        "chance": 667
+        "chance": 6.67
       }
     ]
   },
@@ -1813,19 +1791,19 @@
     "drops": [
       {
         "monster": "Skunk",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Orchid Frog",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Badger",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Troll Champion",
-        "chance": 18
+        "chance": 1.8
       }
     ]
   },
@@ -1841,23 +1819,23 @@
     "drops": [
       {
         "monster": "Minotaur",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Stalker",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Wasp",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Killer",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Dwarf",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -1873,107 +1851,107 @@
     "drops": [
       {
         "monster": "Dwarf Guard",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Infernatil",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Zathroth",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Lazarus",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Toxiros",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Pyramo",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Demora",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Bazir",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Apocalypse",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Crazed Beggar",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Ron the Ripper",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Nightmare",
-        "chance": 778
+        "chance": 7.78
       },
       {
         "monster": "Minotaur Guard",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Fire Devil",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Penguin",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Dragon",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Quara Predator",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Behemoth",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Stonecracker",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Sharptooth",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Behemoth Supervip",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Quara Predator Scout",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Lethal Lissy",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Forest Dragon",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "The Horned Fox",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Durin",
-        "chance": 6
+        "chance": 0.6
       }
     ]
   },
@@ -1989,11 +1967,11 @@
     "drops": [
       {
         "monster": "Valkyrie",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Amazon",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -2009,55 +1987,55 @@
     "drops": [
       {
         "monster": "Blocker",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Black Knight",
-        "chance": 90
+        "chance": 9
       },
       {
         "monster": "Orc Champion",
-        "chance": 70
+        "chance": 7
       },
       {
         "monster": "Orc Berserker",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Yeti",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Barbarian Bloodwalker",
-        "chance": 278
+        "chance": 2.78
       },
       {
         "monster": "Nomad",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Cyclops",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Quara Constrictor Scout",
-        "chance": 222
+        "chance": 2.22
       },
       {
         "monster": "Cyclops Drone",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Frost Giant",
-        "chance": 196
+        "chance": 1.96
       },
       {
         "monster": "Frost Giantess",
-        "chance": 196
+        "chance": 1.96
       },
       {
         "monster": "Cyclops Smith",
-        "chance": 182
+        "chance": 1.82
       }
     ]
   },
@@ -2073,19 +2051,19 @@
     "drops": [
       {
         "monster": "Scarab",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Smuggler",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gang Member",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Larva",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -2101,27 +2079,27 @@
     "drops": [
       {
         "monster": "Orc Champion",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Barbarian Bloodwalker",
-        "chance": 289
+        "chance": 2.89
       },
       {
         "monster": "Gladiator",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Beholder",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Bog Raider",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gazer",
-        "chance": 8
+        "chance": 0.8
       }
     ]
   },
@@ -2137,27 +2115,27 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Spit Nettle",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Winter Wolf",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Carniphila",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Polar Bear",
-        "chance": 5
+        "chance": 0.5
       }
     ]
   },
@@ -2173,27 +2151,27 @@
     "drops": [
       {
         "monster": "Undead Prospector",
-        "chance": 1525
+        "chance": 15.25
       },
       {
         "monster": "Primitive",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Wild Warrior",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Assasin",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Barbarian Headsplitter",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Barbarian Skullhunter",
-        "chance": 100
+        "chance": 10
       }
     ]
   },
@@ -2209,27 +2187,27 @@
     "drops": [
       {
         "monster": "Ron the Ripper",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Demon",
-        "chance": 180
+        "chance": 18
       },
       {
         "monster": "Goblin Demon",
-        "chance": 180
+        "chance": 18
       },
       {
         "monster": "Skunk",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Badger",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Orchid Frog",
-        "chance": 100
+        "chance": 10
       }
     ]
   },
@@ -2245,19 +2223,19 @@
     "drops": [
       {
         "monster": "Rift Phantom",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Stalker",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Wasp",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Assasin",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -2273,11 +2251,11 @@
     "drops": [
       {
         "monster": "Wasp",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Stalker",
-        "chance": 60
+        "chance": 6
       }
     ]
   },
@@ -2293,39 +2271,39 @@
     "drops": [
       {
         "monster": "Pyramo",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Toxiros",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Zathroth",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Lazarus",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Bazir",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Apocalypse",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Infernatil",
-        "chance": 155
+        "chance": 15.5
       },
       {
         "monster": "Zugurosh",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Tortoise",
-        "chance": 50
+        "chance": 5
       }
     ]
   },
@@ -2341,59 +2319,59 @@
     "drops": [
       {
         "monster": "Cyclops Smith",
-        "chance": 3333
+        "chance": 33.33
       },
       {
         "monster": "Frost Giant",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Frost Giantess",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Forest Dragon",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Dragon",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Necromancer",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Goblin",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Scavenger",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Leader",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Goblin Demon",
-        "chance": 90
+        "chance": 9
       },
       {
         "monster": "Demon",
-        "chance": 90
+        "chance": 9
       },
       {
         "monster": "Lizard Templar",
-        "chance": 70
+        "chance": 7
       },
       {
         "monster": "Skeleton",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Skeleton Warrior",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -2409,11 +2387,11 @@
     "drops": [
       {
         "monster": "Penguin",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Fire Devil",
-        "chance": 35
+        "chance": 3.5
       }
     ]
   },
@@ -2429,27 +2407,27 @@
     "drops": [
       {
         "monster": "Orc",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Eternal Guardian",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Pirate Corsair",
-        "chance": 90
+        "chance": 9
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Ghoul",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Pirate Buccaneer",
-        "chance": 206
+        "chance": 2.06
       }
     ]
   },
@@ -2465,19 +2443,19 @@
     "drops": [
       {
         "monster": "Xenia",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Goblin",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Amazon",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Valkyrie",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -2493,27 +2471,27 @@
     "drops": [
       {
         "monster": "Human",
-        "chance": 800
+        "chance": 80
       },
       {
         "monster": "Pirate Marauder",
-        "chance": 150
+        "chance": 15
       },
       {
         "monster": "Lizard Templar",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Nomad",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Cyclops",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Undead Mine Worker",
-        "chance": 15
+        "chance": 1.5
       }
     ]
   },
@@ -2529,35 +2507,35 @@
     "drops": [
       {
         "monster": "The Horned Fox",
-        "chance": 500
+        "chance": 50
       },
       {
         "monster": "Goshnar",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Orc Leader",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "General Murius",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Smuggler",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gang Member",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Larva",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Scarab",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -2573,23 +2551,23 @@
     "drops": [
       {
         "monster": "Marid",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Gladiator",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Beholder",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Bog Raider",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gazer",
-        "chance": 8
+        "chance": 0.8
       }
     ]
   },
@@ -2605,27 +2583,27 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Spit Nettle",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Winter Wolf",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Carniphila",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Polar Bear",
-        "chance": 5
+        "chance": 0.5
       }
     ]
   },
@@ -2641,15 +2619,15 @@
     "drops": [
       {
         "monster": "Bat",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Nightstalker",
-        "chance": 3
+        "chance": 0.3
       },
       {
         "monster": "Gozzler",
-        "chance": 3
+        "chance": 0.3
       }
     ]
   },
@@ -2665,31 +2643,31 @@
     "drops": [
       {
         "monster": "Elf Warlord",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Dragon",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Forest Dragon",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Quara Constrictor Scout",
-        "chance": 333
+        "chance": 3.33
       },
       {
         "monster": "Acolyte of the Cult",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gozzler",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Nightstalker",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -2705,7 +2683,7 @@
     "drops": [
       {
         "monster": "Tortoise",
-        "chance": 80
+        "chance": 8
       }
     ]
   },
@@ -2721,7 +2699,7 @@
     "drops": [
       {
         "monster": "Plaguesmith",
-        "chance": 733
+        "chance": 7.33
       }
     ]
   },
@@ -2737,27 +2715,27 @@
     "drops": [
       {
         "monster": "Dwarf Guard",
-        "chance": 3333
+        "chance": 33.33
       },
       {
         "monster": "Tortoise",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Blocker",
-        "chance": 70
+        "chance": 7
       },
       {
         "monster": "Black Knight",
-        "chance": 70
+        "chance": 7
       },
       {
         "monster": "Undead Minion",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Durin",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -2773,27 +2751,27 @@
     "drops": [
       {
         "monster": "Yeti",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Tortoise",
-        "chance": 80
+        "chance": 8
       },
       {
         "monster": "Troll Champion",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Big Boss Trolliver",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Skeleton",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Skeleton Warrior",
-        "chance": 35
+        "chance": 3.5
       }
     ]
   },
@@ -2809,31 +2787,31 @@
     "drops": [
       {
         "monster": "Undead Mine Worker",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Forest Dragon",
-        "chance": 200
+        "chance": 20
       },
       {
         "monster": "Smuggler Baron Silvertoe",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Skeleton",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Skeleton Warrior",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Fire Devil",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Chakoya Tribewarden",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -2849,19 +2827,19 @@
     "drops": [
       {
         "monster": "Betrayed Wraith",
-        "chance": 140
+        "chance": 14
       },
       {
         "monster": "Ghoul",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 40
+        "chance": 4
       },
       {
         "monster": "Lizard Templar",
-        "chance": 15
+        "chance": 1.5
       }
     ]
   },
@@ -2877,11 +2855,11 @@
     "drops": [
       {
         "monster": "Valkyrie",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Amazon",
-        "chance": 35
+        "chance": 3.5
       }
     ]
   },
@@ -2897,15 +2875,15 @@
     "drops": [
       {
         "monster": "Nomad",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Cyclops",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Penguin",
-        "chance": 32
+        "chance": 0.32
       }
     ]
   },
@@ -2921,31 +2899,31 @@
     "drops": [
       {
         "monster": "Goblin Demon",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Chakoya Toolshaper",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Stone Golem",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Rat",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Human",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Cyclops Drone",
-        "chance": 182
+        "chance": 1.82
       }
     ]
   },
@@ -2961,55 +2939,55 @@
     "drops": [
       {
         "monster": "Prince Almirith",
-        "chance": 110
+        "chance": 11
       },
       {
         "monster": "Koshei the Deathless",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Lich",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Barbaria",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Barbarian Brutetamer",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Dharalion",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Elf Arcanist",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Quara Hydromancer",
-        "chance": 286
+        "chance": 2.86
       },
       {
         "monster": "Orc Shaman",
-        "chance": 222
+        "chance": 2.22
       },
       {
         "monster": "Stone Golem",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Chakoya Windcaller",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Human",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Mutated Rat",
-        "chance": 20
+        "chance": 2
       }
     ]
   },
@@ -3025,27 +3003,27 @@
     "drops": [
       {
         "monster": "Spectre",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Scarab",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Smuggler",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Gang Member",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Larva",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Chakoya Tribewarden",
-        "chance": 6
+        "chance": 0.6
       }
     ]
   },
@@ -3061,47 +3039,47 @@
     "drops": [
       {
         "monster": "The Count",
-        "chance": 23
+        "chance": 2.3
       },
       {
         "monster": "Paladin",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Lumenia",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Knight",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Thief",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Sorcerer",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Druid",
-        "chance": 10
+        "chance": 1
       },
       {
         "monster": "Bog Raider",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Beholder",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gladiator",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gazer",
-        "chance": 8
+        "chance": 0.8
       }
     ]
   },
@@ -3117,27 +3095,27 @@
     "drops": [
       {
         "monster": "Novice of the Cult",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Priestess",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Beholder",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gladiator",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Bog Raider",
-        "chance": 8
+        "chance": 0.8
       },
       {
         "monster": "Gazer",
-        "chance": 8
+        "chance": 0.8
       }
     ]
   },
@@ -3153,35 +3131,35 @@
     "drops": [
       {
         "monster": "Acolyte of the Cult",
-        "chance": 333
+        "chance": 3.33
       },
       {
         "monster": "Priestess",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Spit Nettle",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Winter Wolf",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Polar Bear",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Carniphila",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Dark Monk",
-        "chance": 4
+        "chance": 0.4
       }
     ]
   },
@@ -3197,15 +3175,15 @@
     "drops": [
       {
         "monster": "Adept of the Cult",
-        "chance": 333
+        "chance": 3.33
       },
       {
         "monster": "Nightstalker",
-        "chance": 3
+        "chance": 0.3
       },
       {
         "monster": "Gozzler",
-        "chance": 3
+        "chance": 0.3
       }
     ]
   },
@@ -3221,55 +3199,55 @@
     "drops": [
       {
         "monster": "Omruc",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Elf",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Elf Scout",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Elf Warlord",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Sorcerer",
-        "chance": 270
+        "chance": 27
       },
       {
         "monster": "Paladin",
-        "chance": 270
+        "chance": 27
       },
       {
         "monster": "Thief",
-        "chance": 270
+        "chance": 27
       },
       {
         "monster": "Lumenia",
-        "chance": 270
+        "chance": 27
       },
       {
         "monster": "Druid",
-        "chance": 270
+        "chance": 27
       },
       {
         "monster": "Knight",
-        "chance": 270
+        "chance": 27
       },
       {
         "monster": "Spider",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Bug",
-        "chance": 250
+        "chance": 25
       },
       {
         "monster": "Prince Almirith",
-        "chance": 60
+        "chance": 6
       }
     ]
   },
@@ -3285,19 +3263,19 @@
     "drops": [
       {
         "monster": "Minotaur Archer",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Dwarf Soldier",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Valkyrie",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Amazon",
-        "chance": 120
+        "chance": 12
       }
     ]
   },
@@ -3313,23 +3291,23 @@
     "drops": [
       {
         "monster": "Massive Earth Elemental",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Earth Elemental",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Demon",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Goblin Demon",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Tortoise",
-        "chance": 150
+        "chance": 15
       }
     ]
   },
@@ -3345,35 +3323,35 @@
     "drops": [
       {
         "monster": "Black Knight",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Island Troll",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "Blocker",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Lizard Sentinel",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Fire Devil",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Penguin",
-        "chance": 120
+        "chance": 12
       },
       {
         "monster": "Troll Champion",
-        "chance": 20
+        "chance": 2
       },
       {
         "monster": "Big Boss Trolliver",
-        "chance": 20
+        "chance": 2
       }
     ]
   },
@@ -3389,35 +3367,35 @@
     "drops": [
       {
         "monster": "Orc Leader",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "The Horned Fox",
-        "chance": 1000
+        "chance": 100
       },
       {
         "monster": "General Murius",
-        "chance": 500
+        "chance": 50
       },
       {
         "monster": "Gladiator",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Beholder",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Bog Raider",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gazer",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Adept of the Cult",
-        "chance": 222
+        "chance": 2.22
       }
     ]
   },
@@ -3433,47 +3411,47 @@
     "drops": [
       {
         "monster": "Paladin",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Lumenia",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Thief",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Sorcerer",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Knight",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Druid",
-        "chance": 130
+        "chance": 13
       },
       {
         "monster": "Elf Scout",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Hero",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Orc Marauder",
-        "chance": 60
+        "chance": 6
       },
       {
         "monster": "Tortoise",
-        "chance": 50
+        "chance": 5
       },
       {
         "monster": "Elf Warlord",
-        "chance": 40
+        "chance": 4
       }
     ]
   },
@@ -3489,43 +3467,43 @@
     "drops": [
       {
         "monster": "Dwarf Soldier",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Forest Dragon",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Dragon",
-        "chance": 667
+        "chance": 6.67
       },
       {
         "monster": "Polar Bear",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Priestess",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Spit Nettle",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Carniphila",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Winter Wolf",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Novice of the Cult",
-        "chance": 15
+        "chance": 1.5
       },
       {
         "monster": "Adept of the Cult",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -3541,15 +3519,15 @@
     "drops": [
       {
         "monster": "Wild Warrior",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Tortoise",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Bug",
-        "chance": 100
+        "chance": 10
       }
     ]
   },
@@ -3565,55 +3543,55 @@
     "drops": [
       {
         "monster": "Cyclops",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Ghoul",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Toxiros",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Pyramo",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Lazarus",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Zathroth",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Apocalypse",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Infernatil",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Bazir",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Serpent Spawn",
-        "chance": 133
+        "chance": 1.33
       },
       {
         "monster": "Orshabaal",
-        "chance": 133
+        "chance": 1.33
       },
       {
         "monster": "Necromancer",
-        "chance": 133
+        "chance": 1.33
       }
     ]
   },
@@ -3629,63 +3607,63 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Gladiator",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Beholder",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Zathroth",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Pyramo",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Toxiros",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Bazir",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Apocalypse",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Infernatil",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Lazarus",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Morgaroth",
-        "chance": 154
+        "chance": 1.54
       },
       {
         "monster": "The Ruthless Herald",
-        "chance": 154
+        "chance": 1.54
       },
       {
         "monster": "Morgaroth Supervip",
-        "chance": 154
+        "chance": 1.54
       },
       {
         "monster": "Necropharus",
-        "chance": 5
+        "chance": 0.5
       },
       {
         "monster": "Necromancer",
-        "chance": 11
+        "chance": 0.11
       }
     ]
   },
@@ -3701,75 +3679,75 @@
     "drops": [
       {
         "monster": "Nightstalker",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Gozzler",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Zombie",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Toxiros",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Pyramo",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Zathroth",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Bazir",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Apocalypse",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Lazarus",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Infernatil",
-        "chance": 35
+        "chance": 3.5
       },
       {
         "monster": "Rahemos",
-        "chance": 144
+        "chance": 1.44
       },
       {
         "monster": "Warlock",
-        "chance": 99
+        "chance": 0.99
       },
       {
         "monster": "Witch",
-        "chance": 83
+        "chance": 0.83
       },
       {
         "monster": "Master Warlock",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Warlock Castle",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Draken Elite",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Warlock VIP",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Warlock Supervip",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -3785,15 +3763,15 @@
     "drops": [
       {
         "monster": "Ghoul",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Cyclops",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Crypt Shambler",
-        "chance": 100
+        "chance": 10
       }
     ]
   },
@@ -3809,15 +3787,15 @@
     "drops": [
       {
         "monster": "Priestess",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Gladiator",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Beholder",
-        "chance": 100
+        "chance": 10
       }
     ]
   },
@@ -3833,47 +3811,47 @@
     "drops": [
       {
         "monster": "Gozzler",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Zombie",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Nightstalker",
-        "chance": 100
+        "chance": 10
       },
       {
         "monster": "Zathroth",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Pyramo",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Toxiros",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Apocalypse",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Bazir",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Infernatil",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Lazarus",
-        "chance": 25
+        "chance": 2.5
       },
       {
         "monster": "Orshabaal",
-        "chance": 10
+        "chance": 1
       }
     ]
   },
@@ -3885,15 +3863,15 @@
     "category": "Spellbook",
     "id860": 8901,
     "id10": 8073,
-    "attributes": "Def: 20, Magic Level +2",
+    "attributes": "Def: 20, Magic Level +1",
     "drops": [
       {
         "monster": "Ghost",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -3905,11 +3883,11 @@
     "category": "Spellbook",
     "id860": 8902,
     "id10": 8074,
-    "attributes": "Def: 35, Magic Level +4",
+    "attributes": "Def: 25, Magic Level +2",
     "drops": [
       {
         "monster": "Dark Apprentice",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -3925,23 +3903,23 @@
     "drops": [
       {
         "monster": "Snake",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Toad",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Terror Bird",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Terramite",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Rotworm",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -3953,35 +3931,35 @@
     "category": "Shield",
     "id860": 2525,
     "id10": 3425,
-    "attributes": "Def: 81",
+    "attributes": "Def: 73",
     "drops": [
       {
         "monster": "Bear",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Cobra",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Scorpion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Troll",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Elephant",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Rotworm",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -3993,23 +3971,23 @@
     "category": "Shield",
     "id860": 2540,
     "id10": 3440,
-    "attributes": "Def: 92",
+    "attributes": "Def: 76",
     "drops": [
       {
         "monster": "Sandcrawler",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Scorpion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Demon Skeleton",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Slime",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4021,23 +3999,23 @@
     "category": "Shield",
     "id860": 2515,
     "id10": 3415,
-    "attributes": "Def: 103",
+    "attributes": "Def: 79",
     "drops": [
       {
         "monster": "Dworc Venomsniper",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Wolf",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Insect Swarm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Worker Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4049,23 +4027,23 @@
     "category": "Shield",
     "id860": 2516,
     "id10": 3416,
-    "attributes": "Def: 114",
+    "attributes": "Def: 82",
     "drops": [
       {
         "monster": "Carrion Worm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Merlkin",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Insect Swarm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gnarlhound",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4077,23 +4055,23 @@
     "category": "Shield",
     "id860": 2528,
     "id10": 3428,
-    "attributes": "Def: 125",
+    "attributes": "Def: 85",
     "drops": [
       {
         "monster": "Mutated Bat",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Rotworm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Kongra",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gargoyle",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4105,7 +4083,7 @@
     "category": "Shield",
     "id860": 6131,
     "id10": 6131,
-    "attributes": "Def: 136",
+    "attributes": "Def: 88",
     "drops": []
   },
   {
@@ -4116,19 +4094,19 @@
     "category": "Shield",
     "id860": 2531,
     "id10": 3431,
-    "attributes": "Def: 147",
+    "attributes": "Def: 91, Físico +1%",
     "drops": [
       {
         "monster": "Kongra",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Gnarlhound",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Worker Golem",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4140,7 +4118,7 @@
     "category": "Shield",
     "id860": 2534,
     "id10": 3434,
-    "attributes": "Def: 160",
+    "attributes": "Def: 95, Físico +2%",
     "drops": []
   },
   {
@@ -4155,19 +4133,19 @@
     "drops": [
       {
         "monster": "Black Sheep",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Cobra",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mummy",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Slime",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4179,19 +4157,19 @@
     "category": "Armor",
     "id860": 2467,
     "id10": 3361,
-    "attributes": "Arm: 20",
+    "attributes": "Arm: 13",
     "drops": [
       {
         "monster": "Bat",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Terror Bird",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Hyaena",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4203,19 +4181,19 @@
     "category": "Armor",
     "id860": 2484,
     "id10": 3378,
-    "attributes": "Arm: 25",
+    "attributes": "Arm: 14",
     "drops": [
       {
         "monster": "Mummy",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Terramite",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Swamp Troll",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4227,15 +4205,15 @@
     "category": "Armor",
     "id860": 2464,
     "id10": 3358,
-    "attributes": "Arm: 30",
+    "attributes": "Arm: 15",
     "drops": [
       {
         "monster": "Lion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Frost Troll",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4247,31 +4225,31 @@
     "category": "Armor",
     "id860": 2483,
     "id10": 3377,
-    "attributes": "Arm: 36",
+    "attributes": "Arm: 16",
     "drops": [
       {
         "monster": "Snake",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Demon Skeleton",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Tiger",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mammoth",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Frost Troll",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "War Wolf",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4283,31 +4261,31 @@
     "category": "Armor",
     "id860": 2660,
     "id10": 3571,
-    "attributes": "Arm: 42",
+    "attributes": "Arm: 17",
     "drops": [
       {
         "monster": "Demon Skeleton",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Elephant",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Mammoth",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dark Magician",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Merlkin",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Blood Crab",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4319,15 +4297,15 @@
     "category": "Armor",
     "id860": 2465,
     "id10": 3359,
-    "attributes": "Arm: 48",
+    "attributes": "Arm: 18",
     "drops": [
       {
         "monster": "Tiger",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Worker Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4339,15 +4317,15 @@
     "category": "Armor",
     "id860": 2489,
     "id10": 3383,
-    "attributes": "Arm: 54",
+    "attributes": "Arm: 19",
     "drops": [
       {
         "monster": "Dark Apprentice",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gargoyle",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4359,23 +4337,23 @@
     "category": "Armor",
     "id860": 2659,
     "id10": 3570,
-    "attributes": "Arm: 60",
+    "attributes": "Arm: 20",
     "drops": [
       {
         "monster": "Elephant",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Panda",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dark Apprentice",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Blood Crab",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4387,35 +4365,35 @@
     "category": "Armor",
     "id860": 2463,
     "id10": 3357,
-    "attributes": "Arm: 66",
+    "attributes": "Arm: 21",
     "drops": [
       {
         "monster": "Slime",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Frost Troll",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Fleshhunter",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Werewolf",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Merlkin",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gnarlhound",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4427,15 +4405,15 @@
     "category": "Armor",
     "id860": 8870,
     "id10": 8042,
-    "attributes": "Arm: 72, Magic Level +1",
+    "attributes": "Arm: 22, Magic Level +1",
     "drops": [
       {
         "monster": "Troll Champion",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Insect Swarm",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4447,46 +4425,46 @@
     "category": "Armor",
     "id860": 7898,
     "id10": 825,
-    "attributes": "Arm: 79, Energia +8%, Terra −8%",
+    "attributes": "Arm: 23, Energia +1%",
     "drops": [
       {
         "monster": "Frost Troll",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Merlkin",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
   {
     "id": 7897,
-    "name": "Glacier Robe *(mapeado → Xas Robe)*",
-    "normalizedName": "glacierrobemapeadoxasrobe",
+    "name": "Glacier Robe",
+    "normalizedName": "glacierrobe",
     "tier": "tier2",
     "category": "Armor",
     "id860": 7897,
     "id10": 824,
-    "attributes": "Arm: 86, Gelo +1%, Energia +1%, Magic Level +2",
+    "attributes": "Arm: 24, Gelo +1%",
     "drops": []
   },
   {
     "id": 7899,
-    "name": "Magma Robe *(mapeado → Magma Coat)*",
-    "normalizedName": "magmarobemapeadomagmacoat",
+    "name": "Magma Robe",
+    "normalizedName": "magmarobe",
     "tier": "tier2",
     "category": "Armor",
     "id860": 7899,
     "id10": 826,
-    "attributes": "Arm: 93, Fogo +8%, Gelo −8%",
+    "attributes": "Arm: 24, Fogo +1%",
     "drops": [
       {
         "monster": "Dworc Venomsniper",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Gargoyle",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4498,15 +4476,15 @@
     "category": "Armor",
     "id860": 7884,
     "id10": 811,
-    "attributes": "Arm: 100, Terra +8%, Fogo −8%",
+    "attributes": "Arm: 25, Terra +2%",
     "drops": [
       {
         "monster": "Rotworm Queen",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Dark Magician",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4518,23 +4496,23 @@
     "category": "Helmet",
     "id860": 7459,
     "id10": 7459,
-    "attributes": "Arm: 8, Gelo +2%",
+    "attributes": "Arm: 10",
     "drops": [
       {
         "monster": "Terror Bird",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Crocodile",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Venomsniper",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Wolf",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4546,19 +4524,19 @@
     "category": "Helmet",
     "id860": 3967,
     "id10": 3403,
-    "attributes": "Arm: 13",
+    "attributes": "Arm: 11",
     "drops": [
       {
         "monster": "Bear",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Terramite",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dark Magician",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4570,24 +4548,13 @@
     "category": "Helmet",
     "id860": 2479,
     "id10": 3373,
-    "attributes": "Arm: 17",
+    "attributes": "Arm: 12",
     "drops": [
       {
         "monster": "Mutated Tiger",
-        "chance": 300
+        "chance": 30
       }
     ]
-  },
-  {
-    "id": 2459,
-    "name": "Iron Helmet",
-    "normalizedName": "ironhelmet",
-    "tier": "tier2",
-    "category": "Helmet",
-    "id860": 2459,
-    "id10": 3353,
-    "attributes": "Arm: 21",
-    "drops": []
   },
   {
     "id": 2480,
@@ -4597,23 +4564,23 @@
     "category": "Helmet",
     "id860": 2480,
     "id10": 3374,
-    "attributes": "Arm: 25",
+    "attributes": "Arm: 13",
     "drops": [
       {
         "monster": "Terror Bird",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mammoth",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Hyaena",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Ghost",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4625,27 +4592,27 @@
     "category": "Helmet",
     "id860": 3970,
     "id10": 3406,
-    "attributes": "Arm: 29",
+    "attributes": "Arm: 14",
     "drops": [
       {
         "monster": "Terramite",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Mutated Bat",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Carrion Worm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Elder Beholder",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Worker Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4657,31 +4624,31 @@
     "category": "Helmet",
     "id860": 9927,
     "id10": 9013,
-    "attributes": "Arm: 33",
+    "attributes": "Arm: 15",
     "drops": [
       {
         "monster": "Rotworm Queen",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Frost Troll",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dark Apprentice",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Elder Beholder",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Braindeath",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4693,19 +4660,19 @@
     "category": "Helmet",
     "id860": 2323,
     "id10": 3210,
-    "attributes": "Arm: 37, Magic Level +1",
+    "attributes": "Arm: 16, Magic Level +1, Regeneração HP/Mana (+10 HP/Mana por Tick)",
     "drops": [
       {
         "monster": "Crocodile",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Mutated Tiger",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4717,27 +4684,27 @@
     "category": "Helmet",
     "id860": 7939,
     "id10": 875,
-    "attributes": "Arm: 41",
+    "attributes": "Arm: 17",
     "drops": [
       {
         "monster": "Lion",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Fleshhunter",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Kongra",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Sibang",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Elder Beholder",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4749,15 +4716,15 @@
     "category": "Helmet",
     "id860": 7458,
     "id10": 7458,
-    "attributes": "Arm: 45, Todos +1%, Magic Level +2",
+    "attributes": "Arm: 18, Regeneração HP/Mana (+10 HP/Mana por Tick)",
     "drops": [
       {
         "monster": "Swamp Troll",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Wolf",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4769,32 +4736,21 @@
     "category": "Helmet",
     "id860": 2457,
     "id10": 3351,
-    "attributes": "Arm: 49",
+    "attributes": "Arm: 18",
     "drops": [
       {
         "monster": "Merlkin",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "War Golem",
-        "chance": 2
+        "chance": 0.2
       }
     ]
-  },
-  {
-    "id": 2462,
-    "name": "Devil Helmet",
-    "normalizedName": "devilhelmet",
-    "tier": "tier2",
-    "category": "Helmet",
-    "id860": 2462,
-    "id10": 3356,
-    "attributes": "Arm: 53",
-    "drops": []
   },
   {
     "id": 2491,
@@ -4804,23 +4760,23 @@
     "category": "Helmet",
     "id860": 2491,
     "id10": 3385,
-    "attributes": "Arm: 57, Físico +1%",
+    "attributes": "Arm: 19, Físico +1%",
     "drops": [
       {
         "monster": "Wolf",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Dark Apprentice",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Sibang",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Insect Swarm",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4832,15 +4788,15 @@
     "category": "Helmet",
     "id860": 2475,
     "id10": 3369,
-    "attributes": "Arm: 60",
+    "attributes": "Arm: 20, Regeneração HP/Mana (+15 HP/Mana por Tick)",
     "drops": [
       {
         "monster": "Swamp Troll",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4852,11 +4808,11 @@
     "category": "Boots",
     "id860": 7892,
     "id10": 819,
-    "attributes": "Arm: 4, Gelo +5%, Energia −5%",
+    "attributes": "Arm: 4, Gelo +1%, Speed +20",
     "drops": [
       {
         "monster": "Snake",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4868,15 +4824,15 @@
     "category": "Boots",
     "id860": 7891,
     "id10": 818,
-    "attributes": "Arm: 13, Fogo +5%, Gelo −5%",
+    "attributes": "Arm: 5, Fogo +1%, Speed +25",
     "drops": [
       {
         "monster": "Panda",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Werewolf",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4888,19 +4844,19 @@
     "category": "Boots",
     "id860": 7886,
     "id10": 813,
-    "attributes": "Arm: 21, Terra +5%, Fogo −5%",
+    "attributes": "Arm: 6, Terra +1%, Speed +30",
     "drops": [
       {
         "monster": "Mammoth",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Hyaena",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Rotworm Queen",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -4912,15 +4868,15 @@
     "category": "Boots",
     "id860": 7893,
     "id10": 820,
-    "attributes": "Arm: 30, Energia +5%, Terra −5%",
+    "attributes": "Arm: 8, Energia +1%, Speed +40",
     "drops": [
       {
         "monster": "Braindeath",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Insect Swarm",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4932,11 +4888,11 @@
     "category": "Boots",
     "id860": 2645,
     "id10": 3554,
-    "attributes": "Arm: 40",
+    "attributes": "Arm: 10, Speed +50",
     "drops": [
       {
         "monster": "Blood Crab",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -4948,15 +4904,15 @@
     "category": "Legs",
     "id860": 2647,
     "id10": 3557,
-    "attributes": "Arm: 10",
+    "attributes": "Arm: 7",
     "drops": [
       {
         "monster": "Mutated Tiger",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mutated Bat",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -4968,27 +4924,27 @@
     "category": "Legs",
     "id860": 7464,
     "id10": 7464,
-    "attributes": "Arm: 27, Físico +4%, Magic Level +1",
+    "attributes": "Arm: 9, Speed +10",
     "drops": [
       {
         "monster": "Mutated Tiger",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Rotworm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Wolf",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gargoyle",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Braindeath",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5000,17 +4956,28 @@
     "category": "Legs",
     "id860": 8923,
     "id10": 8095,
-    "attributes": "Arm: 44",
+    "attributes": "Arm: 11, Speed +15",
     "drops": [
       {
         "monster": "Sibang",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 30
+        "chance": 3
       }
     ]
+  },
+  {
+    "id": 7896,
+    "name": "Glacier Shorts",
+    "normalizedName": "glaciershorts",
+    "tier": "tier2",
+    "category": "Legs",
+    "id860": 7896,
+    "id10": 823,
+    "attributes": "Arm: 13, Gelo +1%, Speed +20",
+    "drops": []
   },
   {
     "id": 7895,
@@ -5020,18 +4987,7 @@
     "category": "Legs",
     "id860": 7895,
     "id10": 822,
-    "attributes": "Arm: 62, Energia +6%, Terra −6%",
-    "drops": []
-  },
-  {
-    "id": 7896,
-    "name": "Glacier Shorts *(mapeado → Dauw Shorts)*",
-    "normalizedName": "glaciershortsmapeadodauwshorts",
-    "tier": "tier2",
-    "category": "Legs",
-    "id860": 7896,
-    "id10": 823,
-    "attributes": "Arm: 12, Gelo +2%, Energia +1%, Magic Level +2",
+    "attributes": "Arm: 16, Energia +1%, Speed +25",
     "drops": []
   },
   {
@@ -5042,27 +4998,27 @@
     "category": "Axe",
     "id860": 2428,
     "id10": 3316,
-    "attributes": "Atk: 80, Def: 40",
+    "attributes": "Atk: 75, Def: 20, Def Extra +1",
     "drops": [
       {
         "monster": "Bear",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Toad",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Centipede",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mummy",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Panda",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5074,35 +5030,35 @@
     "category": "Axe",
     "id860": 2427,
     "id10": 3315,
-    "attributes": "Atk: 113, Def: 44 (2 mãos)",
+    "attributes": "Atk: 80, Def: 25, Def Extra +1 (2 mãos)",
     "drops": [
       {
         "monster": "Bear",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Centipede",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Troll",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Hyaena",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Crocodile",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Carrion Worm",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Troll Champion",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5114,15 +5070,15 @@
     "category": "Axe",
     "id860": 2440,
     "id10": 3328,
-    "attributes": "Atk: 147, Def: 48",
+    "attributes": "Atk: 85, Def: 28, Def Extra +2",
     "drops": [
       {
         "monster": "Black Sheep",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Troll",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5134,23 +5090,23 @@
     "category": "Axe",
     "id860": 2426,
     "id10": 3314,
-    "attributes": "Atk: 180, Def: 52 (2 mãos)",
+    "attributes": "Atk: 90, Def: 30, Def Extra +2 (2 mãos)",
     "drops": [
       {
         "monster": "Snake",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Ghost",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Panda",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Rotworm Queen",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5162,15 +5118,15 @@
     "category": "Axe",
     "id860": 7380,
     "id10": 7380,
-    "attributes": "Atk: 42, Def: 20 (2 mãos)",
+    "attributes": "Atk: 95, Def: 35 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Elephant",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Werewolf",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5182,27 +5138,27 @@
     "category": "Axe",
     "id860": 7389,
     "id10": 7389,
-    "attributes": "Atk: 44, Def: 24, Def Extra +1",
+    "attributes": "Atk: 100, Def: 40 (Def base +5)",
     "drops": [
       {
         "monster": "Rotworm Queen",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Troll Champion",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Sibang",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Blood Crab",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Worker Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5214,35 +5170,35 @@
     "category": "Axe",
     "id860": 7454,
     "id10": 7454,
-    "attributes": "Atk: 281, Def: 64 (2 mãos)",
+    "attributes": "Atk: 105, Def: 45 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Swamp Troll",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Troll Champion",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Wolf",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dark Apprentice",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Kongra",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5254,23 +5210,23 @@
     "category": "Axe",
     "id860": 7434,
     "id10": 7434,
-    "attributes": "Atk: 315, Def: 68, Def Extra +3",
+    "attributes": "Atk: 110, Def: 50 (Def base +5)",
     "drops": [
       {
         "monster": "Dark Magician",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Elder Beholder",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Braindeath",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Insect Swarm",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5282,27 +5238,27 @@
     "category": "Axe",
     "id860": 2447,
     "id10": 3335,
-    "attributes": "Atk: 349, Def: 72, Sword +2, Axe +2, Club +2",
+    "attributes": "Atk: 115, Def: 55 (Def base +5), Axe +1",
     "drops": [
       {
         "monster": "Tiger",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Venomsniper",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Fleshhunter",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Wolf",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5314,11 +5270,11 @@
     "category": "Axe",
     "id860": 2425,
     "id10": 3313,
-    "attributes": "Atk: 383, Def: 76 (2 mãos)",
+    "attributes": "Atk: 120, Def: 60 (Def base +5), Axe +1 (2 mãos)",
     "drops": [
       {
         "monster": "Blood Crab",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5330,11 +5286,11 @@
     "category": "Axe",
     "id860": 2414,
     "id10": 3302,
-    "attributes": "Atk: 416, Def: 80 (2 mãos)",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Axe +1 (2 mãos)",
     "drops": [
       {
         "monster": "Blood Crab",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5346,19 +5302,19 @@
     "category": "Axe",
     "id860": 2418,
     "id10": 3306,
-    "attributes": "Atk: 450, Def: 85",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Axe +1",
     "drops": [
       {
         "monster": "Dworc Fleshhunter",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Elder Beholder",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Worker Golem",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5370,23 +5326,23 @@
     "category": "Sword",
     "id860": 8602,
     "id10": 7774,
-    "attributes": "Atk: 80, Def: 45, Def Extra +1",
+    "attributes": "Atk: 75, Def: 20, Def Extra +1",
     "drops": [
       {
         "monster": "Sandcrawler",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Tiger",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Troll Champion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Fleshhunter",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5398,27 +5354,27 @@
     "category": "Sword",
     "id860": 2383,
     "id10": 3271,
-    "attributes": "Atk: 24, Def: 21, Def Extra +2",
+    "attributes": "Atk: 80, Def: 25, Def Extra +1",
     "drops": [
       {
         "monster": "Sandcrawler",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Centipede",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Scorpion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mutated Tiger",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Fleshhunter",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5430,31 +5386,31 @@
     "category": "Sword",
     "id860": 2407,
     "id10": 3295,
-    "attributes": "Atk: 137, Def: 51, Def Extra +1",
+    "attributes": "Atk: 85, Def: 28, Def Extra +2",
     "drops": [
       {
         "monster": "Black Sheep",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mummy",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Lion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Rotworm Queen",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Swamp Troll",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Venomsniper",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5466,19 +5422,19 @@
     "category": "Sword",
     "id860": 7385,
     "id10": 7385,
-    "attributes": "Atk: 165, Def: 54, Def Extra +1",
+    "attributes": "Atk: 90, Def: 30, Def Extra +2",
     "drops": [
       {
         "monster": "Cobra",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Lion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Ghost",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5490,11 +5446,11 @@
     "category": "Sword",
     "id860": 2377,
     "id10": 3265,
-    "attributes": "Atk: 194, Def: 57 (2 mãos)",
+    "attributes": "Atk: 95, Def: 35 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Sandcrawler",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5506,27 +5462,27 @@
     "category": "Sword",
     "id860": 2409,
     "id10": 3297,
-    "attributes": "Atk: 222, Def: 60, Terra +8",
+    "attributes": "Atk: 100, Def: 40 (Def base +5)",
     "drops": [
       {
         "monster": "Troll",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Slime",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Tiger",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Panda",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Werewolf",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5538,31 +5494,31 @@
     "category": "Sword",
     "id860": 2413,
     "id10": 3301,
-    "attributes": "Atk: 251, Def: 63 (2 mãos)",
+    "attributes": "Atk: 105, Def: 45 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Slime",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Lion",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Rotworm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Frost Troll",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Sibang",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5574,28 +5530,17 @@
     "category": "Sword",
     "id860": 2412,
     "id10": 3300,
-    "attributes": "Atk: 279, Def: 66, Def Extra +1",
+    "attributes": "Atk: 110, Def: 50 (Def base +5)",
     "drops": [
       {
         "monster": "Demon Skeleton",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 30
+        "chance": 3
       }
     ]
-  },
-  {
-    "id": 860,
-    "name": "Damaged Crimson Sword *(não encontrado no items.xml)*",
-    "normalizedName": "damagedcrimsonswordnaoencontradonoitemsxml",
-    "tier": "tier2",
-    "category": "Sword",
-    "id860": 0,
-    "id10": 860,
-    "attributes": "—",
-    "drops": []
   },
   {
     "id": 2438,
@@ -5605,31 +5550,31 @@
     "category": "Sword",
     "id860": 2438,
     "id10": 3326,
-    "attributes": "Atk: 336, Def: 72",
+    "attributes": "Atk: 115, Def: 55 (Def base +5), Sword +1",
     "drops": [
       {
         "monster": "Ghost",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Carrion Worm",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Dworc Venomsniper",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Werewolf",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gnarlhound",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Golem",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5641,19 +5586,19 @@
     "category": "Sword",
     "id860": 7406,
     "id10": 7406,
-    "attributes": "Atk: 42, Def: 22, Sword +2, Axe +2, Club +2",
+    "attributes": "Atk: 120, Def: 60 (Def base +5), Sword +1",
     "drops": [
       {
         "monster": "War Wolf",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Kongra",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "War Golem",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5665,15 +5610,15 @@
     "category": "Sword",
     "id860": 7449,
     "id10": 7449,
-    "attributes": "Atk: 393, Def: 78 (2 mãos)",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Sword +1 (2 mãos)",
     "drops": [
       {
         "monster": "Werewolf",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Gnarlhound",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5685,23 +5630,23 @@
     "category": "Sword",
     "id860": 7419,
     "id10": 7419,
-    "attributes": "Atk: 422, Def: 81, Def Extra −3",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Sword +1",
     "drops": [
       {
         "monster": "Sibang",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Thornback Tortoise",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Elder Beholder",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Gnarlhound",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5713,15 +5658,15 @@
     "category": "Sword",
     "id860": 2396,
     "id10": 3284,
-    "attributes": "Atk: 450, Def: 85, Gelo +18",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Sword +1",
     "drops": [
       {
         "monster": "Sibang",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Gargoyle",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5733,19 +5678,19 @@
     "category": "Club",
     "id860": 2434,
     "id10": 3322,
-    "attributes": "Atk: 80, Def: 40",
+    "attributes": "Atk: 75, Def: 20, Def Extra +1",
     "drops": [
       {
         "monster": "Cobra",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Troll",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mammoth",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5757,23 +5702,23 @@
     "category": "Club",
     "id860": 2445,
     "id10": 3333,
-    "attributes": "Atk: 38, Def: 16",
+    "attributes": "Atk: 85, Def: 25, Def Extra +1",
     "drops": [
       {
         "monster": "Toad",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mutated Bat",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Carrion Worm",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dark Magician",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5785,7 +5730,7 @@
     "category": "Club",
     "id860": 7387,
     "id10": 7387,
-    "attributes": "Atk: 162, Def: 50",
+    "attributes": "Atk: 90, Def: 28, Def Extra +2",
     "drops": []
   },
   {
@@ -5796,31 +5741,31 @@
     "category": "Club",
     "id860": 7392,
     "id10": 7392,
-    "attributes": "Atk: 42, Def: 18 (2 mãos)",
+    "attributes": "Atk: 95, Def: 35 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Scorpion",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Demon Skeleton",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Crocodile",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Wolf",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "War Wolf",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5832,27 +5777,27 @@
     "category": "Club",
     "id860": 7430,
     "id10": 7430,
-    "attributes": "Atk: 244, Def: 60",
+    "attributes": "Atk: 105, Def: 40 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Terramite",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Hyaena",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "War Wolf",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Merlkin",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Insect Swarm",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5864,11 +5809,11 @@
     "category": "Club",
     "id860": 7379,
     "id10": 7379,
-    "attributes": "Atk: 285, Def: 65 (2 mãos)",
+    "attributes": "Atk: 110, Def: 45 (Def base +5) (2 mãos)",
     "drops": [
       {
         "monster": "Braindeath",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5880,11 +5825,11 @@
     "category": "Club",
     "id860": 7426,
     "id10": 7426,
-    "attributes": "Atk: 326, Def: 70 (2 mãos)",
+    "attributes": "Atk: 115, Def: 55 (Def base +5), Club +1 (2 mãos)",
     "drops": [
       {
         "monster": "Crocodile",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -5896,15 +5841,15 @@
     "category": "Club",
     "id860": 7425,
     "id10": 7425,
-    "attributes": "Atk: 367, Def: 75 (2 mãos)",
+    "attributes": "Atk: 120, Def: 60 (Def base +5), Club +1 (2 mãos)",
     "drops": [
       {
         "monster": "Merlkin",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Braindeath",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5916,11 +5861,11 @@
     "category": "Club",
     "id860": 7415,
     "id10": 7415,
-    "attributes": "Atk: 44, Def: 20, Def Extra −2",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Club +1",
     "drops": [
       {
         "monster": "Carrion Worm",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5932,11 +5877,11 @@
     "category": "Club",
     "id860": 3961,
     "id10": 3343,
-    "attributes": "Atk: 450, Def: 85",
+    "attributes": "Atk: 125, Def: 65 (Def base +5), Club +1",
     "drops": [
       {
         "monster": "Elder Beholder",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -5948,27 +5893,27 @@
     "category": "Arrow & Bolt",
     "id860": 7365,
     "id10": 7365,
-    "attributes": "Atk: 90, Hit %: 90",
+    "attributes": "Atk: 35, Hit %: 90",
     "drops": [
       {
         "monster": "Bat",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Toad",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Black Sheep",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Elephant",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Mutated Bat",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -5980,19 +5925,19 @@
     "category": "Arrow & Bolt",
     "id860": 7364,
     "id10": 7364,
-    "attributes": "Atk: 180, Hit %: 100",
+    "attributes": "Atk: 45, Hit %: 100",
     "drops": [
       {
         "monster": "Troll Champion",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Kongra",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gargoyle",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -6004,23 +5949,23 @@
     "category": "Arrow & Bolt",
     "id860": 7363,
     "id10": 7363,
-    "attributes": "Atk: 300, Hit %: 90",
+    "attributes": "Atk: 55, Hit %: 90",
     "drops": [
       {
         "monster": "Rotworm",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Dark Apprentice",
-        "chance": 2
+        "chance": 0.2
       },
       {
         "monster": "Gargoyle",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
@@ -6032,15 +5977,15 @@
     "category": "Spear",
     "id860": 3965,
     "id10": 3347,
-    "attributes": "Atk: 120, Range: 5",
+    "attributes": "Atk: 40, Range: 5",
     "drops": [
       {
         "monster": "Bat",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Centipede",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -6052,35 +5997,35 @@
     "category": "Spear",
     "id860": 2399,
     "id10": 3287,
-    "attributes": "Atk: 240, Range: 5",
+    "attributes": "Atk: 50, Range: 5",
     "drops": [
       {
         "monster": "Kongra",
-        "chance": 2
+        "chance": 0.2
       }
     ]
   },
   {
     "id": 7438,
-    "name": "Elvish Bow *(mapeado → Solar Bow)*",
-    "normalizedName": "elvishbowmapeadosolarbow",
+    "name": "Elvish Bow",
+    "normalizedName": "elvishbow",
     "tier": "tier2",
     "category": "Bow & Crossbow",
     "id860": 7438,
     "id10": 7438,
-    "attributes": "Atk: 40, Range: 6, Hit +10%",
+    "attributes": "Atk: 4, Range: 6, Hit +3%",
     "drops": [
       {
         "monster": "Swamp Troll",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Blood Crab",
-        "chance": 30
+        "chance": 3
       },
       {
         "monster": "Gnarlhound",
-        "chance": 30
+        "chance": 3
       }
     ]
   },
@@ -6092,7 +6037,7 @@
     "category": "Bow & Crossbow",
     "id860": 8855,
     "id10": 8027,
-    "attributes": "Atk: 60, Range: 6, Hit +2%",
+    "attributes": "Atk: 6, Range: 6, Hit +4%",
     "drops": []
   },
   {
@@ -6103,24 +6048,13 @@
     "category": "Bow & Crossbow",
     "id860": 8849,
     "id10": 8021,
-    "attributes": "Atk: 50, Range: 5, Hit +1%",
+    "attributes": "Atk: 8, Range: 5, Hit +5%",
     "drops": [
       {
         "monster": "Dark Magician",
-        "chance": 30
+        "chance": 3
       }
     ]
-  },
-  {
-    "id": 8025,
-    "name": "The Ironwolker *(não encontrado no items.xml)*",
-    "normalizedName": "theironwolkernaoencontradonoitemsxml",
-    "tier": "tier2",
-    "category": "Bow & Crossbow",
-    "id860": 0,
-    "id10": 8025,
-    "attributes": "—",
-    "drops": []
   },
   {
     "id": 8921,
@@ -6134,11 +6068,11 @@
     "drops": [
       {
         "monster": "Mummy",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Demon Skeleton",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -6154,15 +6088,15 @@
     "drops": [
       {
         "monster": "Ghost",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dark Magician",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -6178,15 +6112,15 @@
     "drops": [
       {
         "monster": "Dark Apprentice",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Merlkin",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Elder Beholder",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -6202,11 +6136,11 @@
     "drops": [
       {
         "monster": "Mummy",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Demon Skeleton",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -6222,15 +6156,15 @@
     "drops": [
       {
         "monster": "Ghost",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dworc Voodoomaster",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Dark Magician",
-        "chance": 300
+        "chance": 30
       }
     ]
   },
@@ -6246,16 +6180,1237 @@
     "drops": [
       {
         "monster": "Dark Apprentice",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Merlkin",
-        "chance": 300
+        "chance": 30
       },
       {
         "monster": "Elder Beholder",
-        "chance": 300
+        "chance": 30
       }
     ]
+  },
+  {
+    "id": 8903,
+    "name": "Spellbook Of Lost Souls",
+    "normalizedName": "spellbookoflostsouls",
+    "tier": "tier3",
+    "category": "Spellbook",
+    "id860": 8903,
+    "id10": 0,
+    "attributes": "Def: 30, Magic Level +3, Energia +1%",
+    "drops": []
+  },
+  {
+    "id": 8904,
+    "name": "Spellscroll Of Prophecies",
+    "normalizedName": "spellscrollofprophecies",
+    "tier": "tier3",
+    "category": "Spellbook",
+    "id860": 8904,
+    "id10": 0,
+    "attributes": "Def: 33, Magic Level +3, Fogo +1%",
+    "drops": []
+  },
+  {
+    "id": 8918,
+    "name": "Spellbook Of Dark Mysteries",
+    "normalizedName": "spellbookofdarkmysteries",
+    "tier": "tier3",
+    "category": "Spellbook",
+    "id860": 8918,
+    "id10": 0,
+    "attributes": "Def: 36, Magic Level +4, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 2529,
+    "name": "Black Shield",
+    "normalizedName": "blackshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2529,
+    "id10": 0,
+    "attributes": "Def: 98",
+    "drops": []
+  },
+  {
+    "id": 2533,
+    "name": "Griffin Shield",
+    "normalizedName": "griffinshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2533,
+    "id10": 0,
+    "attributes": "Def: 101",
+    "drops": []
+  },
+  {
+    "id": 2519,
+    "name": "Crown Shield",
+    "normalizedName": "crownshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2519,
+    "id10": 0,
+    "attributes": "Def: 104",
+    "drops": []
+  },
+  {
+    "id": 2536,
+    "name": "Medusa Shield",
+    "normalizedName": "medusashield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2536,
+    "id10": 0,
+    "attributes": "Def: 107",
+    "drops": []
+  },
+  {
+    "id": 2535,
+    "name": "Castle Shield",
+    "normalizedName": "castleshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2535,
+    "id10": 0,
+    "attributes": "Def: 110",
+    "drops": []
+  },
+  {
+    "id": 2520,
+    "name": "Demon Shield",
+    "normalizedName": "demonshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2520,
+    "id10": 0,
+    "attributes": "Def: 113",
+    "drops": []
+  },
+  {
+    "id": 2518,
+    "name": "Beholder Shield",
+    "normalizedName": "beholdershield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2518,
+    "id10": 0,
+    "attributes": "Def: 115, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 2532,
+    "name": "Ancient Shield",
+    "normalizedName": "ancientshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2532,
+    "id10": 0,
+    "attributes": "Def: 118, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 2524,
+    "name": "Ornamented Shield",
+    "normalizedName": "ornamentedshield",
+    "tier": "tier3",
+    "category": "Shield",
+    "id860": 2524,
+    "id10": 0,
+    "attributes": "Def: 120, Físico +4%",
+    "drops": []
+  },
+  {
+    "id": 2476,
+    "name": "Knight Armor",
+    "normalizedName": "knightarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2476,
+    "id10": 0,
+    "attributes": "Arm: 26",
+    "drops": []
+  },
+  {
+    "id": 2486,
+    "name": "Noble Armor",
+    "normalizedName": "noblearmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2486,
+    "id10": 0,
+    "attributes": "Arm: 27",
+    "drops": []
+  },
+  {
+    "id": 3968,
+    "name": "Leopard Armor",
+    "normalizedName": "leopardarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 3968,
+    "id10": 0,
+    "attributes": "Arm: 28",
+    "drops": []
+  },
+  {
+    "id": 8871,
+    "name": "Focus Cape",
+    "normalizedName": "focuscape",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8871,
+    "id10": 0,
+    "attributes": "Arm: 29, Magic Level +2",
+    "drops": []
+  },
+  {
+    "id": 7463,
+    "name": "Fur Cape",
+    "normalizedName": "furcape",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 7463,
+    "id10": 0,
+    "attributes": "Arm: 30, Magic Level +2",
+    "drops": []
+  },
+  {
+    "id": 11295,
+    "name": "Zaoan Armor",
+    "normalizedName": "zaoanarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 11295,
+    "id10": 0,
+    "attributes": "Arm: 31, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 2487,
+    "name": "Crown Armor",
+    "normalizedName": "crownarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2487,
+    "id10": 0,
+    "attributes": "Arm: 32, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 8891,
+    "name": "Paladin Armor",
+    "normalizedName": "paladinarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8891,
+    "id10": 0,
+    "attributes": "Arm: 33, Distance +1, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 2656,
+    "name": "Blue Robe",
+    "normalizedName": "bluerobe",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 2656,
+    "id10": 0,
+    "attributes": "Arm: 34, Magic Level +2",
+    "drops": []
+  },
+  {
+    "id": 8878,
+    "name": "Crystalline Armor",
+    "normalizedName": "crystallinearmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8878,
+    "id10": 0,
+    "attributes": "Arm: 35, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 8877,
+    "name": "Lavos Armor",
+    "normalizedName": "lavosarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8877,
+    "id10": 0,
+    "attributes": "Arm: 36, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 8884,
+    "name": "Oceanborn Leviathan Armor",
+    "normalizedName": "oceanbornleviathanarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8884,
+    "id10": 0,
+    "attributes": "Arm: 37, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 8888,
+    "name": "Master Archer'S Armor",
+    "normalizedName": "masterarchersarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8888,
+    "id10": 0,
+    "attributes": "Arm: 38, Distance +2, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 8880,
+    "name": "Swamplair Armor",
+    "normalizedName": "swamplairarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8880,
+    "id10": 0,
+    "attributes": "Arm: 39, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 12618,
+    "name": "Baiak Cap",
+    "normalizedName": "baiakcap",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 12618,
+    "id10": 0,
+    "attributes": "Arm: 40, Magic Level +3",
+    "drops": []
+  },
+  {
+    "id": 8889,
+    "name": "Skullcracker Armor",
+    "normalizedName": "skullcrackerarmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8889,
+    "id10": 0,
+    "attributes": "Arm: 40, Físico +4%",
+    "drops": []
+  },
+  {
+    "id": 11349,
+    "name": "Spellweaver'S Robe",
+    "normalizedName": "spellweaversrobe",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 11349,
+    "id10": 0,
+    "attributes": "Arm: 40, Magic Level +3",
+    "drops": []
+  },
+  {
+    "id": 8879,
+    "name": "Voltage Armor",
+    "normalizedName": "voltagearmor",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 8879,
+    "id10": 0,
+    "attributes": "Arm: 40, Físico +4%",
+    "drops": []
+  },
+  {
+    "id": 11350,
+    "name": "Zaoan Robe",
+    "normalizedName": "zaoanrobe",
+    "tier": "tier3",
+    "category": "Armor",
+    "id860": 11350,
+    "id10": 0,
+    "attributes": "Arm: 40, Magic Level +3",
+    "drops": []
+  },
+  {
+    "id": 2664,
+    "name": "Cowl",
+    "normalizedName": "cowl",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2664,
+    "id10": 0,
+    "attributes": "Arm: 21",
+    "drops": []
+  },
+  {
+    "id": 2662,
+    "name": "Magician Hat",
+    "normalizedName": "magicianhat",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2662,
+    "id10": 0,
+    "attributes": "Arm: 22, Magic Level +2, Regeneração Mana (+10.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 3971,
+    "name": "Charmer Tiara",
+    "normalizedName": "charmertiara",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 3971,
+    "id10": 0,
+    "attributes": "Arm: 23, Magic Level +2, Regeneração Mana (+12.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 2498,
+    "name": "Royal Helmet",
+    "normalizedName": "royalhelmet",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2498,
+    "id10": 0,
+    "attributes": "Arm: 24, Regeneração HP (+15.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 10047,
+    "name": "Zaoan Hood",
+    "normalizedName": "zaoanhood",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 10047,
+    "id10": 0,
+    "attributes": "Arm: 25, Magic Level +2, Regeneração Mana (+18.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 2497,
+    "name": "Crusader Helmet",
+    "normalizedName": "crusaderhelmet",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 2497,
+    "id10": 0,
+    "attributes": "Arm: 26, Regeneração HP (+20.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 7901,
+    "name": "Lightning Headband",
+    "normalizedName": "lightningheadband",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7901,
+    "id10": 0,
+    "attributes": "Arm: 27, Regeneração HP/Mana (+20.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 7903,
+    "name": "Terra Hood",
+    "normalizedName": "terrahood",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7903,
+    "id10": 0,
+    "attributes": "Arm: 28, Regeneração HP/Mana (+22.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 7902,
+    "name": "Xas Mask",
+    "normalizedName": "xasmask",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7902,
+    "id10": 0,
+    "attributes": "Arm: 29, Magic Level +2, Regeneração HP/Mana (+25.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 7900,
+    "name": "Magma Monocle",
+    "normalizedName": "magmamonocle",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7900,
+    "id10": 0,
+    "attributes": "Arm: 30, Regeneração HP/Mana (+25.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 6531,
+    "name": "Hero Hat",
+    "normalizedName": "herohat",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 6531,
+    "id10": 0,
+    "attributes": "Arm: 30, Magic Level +3, Regeneração HP/Mana (+28.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 7462,
+    "name": "Ragnir Helmet",
+    "normalizedName": "ragnirhelmet",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 7462,
+    "id10": 0,
+    "attributes": "Arm: 30, Regeneração HP/Mana (+28.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 11362,
+    "name": "Jade Hat",
+    "normalizedName": "jadehat",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 11362,
+    "id10": 0,
+    "attributes": "Arm: 30, Magic Level +3, Regeneração HP/Mana (+30.000 por Tick)",
+    "drops": []
+  },
+  {
+    "id": 11296,
+    "name": "Zaoan Helmet",
+    "normalizedName": "zaoanhelmet",
+    "tier": "tier3",
+    "category": "Helmet",
+    "id860": 11296,
+    "id10": 0,
+    "attributes": "Arm: 30, Regeneração HP/Mana (+30.000 por Tick), Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 5462,
+    "name": "Pirate Boots",
+    "normalizedName": "pirateboots",
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 5462,
+    "id10": 0,
+    "attributes": "Arm: 11, Speed +60",
+    "drops": []
+  },
+  {
+    "id": 11297,
+    "name": "Zaoan Shoes",
+    "normalizedName": "zaoanshoes",
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 11297,
+    "id10": 0,
+    "attributes": "Arm: 12, Speed +70",
+    "drops": []
+  },
+  {
+    "id": 9931,
+    "name": "Coconouts Shoes",
+    "normalizedName": "coconoutsshoes",
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 9931,
+    "id10": 0,
+    "attributes": "Arm: 13, Speed +80",
+    "drops": []
+  },
+  {
+    "id": 2195,
+    "name": "Boots Of Haste",
+    "normalizedName": "bootsofhaste",
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 2195,
+    "id10": 0,
+    "attributes": "Arm: 14, Speed +90",
+    "drops": []
+  },
+  {
+    "id": 6132,
+    "name": "Pair Of Soft Boots",
+    "normalizedName": "pairofsoftboots",
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 6132,
+    "id10": 0,
+    "attributes": "Arm: 15, Speed +100",
+    "drops": []
+  },
+  {
+    "id": 2646,
+    "name": "Golden Boots",
+    "normalizedName": "goldenboots",
+    "tier": "tier3",
+    "category": "Boots",
+    "id860": 2646,
+    "id10": 0,
+    "attributes": "Arm: 16, Speed +100, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 7885,
+    "name": "Terra Legs",
+    "normalizedName": "terralegs",
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 7885,
+    "id10": 0,
+    "attributes": "Arm: 17, Speed +30, Terra +2%",
+    "drops": []
+  },
+  {
+    "id": 7894,
+    "name": "Magma Legs",
+    "normalizedName": "magmalegs",
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 7894,
+    "id10": 0,
+    "attributes": "Arm: 19, Speed +35, Fogo +2%",
+    "drops": []
+  },
+  {
+    "id": 2507,
+    "name": "Hero Legs",
+    "normalizedName": "herolegs",
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 2507,
+    "id10": 0,
+    "attributes": "Arm: 21, Speed +40, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 2477,
+    "name": "Knight Legs",
+    "normalizedName": "knightlegs",
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 2477,
+    "id10": 0,
+    "attributes": "Arm: 23, Speed +45, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 2488,
+    "name": "Crown Legs",
+    "normalizedName": "crownlegs",
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 2488,
+    "id10": 0,
+    "attributes": "Arm: 25, Speed +50, Físico +2%",
+    "drops": []
+  },
+  {
+    "id": 7730,
+    "name": "Blue Legs",
+    "normalizedName": "bluelegs",
+    "tier": "tier3",
+    "category": "Legs",
+    "id860": 7730,
+    "id10": 0,
+    "attributes": "Arm: 26, Speed +60, Físico +3%",
+    "drops": []
+  },
+  {
+    "id": 2432,
+    "name": "Fire Axe",
+    "normalizedName": "fireaxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2432,
+    "id10": 0,
+    "attributes": "Atk: 130, Def: 30, Def Extra +3, Axe +1",
+    "drops": []
+  },
+  {
+    "id": 2415,
+    "name": "Great Axe",
+    "normalizedName": "greataxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2415,
+    "id10": 0,
+    "attributes": "Atk: 135, Def: 32, Def Extra +3, Axe +1",
+    "drops": []
+  },
+  {
+    "id": 7412,
+    "name": "Butcher'S Axe",
+    "normalizedName": "butchersaxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 7412,
+    "id10": 0,
+    "attributes": "Atk: 140, Def: 35, Def Extra +3, Axe +1",
+    "drops": []
+  },
+  {
+    "id": 7411,
+    "name": "Ornamented Axe",
+    "normalizedName": "ornamentedaxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 7411,
+    "id10": 0,
+    "attributes": "Atk: 145, Def: 38, Def Extra +3, Axe +1",
+    "drops": []
+  },
+  {
+    "id": 3964,
+    "name": "Ripper Lance",
+    "normalizedName": "ripperlance",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 3964,
+    "id10": 0,
+    "attributes": "Atk: 150, Def: 40 (Def base +8), Axe +2",
+    "drops": []
+  },
+  {
+    "id": 11317,
+    "name": "Zaoan Halberd",
+    "normalizedName": "zaoanhalberd",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 11317,
+    "id10": 0,
+    "attributes": "Atk: 155, Def: 43 (Def base +8), Axe +2",
+    "drops": []
+  },
+  {
+    "id": 2454,
+    "name": "War Axe",
+    "normalizedName": "waraxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2454,
+    "id10": 0,
+    "attributes": "Atk: 160, Def: 46 (Def base +8), Axe +2",
+    "drops": []
+  },
+  {
+    "id": 6553,
+    "name": "Ruthless Axe",
+    "normalizedName": "ruthlessaxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 6553,
+    "id10": 0,
+    "attributes": "Atk: 165, Def: 49 (Def base +8), Axe +2",
+    "drops": []
+  },
+  {
+    "id": 2430,
+    "name": "Knight Axe",
+    "normalizedName": "knightaxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 2430,
+    "id10": 0,
+    "attributes": "Atk: 170, Def: 52 (Def base +8), Axe +3",
+    "drops": []
+  },
+  {
+    "id": 7456,
+    "name": "Noble Axe",
+    "normalizedName": "nobleaxe",
+    "tier": "tier3",
+    "category": "Axe",
+    "id860": 7456,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 55 (Def base +8), Axe +3",
+    "drops": []
+  },
+  {
+    "id": 2392,
+    "name": "Fire Sword",
+    "normalizedName": "firesword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 2392,
+    "id10": 0,
+    "attributes": "Atk: 130, Def: 30, Def Extra +3, Sword +1",
+    "drops": []
+  },
+  {
+    "id": 7386,
+    "name": "Mercenary Sword",
+    "normalizedName": "mercenarysword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7386,
+    "id10": 0,
+    "attributes": "Atk: 135, Def: 32, Def Extra +3, Sword +1",
+    "drops": []
+  },
+  {
+    "id": 7384,
+    "name": "Mystic Blade",
+    "normalizedName": "mysticblade",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7384,
+    "id10": 0,
+    "attributes": "Atk: 140, Def: 35, Def Extra +3, Sword +1",
+    "drops": []
+  },
+  {
+    "id": 11301,
+    "name": "Zaoan Sword",
+    "normalizedName": "zaoansword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 11301,
+    "id10": 0,
+    "attributes": "Atk: 145, Def: 38, Def Extra +3, Sword +1",
+    "drops": []
+  },
+  {
+    "id": 7404,
+    "name": "Assassin Dagger",
+    "normalizedName": "assassindagger",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7404,
+    "id10": 0,
+    "attributes": "Atk: 150, Def: 40 (Def base +8), Sword +2",
+    "drops": []
+  },
+  {
+    "id": 7403,
+    "name": "Berserker",
+    "normalizedName": "berserker",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7403,
+    "id10": 0,
+    "attributes": "Atk: 155, Def: 43 (Def base +8), Sword +2",
+    "drops": []
+  },
+  {
+    "id": 7383,
+    "name": "Relic Sword",
+    "normalizedName": "relicsword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7383,
+    "id10": 0,
+    "attributes": "Atk: 160, Def: 46 (Def base +8), Sword +2",
+    "drops": []
+  },
+  {
+    "id": 7402,
+    "name": "Dragon Slayer",
+    "normalizedName": "dragonslayer",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7402,
+    "id10": 0,
+    "attributes": "Atk: 165, Def: 49 (Def base +8), Sword +2",
+    "drops": []
+  },
+  {
+    "id": 2393,
+    "name": "Giant Sword",
+    "normalizedName": "giantsword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 2393,
+    "id10": 0,
+    "attributes": "Atk: 170, Def: 52 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 7391,
+    "name": "Thaian Sword",
+    "normalizedName": "thaiansword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7391,
+    "id10": 0,
+    "attributes": "Atk: 175, Def: 55 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 7408,
+    "name": "Wyvern Fang",
+    "normalizedName": "wyvernfang",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7408,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 58 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 7418,
+    "name": "Nightmare Blade",
+    "normalizedName": "nightmareblade",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7418,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 58 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 7417,
+    "name": "Runed Sword",
+    "normalizedName": "runedsword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7417,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 58 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 7407,
+    "name": "Haunted Sword",
+    "normalizedName": "hauntedsword",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 7407,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 58 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 2451,
+    "name": "Djinn Blade",
+    "normalizedName": "djinnblade",
+    "tier": "tier3",
+    "category": "Sword",
+    "id860": 2451,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 58 (Def base +8), Sword +3",
+    "drops": []
+  },
+  {
+    "id": 11302,
+    "name": "Drachaku",
+    "normalizedName": "drachaku",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 11302,
+    "id10": 0,
+    "attributes": "Atk: 130, Def: 30, Def Extra +3, Club +1",
+    "drops": []
+  },
+  {
+    "id": 2436,
+    "name": "Skull Staff",
+    "normalizedName": "skullstaff",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2436,
+    "id10": 0,
+    "attributes": "Atk: 135, Def: 32, Def Extra +3, Club +1",
+    "drops": []
+  },
+  {
+    "id": 3966,
+    "name": "Banana Staff",
+    "normalizedName": "bananastaff",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 3966,
+    "id10": 0,
+    "attributes": "Atk: 140, Def: 35, Def Extra +3, Club +1",
+    "drops": []
+  },
+  {
+    "id": 7437,
+    "name": "Sapphire Hammer",
+    "normalizedName": "sapphirehammer",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 7437,
+    "id10": 0,
+    "attributes": "Atk: 145, Def: 38, Def Extra +3, Club +1",
+    "drops": []
+  },
+  {
+    "id": 10943,
+    "name": "Foght Club",
+    "normalizedName": "foghtclub",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 10943,
+    "id10": 0,
+    "attributes": "Atk: 150, Def: 40 (Def base +8), Club +2",
+    "drops": []
+  },
+  {
+    "id": 6534,
+    "name": "Death Picktrident",
+    "normalizedName": "deathpicktrident",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 6534,
+    "id10": 0,
+    "attributes": "Atk: 155, Def: 43 (Def base +8), Club +2",
+    "drops": []
+  },
+  {
+    "id": 11303,
+    "name": "Twin Hooks",
+    "normalizedName": "twinhooks",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 11303,
+    "id10": 0,
+    "attributes": "Atk: 160, Def: 46 (Def base +8), Club +2",
+    "drops": []
+  },
+  {
+    "id": 7452,
+    "name": "Spiked Squelcher",
+    "normalizedName": "spikedsquelcher",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 7452,
+    "id10": 0,
+    "attributes": "Atk: 165, Def: 49 (Def base +8), Club +2",
+    "drops": []
+  },
+  {
+    "id": 7410,
+    "name": "Queen'S Sceptre",
+    "normalizedName": "queenssceptre",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 7410,
+    "id10": 0,
+    "attributes": "Atk: 170, Def: 52 (Def base +8), Club +3",
+    "drops": []
+  },
+  {
+    "id": 2424,
+    "name": "Silver Mace",
+    "normalizedName": "silvermace",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2424,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 55 (Def base +8), Club +3",
+    "drops": []
+  },
+  {
+    "id": 2444,
+    "name": "Hammer Of Wrath",
+    "normalizedName": "hammerofwrath",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2444,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 55 (Def base +8), Club +3",
+    "drops": []
+  },
+  {
+    "id": 2452,
+    "name": "Heavy Mace",
+    "normalizedName": "heavymace",
+    "tier": "tier3",
+    "category": "Club",
+    "id860": 2452,
+    "id10": 0,
+    "attributes": "Atk: 180, Def: 55 (Def base +8), Club +3",
+    "drops": []
+  },
+  {
+    "id": 2545,
+    "name": "Poison Arrow",
+    "normalizedName": "poisonarrow",
+    "tier": "tier3",
+    "category": "Arrow & Bolt",
+    "id860": 2545,
+    "id10": 0,
+    "attributes": "Atk: 60",
+    "drops": []
+  },
+  {
+    "id": 2546,
+    "name": "Burst Arrow",
+    "normalizedName": "burstarrow",
+    "tier": "tier3",
+    "category": "Arrow & Bolt",
+    "id860": 2546,
+    "id10": 0,
+    "attributes": "Atk: 70",
+    "drops": []
+  },
+  {
+    "id": 2547,
+    "name": "Power Bolt",
+    "normalizedName": "powerbolt",
+    "tier": "tier3",
+    "category": "Arrow & Bolt",
+    "id860": 2547,
+    "id10": 0,
+    "attributes": "Atk: 85",
+    "drops": []
+  },
+  {
+    "id": 3965,
+    "name": "Hunting Spear",
+    "normalizedName": "huntingspear",
+    "tier": "tier3",
+    "category": "Spear",
+    "id860": 3965,
+    "id10": 0,
+    "attributes": "Atk: 65",
+    "drops": []
+  },
+  {
+    "id": 2399,
+    "name": "Throwing Star",
+    "normalizedName": "throwingstar",
+    "tier": "tier3",
+    "category": "Spear",
+    "id860": 2399,
+    "id10": 0,
+    "attributes": "Atk: 75",
+    "drops": []
+  },
+  {
+    "id": 8857,
+    "name": "Silkweaver Bow",
+    "normalizedName": "silkweaverbow",
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 8857,
+    "id10": 0,
+    "attributes": "Atk: 10, Range 6, Hit +6%",
+    "drops": []
+  },
+  {
+    "id": 8856,
+    "name": "Yol'S Bow",
+    "normalizedName": "yolsbow",
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 8856,
+    "id10": 0,
+    "attributes": "Atk: 12, Range 6, Hit +8%",
+    "drops": []
+  },
+  {
+    "id": 5803,
+    "name": "Arbalest",
+    "normalizedName": "arbalest",
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 5803,
+    "id10": 0,
+    "attributes": "Atk: 14, Range 5, Hit +7%",
+    "drops": []
+  },
+  {
+    "id": 8851,
+    "name": "Royal Crossbow",
+    "normalizedName": "royalcrossbow",
+    "tier": "tier3",
+    "category": "Bow & Crossbow",
+    "id860": 8851,
+    "id10": 0,
+    "attributes": "Atk: 16, Range 5, Hit +9%",
+    "drops": []
+  },
+  {
+    "id": 8920,
+    "name": "Wand Of Starstorm",
+    "normalizedName": "wandofstarstorm",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8920,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 8922,
+    "name": "Wand Of Voodoo",
+    "normalizedName": "wandofvoodoo",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8922,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 2184,
+    "name": "Wand Of Baiak",
+    "normalizedName": "wandofbaiak",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 2184,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 7958,
+    "name": "Jester Rod",
+    "normalizedName": "jesterrod",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 7958,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 8912,
+    "name": "Springsprout Rod",
+    "normalizedName": "springsproutrod",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8912,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 8910,
+    "name": "Underworld Rod",
+    "normalizedName": "underworldrod",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 8910,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 2184,
+    "name": "Wand Of Baiak",
+    "normalizedName": "wandofbaiak",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 2184,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
+  },
+  {
+    "id": 7958,
+    "name": "Jester Rod",
+    "normalizedName": "jesterrod",
+    "tier": "tier3",
+    "category": "Rod & Wand",
+    "id860": 7958,
+    "id10": 0,
+    "attributes": "Sem atributos especiais",
+    "drops": []
   }
 ]

@@ -1,0 +1,212 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const updates = await getCollection('updates');
+// Ordena por data decrescente (mais recente primeiro)
+updates.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const renderedUpdates = await Promise.all(
+  updates.map(async (item) => {
+    const { Content } = await render(item);
+    return {
+      item,
+      Content,
+    };
+  })
+);
+
+// Formata data em pt-BR
+function formatDate(date: Date) {
+  return date.toLocaleDateString('pt-BR', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+  }).replace('.', '');
+}
+---
+
+<Layout title="Histórico de Updates - IceYuriots Wiki">
+  <div class="max-w-4xl mx-auto space-y-8">
+    <div class="text-center">
+      <h2 class="font-rpg text-3xl text-tibia-gold font-bold tracking-wider mb-2">Histórico de Updates</h2>
+      <p class="text-tibia-muted text-sm max-w-xl mx-auto">
+        Acompanhe todas as atualizações, correções e novidades aplicadas no servidor de forma detalhada e organizada.
+      </p>
+    </div>
+
+    <!-- Filtros e Barra de Busca -->
+    <div class="bg-tibia-panel/80 p-5 rounded rpg-border flex flex-col md:flex-row gap-4 items-center justify-between">
+      <!-- Filtros de Categorias -->
+      <div class="flex flex-wrap gap-2 justify-center" id="tag-filters">
+        <button
+          data-filter="all"
+          class="filter-btn px-3 py-1.5 rounded text-xs font-bold uppercase tracking-wider font-rpg transition-all border border-tibia-border-dark/50 bg-tibia-bg text-tibia-gold hover:border-tibia-gold/40 cursor-pointer active-filter"
+        >
+          Todos
+        </button>
+        <button
+          data-filter="Novidades"
+          class="filter-btn px-3 py-1.5 rounded text-xs font-bold uppercase tracking-wider font-rpg transition-all border border-tibia-border-dark/50 bg-tibia-bg text-tibia-muted hover:border-tibia-gold/40 cursor-pointer"
+        >
+          🟢 Novidades
+        </button>
+        <button
+          data-filter="Balanceamento"
+          class="filter-btn px-3 py-1.5 rounded text-xs font-bold uppercase tracking-wider font-rpg transition-all border border-tibia-border-dark/50 bg-tibia-bg text-tibia-muted hover:border-tibia-gold/40 cursor-pointer"
+        >
+          ⚖️ Balanceamento
+        </button>
+        <button
+          data-filter="Correções"
+          class="filter-btn px-3 py-1.5 rounded text-xs font-bold uppercase tracking-wider font-rpg transition-all border border-tibia-border-dark/50 bg-tibia-bg text-tibia-muted hover:border-tibia-gold/40 cursor-pointer"
+        >
+          🛠️ Correções
+        </button>
+        <button
+          data-filter="Geral"
+          class="filter-btn px-3 py-1.5 rounded text-xs font-bold uppercase tracking-wider font-rpg transition-all border border-tibia-border-dark/50 bg-tibia-bg text-tibia-muted hover:border-tibia-gold/40 cursor-pointer"
+        >
+          ⚙️ Geral
+        </button>
+      </div>
+
+      <!-- Barra de Busca -->
+      <div class="w-full md:w-64 relative">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Buscar alterações..."
+          class="w-full bg-tibia-bg text-tibia-text border border-tibia-border-dark/60 rounded px-4 py-2 text-xs focus:outline-none focus:border-tibia-gold/50 transition-colors placeholder-tibia-muted/60"
+        />
+        <span class="absolute right-3 top-2.5 text-xs text-tibia-muted/50 pointer-events-none">🔍</span>
+      </div>
+    </div>
+
+    <!-- Timeline de Updates -->
+    <div class="relative pl-6 border-l-2 border-tibia-border-dark/40 ml-4 md:ml-8 space-y-8" id="updates-timeline">
+      {renderedUpdates.map(({ item, Content }) => {
+        let tagClass = "bg-tibia-border-dark/20 text-tibia-muted border-tibia-border-dark/50";
+        if (item.data.tag === "Novidades") tagClass = "bg-emerald-950/30 text-emerald-400 border-emerald-800/40";
+        if (item.data.tag === "Balanceamento") tagClass = "bg-sky-950/30 text-sky-400 border-sky-800/40";
+        if (item.data.tag === "Correções") tagClass = "bg-amber-950/30 text-amber-400 border-amber-800/40";
+
+        return (
+          <div
+            class="update-card relative group transition-all duration-300"
+            data-tag={item.data.tag}
+            data-searchable={`${item.data.title} ${item.data.description}`.toLowerCase()}
+          >
+            <!-- Indicador na linha do tempo -->
+            <div class="absolute -left-[31px] md:-left-[39px] top-1.5 w-4 h-4 rounded-full border-2 border-tibia-bg bg-tibia-panel group-hover:scale-110 transition-transform flex items-center justify-center">
+              <div class="w-1.5 h-1.5 rounded-full bg-tibia-gold group-hover:bg-white transition-colors"></div>
+            </div>
+
+            <!-- Card de Conteúdo -->
+            <div class="bg-tibia-panel/85 p-6 rounded rpg-border gold-glow">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-tibia-border-dark/30 pb-3 mb-4">
+                <div>
+                  <span class={`inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded border ${tagClass} mb-2`}>
+                    {item.data.tag}
+                  </span>
+                  <h3 class="font-rpg text-xl text-tibia-gold font-bold tracking-wider group-hover:text-white transition-colors">
+                    {item.data.title}
+                  </h3>
+                </div>
+                <time class="text-xs text-tibia-muted font-mono bg-tibia-bg/60 border border-tibia-border-dark/30 px-2 py-1 rounded self-start sm:self-center">
+                  {formatDate(item.data.date)}
+                </time>
+              </div>
+
+              <!-- Descrição -->
+              <p class="text-sm text-tibia-muted mb-6 italic border-l-2 border-tibia-gold/30 pl-3 leading-relaxed">
+                {item.data.description}
+              </p>
+
+              <!-- Alterações Detalhadas (Markdown) -->
+              <div class="markdown-content text-sm space-y-4">
+                <Content />
+              </div>
+            </div>
+          </div>
+        );
+      })}
+
+      <!-- Estado Vazio -->
+      <div id="no-results" class="hidden text-center py-12 bg-tibia-panel/50 rounded rpg-border">
+        <span class="text-4xl block mb-2">👁️‍🗨️</span>
+        <h4 class="font-rpg text-lg text-tibia-gold font-bold mb-1">Nenhum update encontrado</h4>
+        <p class="text-xs text-tibia-muted">Tente alterar os filtros ou o termo de busca.</p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style is:global>
+  /* Adiciona borda ativa ao botão de filtro */
+  .active-filter {
+    border-color: rgba(200, 162, 77, 0.6) !important;
+    color: #d4b06a !important;
+    background-color: rgba(200, 162, 77, 0.08) !important;
+  }
+</style>
+
+<script>
+  function setupFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const cards = document.querySelectorAll('.update-card');
+    const noResults = document.getElementById('no-results');
+
+    let activeFilter = 'all';
+    let searchQuery = '';
+
+    function filterCards() {
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const c = card as HTMLElement;
+        const tag = c.dataset.tag || '';
+        const searchable = c.dataset.searchable || '';
+
+        const matchesTag = activeFilter === 'all' || tag === activeFilter;
+        const matchesSearch = searchable.includes(searchQuery);
+
+        if (matchesTag && matchesSearch) {
+          c.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          c.classList.add('hidden');
+        }
+      });
+
+      if (visibleCount === 0) {
+        noResults?.classList.remove('hidden');
+      } else {
+        noResults?.classList.add('hidden');
+      }
+    }
+
+    // Eventos de clique nos filtros
+    filterButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach((b) => b.classList.remove('active-filter'));
+        btn.classList.add('active-filter');
+        activeFilter = btn.getAttribute('data-filter') || 'all';
+        filterCards();
+      });
+    });
+
+    // Evento de digitação na busca
+    searchInput?.addEventListener('input', (e) => {
+      searchQuery = (e.target as HTMLInputElement).value.toLowerCase().trim();
+      filterCards();
+    });
+  }
+
+  // Executa no carregamento
+  setupFilters();
+
+  // Executa novamente caso a página seja trocada no Astro (se houver transição de view)
+  document.addEventListener('astro:page-load', setupFilters);
+</script>

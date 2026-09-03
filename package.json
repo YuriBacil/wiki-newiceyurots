@@ -9,6 +9,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "prebuild": "node scripts/build-lite-data.js",
+    "extract": "node scripts/extract-items-from-docs.js && node scripts/extract-monsters-from-docs.js && node scripts/extract-mechanics.js && node scripts/build-lite-data.js",
+    "extract:items": "node scripts/extract-items-from-docs.js",
+    "extract:monsters": "node scripts/extract-monsters-from-docs.js && node scripts/build-lite-data.js",
+    "extract:mechanics": "node scripts/extract-mechanics.js",
     "preview": "astro preview",
     "astro": "astro"
   },

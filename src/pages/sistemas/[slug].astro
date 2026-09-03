@@ -30,139 +30,139 @@ const flows: Record<string, { title: string; steps: { icon: string; title: strin
     title: 'Como funciona o Auto Loot',
     steps: [
       { icon: '⚔️', title: 'Mata o monstro', description: 'Ao derrotar, o sistema dispara automaticamente.', variant: 'default' },
-      { icon: '💰', title: 'Ouro para o banco', description: 'Gold, platinum e crystal coins vão direto para sua conta.', variant: 'gold' },
-      { icon: '🎒', title: 'Itens para o inventário', description: 'Itens da lista são coletados se houver capacidade.', variant: 'success' },
-      { icon: '👑', title: '!sellloot (VIP)', description: 'Venda instantânea dos itens da lista com taxa de 3%.', variant: 'info' }
+      { icon: '💰', title: 'Ouro para o banco', description: 'Gold, platinum e crystal coins vão direto para a conta bancária.', variant: 'gold' },
+      { icon: '🎒', title: 'Itens no inventário', description: '4 slots (Free) ou 10 slots (VIP) configuráveis via !autoloot.', variant: 'success' },
+      { icon: '👑', title: '!sellloot (VIP)', description: 'Venda expressa de todos os itens da lista com taxa de 3%.', variant: 'info' }
     ]
   },
   'awakening-system': {
     title: 'Ciclo do Despertar de Armas',
     steps: [
       { icon: '🔮', title: 'Despertar a arma', description: 'Custo de 10kk no Mestre de Artefatos.', variant: 'gold' },
-      { icon: '⚔️', title: 'Ganhar Sintonia', description: '5% do XP dos monstros, até 50.000.', variant: 'default' },
-      { icon: '🔓', title: 'Desbloquear slots', description: '1.000 / 5.000 / 15.000 para os 3 slots.', variant: 'info' },
-      { icon: '🎲', title: 'Rolar traits', description: 'Sorteia 3 atributos e escolhe 1.', variant: 'success' },
-      { icon: '⬆️', title: 'Aprimorar', description: 'Até nível 5, aumentando o valor.', variant: 'gold' },
-      { icon: '🧹', title: 'Disenchant', description: 'Reseta tudo, mas mantém a Sintonia.', variant: 'danger' }
+      { icon: '⚔️', title: 'Ganhar Sintonia', description: '5% do XP dos monstros até 50.000 pontos.', variant: 'default' },
+      { icon: '🔓', title: 'Desbloquear slots', description: '1.000 / 5.000 / 15.000 de sintonia para os 3 slots.', variant: 'info' },
+      { icon: '🎲', title: 'Rolar traits', description: 'Sorteia 3 atributos e escolhe 1 por slot.', variant: 'success' },
+      { icon: '⬆️', title: 'Aprimorar', description: 'Até nível 5, aumentando o valor do bônus.', variant: 'gold' },
+      { icon: '🧹', title: 'Disenchant', description: 'Reseta todos os atributos mantendo a Sintonia acumulada.', variant: 'danger' }
     ]
   },
   'bless-iceyurots': {
     title: 'Proteção contra a perda na morte',
     steps: [
-      { icon: '🛡️', title: '0 bênçãos', description: 'Perde 100% ao morrer.', variant: 'danger' },
-      { icon: '🕊️', title: 'Comprar bênçãos', description: 'NPC Blesser ou Book of Blessings.', variant: 'info' },
-      { icon: '✨', title: '5 bênçãos', description: 'Proteção total: 0% de perda.', variant: 'success' }
+      { icon: '🛡️', title: '0 bênçãos', description: 'Sem proteção: perde 100% dos itens e penalidade total.', variant: 'danger' },
+      { icon: '🕊️', title: 'Comprar bênçãos', description: 'NPC Blesser, Book of Blessings ou comando !bless por 1kk.', variant: 'info' },
+      { icon: '✨', title: '5 bênçãos', description: 'Proteção total: 0% de perda de itens e redução máxima de XP.', variant: 'success' }
     ]
   },
   'boss-aegis': {
     title: 'Fases do combate contra o Aegis',
     steps: [
-      { icon: '⚔️', title: 'Fase 1', description: 'Dano normal até 50% de HP.', variant: 'default' },
-      { icon: '🛡️', title: 'Fase 2: Escudo + Cristais', description: 'Aegis fica imune. Destrua 3 cristais.', variant: 'info' },
-      { icon: '🔥', title: 'Fase 3', description: 'Enrage com chuva de meteoros.', variant: 'danger' },
-      { icon: '🏆', title: 'Recompensa', description: 'Carga da skill Aegis of Immortal.', variant: 'gold' }
+      { icon: '⚔️', title: 'Fase 1 (100% → 50%)', description: 'Dano normal + Raio de Desintegração (25% do HP máximo).', variant: 'default' },
+      { icon: '🛡️', title: 'Fase 2 (Escudo + Cristais)', description: 'Aegis imune. Destrua os 3 Cristais sob a Tempestade Estática.', variant: 'info' },
+      { icon: '🔥', title: 'Fase 3 (Enrage)', description: 'Modo Fúria com Chuva de Meteoros constante (800-1500 dano).', variant: 'danger' },
+      { icon: '🏆', title: 'Recompensa', description: '1 carga da skill Aegis of Immortal (Reborn no Limbo).', variant: 'gold' }
     ]
   },
   'cassino-interativo': {
-    title: 'Ciclo da roleta',
+    title: 'Ciclo da roleta de apostas',
     steps: [
-      { icon: '🪙', title: 'Obter token', description: 'Quest, NPC, hunt, boss ou store.', variant: 'default' },
-      { icon: '🎰', title: 'Puxar alavanca', description: 'Consome 1 Rollete Token.', variant: 'gold' },
-      { icon: '🎡', title: 'Girar roleta', description: '15 a 25 passos de animação.', variant: 'info' },
-      { icon: '🏆', title: 'Resultado', description: '65% derrota · 25% consolação · 9.5% item · 0.5% jackpot.', variant: 'success' }
+      { icon: '🪙', title: 'Obter token', description: 'Adquira Rollete Tokens em quests, NPCs, hunts ou bosses.', variant: 'default' },
+      { icon: '🎰', title: 'Puxar alavanca', description: 'Consome 1 token para iniciar o giro na máquina.', variant: 'gold' },
+      { icon: '🎡', title: 'Girar roleta', description: 'Animação de 15 a 25 passos até desacelerar no prêmio.', variant: 'info' },
+      { icon: '🏆', title: 'Resultado', description: '65% derrota · 25% consolação · 9.5% item raro · 0.5% jackpot épico.', variant: 'success' }
     ]
   },
   'castle-24hrs': {
-    title: 'Guerra pelo castelo',
+    title: 'Guerra de Domínio do Castelo',
     steps: [
-      { icon: '💠', title: 'Sabotar pilares', description: 'Invasores enfraquecem as defesas no altar.', variant: 'danger' },
-      { icon: '👑', title: 'Conquistar o trono', description: 'Ficar 60s no trono com guild.', variant: 'gold' },
-      { icon: '🛡️', title: 'Fortalecer defesas', description: 'Upgrades de pilares até nível 5.', variant: 'info' },
-      { icon: '📦', title: 'Baú diário', description: 'Recompensas a cada 20h.', variant: 'success' },
-      { icon: '⚡', title: 'Bônus de XP', description: '+20% XP por 1h para a guild.', variant: 'gold' }
+      { icon: '💠', title: 'Sabotar pilares', description: 'Invasores enfraquecem as defesas do castelo no altar.', variant: 'danger' },
+      { icon: '👑', title: 'Conquistar o trono', description: 'Permanecer 60s no trono com a guilda para assumir o domínio.', variant: 'gold' },
+      { icon: '🛡️', title: 'Fortalecer defesas', description: 'Upgrades de pilares guardiões até nível 5.', variant: 'info' },
+      { icon: '📦', title: 'Baú diário', description: 'Recompensas exclusivas a cada 20h para a guild dominante.', variant: 'success' },
+      { icon: '⚡', title: 'Bônus de XP', description: '+20% de experiência por 1h ao ativar o buff da guilda.', variant: 'gold' }
     ]
   },
   'dodge-critical-system': {
     title: 'Dodge e Critical no combate',
     steps: [
-      { icon: '🎯', title: 'Equipar itens', description: 'Armas/Armaduras com tiers de crítico/dodge.', variant: 'default' },
-      { icon: '🏃', title: 'Ao receber dano', description: 'Chance de esquivar (Dodge).', variant: 'info' },
-      { icon: '⚡', title: 'Ao causar dano', description: 'Chance de crítico com multiplicador.', variant: 'success' },
-      { icon: '📊', title: 'Consultar', description: 'Use !dodge e !critical.', variant: 'gold' }
+      { icon: '🎯', title: 'Fontes de Poder', description: 'Tiers no personagem, armadura (dodge), arma (crítico) e comidas.', variant: 'default' },
+      { icon: '🏃', title: 'Dodge (Entropia)', description: 'Anula o dano de monstros (máx 50% Knight / 40% demais).', variant: 'info' },
+      { icon: '⚡', title: 'Critical Strike', description: 'Multiplica dano por x1.5 a x2.0 (máx 40% de chance).', variant: 'success' },
+      { icon: '📊', title: 'Consultar Status', description: 'Comandos rápidos !dodge e !critical.', variant: 'gold' }
     ]
   },
   'exp-booster': {
     title: 'Como empilhar bônus de XP',
     steps: [
-      { icon: '🧪', title: 'Poção de XP', description: 'Até +50% por 1h.', variant: 'default' },
-      { icon: '🔔', title: 'Sino Dourado', description: '+20% global.', variant: 'info' },
-      { icon: '🏰', title: 'Bênção da Facção', description: '+20% para guild.', variant: 'gold' },
-      { icon: '📿', title: 'Amuleto + Comida', description: '+10% e +25% respectivamente.', variant: 'success' },
-      { icon: '⚡', title: 'Limite 100%', description: 'Arma desperta e Castle somam separadamente.', variant: 'gold' }
+      { icon: '🧪', title: 'Poção de XP', description: 'Até +50% de XP por 1h de duração.', variant: 'default' },
+      { icon: '🔔', title: 'Sino Dourado', description: '+20% de bônus global para todos os jogadores do servidor.', variant: 'info' },
+      { icon: '🏰', title: 'Bênção da Facção', description: '+20% de XP para todos os membros da guilda.', variant: 'gold' },
+      { icon: '📿', title: 'Amuleto + Comida', description: '+10% e +25% de XP adicional acumulável.', variant: 'success' },
+      { icon: '⚡', title: 'Bônus Especiais', description: 'Arma Desperta e Castle 24h somam separadamente acima do teto.', variant: 'gold' }
     ]
   },
   'food-especial': {
-    title: 'Sistema de buffs alimentares',
+    title: 'Sistema de buffs alimentares (3 Slots)',
     steps: [
-      { icon: '🔴', title: 'Slot Vermelho', description: 'HP, proteção física, life leech.', variant: 'danger' },
-      { icon: '🟡', title: 'Slot Amarelo', description: 'Mana, magic level, mana leech.', variant: 'gold' },
-      { icon: '🟢', title: 'Slot Verde', description: 'XP, loot, capacidade, crítico.', variant: 'success' },
-      { icon: '🍽️', title: 'Banquete', description: 'Preenche os 3 slots ao mesmo tempo.', variant: 'info' }
+      { icon: '🔴', title: 'Slot Vermelho', description: 'Sobrevivência: HP máximo, proteção física e life leech.', variant: 'danger' },
+      { icon: '🟡', title: 'Slot Amarelo', description: 'Magia: Mana máxima, magic level e mana leech.', variant: 'gold' },
+      { icon: '🟢', title: 'Slot Verde', description: 'Hunting: Bônus de XP, aumento de capacidade, sorte e crítico.', variant: 'success' },
+      { icon: '🍽️', title: 'Banquete do Caçador', description: 'Preenche os 3 slots com os melhores buffs ao mesmo tempo.', variant: 'info' }
     ]
   },
   'mining-system': {
-    title: 'Progressão da mineração',
+    title: 'Mineração Dinâmica & Upgrades',
     steps: [
-      { icon: '⛏️', title: 'Usar picareta', description: 'Golpeie cristais no mapa.', variant: 'default' },
-      { icon: '💎', title: 'Coletar cristais', description: 'Gelo → Fogo → Terra → Morte.', variant: 'success' },
-      { icon: '📈', title: 'Subir nível', description: 'XP de mineração desbloqueia cristais melhores.', variant: 'info' },
-      { icon: '👹', title: 'Cuidado!', description: '5% de chance de emboscada.', variant: 'danger' },
-      { icon: '🔥', title: 'Trocar recompensas', description: 'Fire Crystals por summons.', variant: 'gold' }
+      { icon: '⛏️', title: 'Usar Picareta', description: 'Normal Pickaxe (1.0x / 5% crit) ou Fire Pickaxe (1.5x / 10% crit).', variant: 'default' },
+      { icon: '💠', title: 'Quebrar Cristais', description: 'Small Ice (Lvl 1), Fire (Lvl 5), Large Ice (Lvl 10) e Death (Lvl 15).', variant: 'info' },
+      { icon: '💎', title: 'Coletar Minérios', description: '60% minérios · 10% emboscada de monstros · 30% vazio.', variant: 'success' },
+      { icon: '⚡', title: 'Estamina & Nível', description: '1000 base, consome 10 por golpe e ganha XP de mineração.', variant: 'gold' },
+      { icon: '📈', title: '6 Upgrades', description: 'Evolua Vigor, Dano, Crítico e Fartura com Ice Crystals e Ouro.', variant: 'gold' }
     ]
   },
   'new-promotion': {
-    title: 'Evolução de classe',
+    title: 'Evolução de Classe (3 Camadas)',
     steps: [
-      { icon: '🎭', title: 'Classe Básica', description: 'Sorcerer, Druid, Paladin, Knight.', variant: 'default' },
-      { icon: '⬆️', title: 'Tier 2', description: 'Nível 50.000 + 5kk no Mestre Vaelor.', variant: 'info' },
-      { icon: '🔄', title: '2 Resets', description: 'Requisito para a especialização final.', variant: 'gold' },
-      { icon: '⚔️', title: 'Tier 3', description: 'Escolha entre 2 sub-classes por 500kk.', variant: 'success' }
+      { icon: '🎭', title: 'Classe Básica', description: 'Sorcerer, Druid, Paladin ou Knight.', variant: 'default' },
+      { icon: '⬆️', title: 'Tier 2: Promovida', description: 'Nível 50.000 + 5kk no Mestre Vaelor.', variant: 'info' },
+      { icon: '🔄', title: 'Requisito: 2 Resets', description: 'Conclua ao menos 2 rituais de ascensão para transcender.', variant: 'gold' },
+      { icon: '⚔️', title: 'Tier 3: Sub-Classe', description: 'Escolha definitiva entre 2 sub-classes por 500kk no General Boros.', variant: 'success' }
     ]
   },
   'pedra-evolucao': {
-    title: 'Evolução de equipamento',
+    title: 'Evolução de Equipamento com Pedras',
     steps: [
-      { icon: '💎', title: 'Obter pedras', description: 'Drops de monstros e bosses.', variant: 'default' },
-      { icon: '⚙️', title: 'Usar no equipamento', description: 'Armas, armaduras, escudos, etc.', variant: 'info' },
-      { icon: '📈', title: 'Carregar XP', description: 'Barra 0-100 do equipamento.', variant: 'gold' },
-      { icon: '🔮', title: 'Mestre das Almas', description: 'Gastar 10 XP + 1kk para rolar atributos.', variant: 'success' }
+      { icon: '💎', title: 'Obter pedras', description: 'Colete pedras de evolução em drops de monstros e bosses.', variant: 'default' },
+      { icon: '⚙️', title: 'Usar no equipamento', description: 'Aplique em armas, escudos, armaduras, elmos, pernas e botas.', variant: 'info' },
+      { icon: '📈', title: 'Carregar XP', description: 'A barra de experiência do equipamento é preenchida até o limite.', variant: 'gold' },
+      { icon: '🔮', title: 'Mestre das Almas', description: 'Use 10 XP + 1kk para sortear atributos e aprimorar o item.', variant: 'success' }
     ]
   },
   'perk-system': {
-    title: 'Progressão de Perks',
+    title: 'Progressão da Árvore de Perks',
     steps: [
-      { icon: '🔄', title: 'Fazer Reset', description: 'Cada reset dá +1 Soul Point.', variant: 'default' },
-      { icon: '💠', title: 'Acumular SP', description: 'Pontos permanentes.', variant: 'info' },
-      { icon: '🧠', title: '!perks', description: 'Abre a árvore de talentos.', variant: 'gold' },
-      { icon: '⬆️', title: 'Melhorar', description: '1 SP por nível, até nível 5.', variant: 'success' }
+      { icon: '🔄', title: 'Fazer Reset', description: 'Cada reset concluído concede +1 Soul Point permanente.', variant: 'default' },
+      { icon: '💠', title: 'Acumular SP', description: 'Pontos de alma vinculados à progressão do seu personagem.', variant: 'info' },
+      { icon: '🧠', title: 'Comando !perks', description: 'Abre a interface da árvore de talentos e especializações.', variant: 'gold' },
+      { icon: '⬆️', title: 'Aprimorar', description: 'Invista SP em poder ofensivo, defesas, vida, mana e utilidades.', variant: 'success' }
     ]
   },
   'pet-system': {
-    title: 'Como usar pets',
+    title: 'Como usar o Pet System',
     steps: [
-      { icon: '🎁', title: 'Obter summon', description: 'NPC, quests ou drops de boss.', variant: 'default' },
-      { icon: '🐾', title: 'Usar item', description: 'Invoca o pet ao seu lado.', variant: 'info' },
-      { icon: '⚔️', title: 'Lutar junto', description: 'Até 5 pets ativos.', variant: 'success' },
-      { icon: '📈', title: 'Escalação', description: 'HP cresce com nível e resets.', variant: 'gold' }
+      { icon: '🎁', title: 'Obter summon', description: 'Consiga o item do pet através de NPCs, quests ou bosses.', variant: 'default' },
+      { icon: '🐾', title: 'Invocar pet', description: 'Use o item para invocar seu companheiro de combate ao lado.', variant: 'info' },
+      { icon: '⚔️', title: 'Habilidades', description: 'Ataques elementares, cura periódica, buffs e controle de grupo.', variant: 'success' },
+      { icon: '📈', title: 'Escalação de HP', description: 'A vida e poder do pet escalam proporcionalmente ao seu nível e resets.', variant: 'gold' }
     ]
   },
   'reset-system': {
-    title: 'Ciclo da Ascensão',
+    title: 'Ciclo do Ritual da Ascensão',
     steps: [
-      { icon: '📊', title: 'Alcançar nível', description: '150.000 + 30.000 por reset.', variant: 'default' },
-      { icon: '💰', title: 'Pagar custo', description: '50kk + 10kk por reset.', variant: 'gold' },
-      { icon: '🔄', title: 'Resetar', description: 'Volta ao nível 150, mantém 15% HP/MP.', variant: 'info' },
-      { icon: '💎', title: '+1 Soul Point', description: 'Gaste em perks permanentes.', variant: 'success' }
+      { icon: '📊', title: 'Nível Requerido', description: '150.000 + 30.000 por cada reset já realizado.', variant: 'default' },
+      { icon: '💰', title: 'Custo em Ouro', description: '50kk + 10kk por cada reset acumulado.', variant: 'gold' },
+      { icon: '🔄', title: 'Executar Reset', description: 'Retorna ao nível 150 preservando 15% do HP/MP máximo.', variant: 'info' },
+      { icon: '💎', title: 'Recompensas', description: '+1 Soul Point para Perks e avanço rumo ao Tier 3 de classe.', variant: 'success' }
     ]
   }
 };

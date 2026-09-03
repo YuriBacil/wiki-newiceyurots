@@ -305,8 +305,8 @@
     "tier": "tier1",
     "hp": 2000,
     "xp": 1200,
-    "speed": 150,
-    "looktype": 5,
+    "speed": 230,
+    "looktype": 226,
     "levelRange": "1500 ao 2000",
     "levelMin": 1500,
     "levelMax": 2000,
@@ -449,7 +449,7 @@
     "levelMin": 2500,
     "levelMax": 3000,
     "minDano": 75,
-    "maxDano": 75,
+    "maxDano": 530,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
@@ -957,7 +957,7 @@
         "name": "yoyo",
         "chance": 0.3,
         "countmax": 2,
-        "itemid": 0
+        "itemid": 3982
       },
       {
         "name": "copper shield",
@@ -1511,7 +1511,7 @@
     "levelMin": 8500,
     "levelMax": 9000,
     "minDano": 2682,
-    "maxDano": 2682,
+    "maxDano": 3300,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
@@ -1605,7 +1605,7 @@
     "levelMin": 9000,
     "levelMax": 9500,
     "minDano": 1650,
-    "maxDano": 1980,
+    "maxDano": 3850,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
@@ -2249,7 +2249,7 @@
     "levelMin": 115000,
     "levelMax": 12000,
     "minDano": 6300,
-    "maxDano": 6300,
+    "maxDano": 10500,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
@@ -2343,7 +2343,7 @@
     "levelMin": 12000,
     "levelMax": 125000,
     "minDano": 1432,
-    "maxDano": 1432,
+    "maxDano": 11000,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
@@ -2865,7 +2865,7 @@
     "levelMin": 14000,
     "levelMax": 145000,
     "minDano": 0,
-    "maxDano": 0,
+    "maxDano": 14000,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
@@ -6687,6 +6687,286 @@
   },
   {
     "id": 96,
+    "name": "Lizard Sentinel",
+    "tier": "tier3",
+    "hp": 12000000,
+    "xp": 15000000,
+    "speed": 240,
+    "looktype": 114,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 140000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–80.000",
+    "magicDamage": "Físico (range) 30.000–60.000",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Lizard Legionnaire",
+    "tier": "tier3",
+    "hp": 15000000,
+    "xp": 18000000,
+    "speed": 220,
+    "looktype": 338,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 160000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–120.000",
+    "magicDamage": "Físico (range) 20.000–40.000",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Lizard Dragon Priest",
+    "tier": "tier3",
+    "hp": 10000000,
+    "xp": 16000000,
+    "speed": 320,
+    "looktype": 339,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 160000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–40.000",
+    "magicDamage": "Fogo (range/wave) 60.000–120.000, Healing 300.000, Summons: Dragon Hatchling (max 2)",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Lizard Templar",
+    "tier": "tier3",
+    "hp": 20000000,
+    "xp": 25000000,
+    "speed": 220,
+    "looktype": 113,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 220000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–220.000",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Lizard Snakecharmer",
+    "tier": "tier3",
+    "hp": 16000000,
+    "xp": 20000000,
+    "speed": 200,
+    "looktype": 115,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 150000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–50.000",
+    "magicDamage": "Veneno (wave/storm) 50.000–100.000, Poison condition 30.000/s, Summons: Cobra (max 2)",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Eternal Guardian",
+    "tier": "tier3",
+    "hp": 70,
+    "xp": 25,
+    "speed": 150,
+    "looktype": 345,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 21,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–21",
+    "magicDamage": "—",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Lizard High Guard",
+    "tier": "tier3",
+    "hp": 1800,
+    "xp": 1450,
+    "speed": 340,
+    "looktype": 337,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 250,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–250",
+    "magicDamage": "Poison 60–120, Healing 200–400",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Lizard Zaogun",
+    "tier": "tier3",
+    "hp": 2955,
+    "xp": 1700,
+    "speed": 420,
+    "looktype": 343,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 285,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–260",
+    "magicDamage": "Poison 220–285, Healing 200–400",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Lizard Chosen",
+    "tier": "tier3",
+    "hp": 3050,
+    "xp": 2200,
+    "speed": 240,
+    "looktype": 344,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 360,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–360",
+    "magicDamage": "Poison 90–180, Healing (max 100)",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Frost Dragon",
+    "tier": "tier3",
+    "hp": 18000000,
+    "xp": 22000000,
+    "speed": 260,
+    "looktype": 248,
+    "levelRange": "",
+    "levelMin": 0,
+    "levelMax": 0,
+    "minDano": 0,
+    "maxDano": 210000,
+    "mageHp": "",
+    "pallyHp": "",
+    "knightHp": "",
+    "zone": "1",
+    "physicalDamage": "0–110.000",
+    "magicDamage": "Life Drain (wave) 0–80.000, Ice Ball 50.000–100.000, Ice Storm 30.000–60.000, Healing 200.000, Paralyze wave",
+    "loot": [
+      {
+        "name": "crystal coin",
+        "chance": 100,
+        "countmax": 5,
+        "itemid": 2160
+      }
+    ]
+  },
+  {
+    "id": 106,
     "name": "Aegis",
     "tier": "bosses",
     "hp": 100000,
@@ -6696,14 +6976,14 @@
     "levelRange": "100.000+",
     "levelMin": 100000,
     "levelMax": 100000,
-    "minDano": 0,
-    "maxDano": 0,
+    "minDano": 200,
+    "maxDano": 1500,
     "mageHp": "",
     "pallyHp": "",
     "knightHp": "",
     "zone": "Boss",
-    "physicalDamage": "",
-    "magicDamage": "",
+    "physicalDamage": "260 melee",
+    "magicDamage": "Lifedrain, Fire, Physical, Death",
     "loot": []
   }
 ]

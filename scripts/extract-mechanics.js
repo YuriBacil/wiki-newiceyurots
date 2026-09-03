@@ -5,7 +5,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const docsDir = 'Y:/Desktop/Pessoal/Projetos/Projeto de Jogo/OT Tibia/Compartilhado/IceYuriots OT - TFS 1.5/docs/mecanicas';
+const docsDir = fs.existsSync(path.resolve(__dirname, '../../IceYuriots OT - TFS 1.5/docs/mecanicas'))
+  ? path.resolve(__dirname, '../../IceYuriots OT - TFS 1.5/docs/mecanicas')
+  : 'Y:/Desktop/Pessoal/Projetos/Projeto de Jogo/OT Tibia/Compartilhado/IceYuriots OT - TFS 1.5/docs/mecanicas';
 const outputPath = path.join(__dirname, '..', 'src', 'data', 'mechanics.json');
 
 const categoryMap = {
