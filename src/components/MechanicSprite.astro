@@ -15,8 +15,10 @@ const sizeClasses = {
   xl: 'w-32 h-32 text-6xl'
 };
 
-const assetUrl = `/assets/systems/${id}.png`;
-const legacyUrl = `/mechanics/${id}.png`;
+const slug = id ? id.replace(/_/g, '-') : '';
+const assetUrl = `/assets/systems/${slug}.png`;
+const altAssetUrl = `/assets/systems/${id}.png`;
+const legacyUrl = `/mechanics/${slug}.png`;
 ---
 
 <div class={`sprite-container rounded-lg rpg-border bg-tibia-bg/60 ${sizeClasses[size]} ${className}`}>
@@ -24,8 +26,9 @@ const legacyUrl = `/mechanics/${id}.png`;
     src={assetUrl}
     alt=""
     class="w-full h-full object-contain p-2"
+    data-alt={altAssetUrl}
     data-legacy={legacyUrl}
-    onerror="if(this.dataset.legacy && this.src !== this.dataset.legacy){this.src=this.dataset.legacy;this.dataset.legacy='';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
+    onerror="if(this.dataset.alt && this.src !== this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt='';}else if(this.dataset.legacy && this.src !== this.dataset.legacy){this.src=this.dataset.legacy;this.dataset.legacy='';}else{this.style.display='none';this.nextElementSibling.style.display='flex';}"
   />
   <span class="hidden w-full h-full items-center justify-center">{icon}</span>
 </div>

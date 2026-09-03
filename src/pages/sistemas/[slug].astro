@@ -189,7 +189,7 @@ const flow = flows[mechanic.slug];
       <div class="absolute inset-0 bg-gradient-to-br from-tibia-gold/5 via-transparent to-transparent"></div>
       <div class="relative flex flex-col md:flex-row gap-6 items-center md:items-start text-center md:text-left">
         <div class="animate-float">
-          <MechanicSprite id={mechanic.id} icon={mechanic.icon} size="xl" />
+          <MechanicSprite id={mechanic.slug || mechanic.id} icon={mechanic.icon} size="xl" />
         </div>
         <div class="flex-1">
           <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded border border-tibia-gold/20 bg-tibia-gold/10 text-tibia-gold mb-3">
